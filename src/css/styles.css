@@ -5,7 +5,19 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
+
+@import url('./header.css');
+
+@import url('./main/main.css');
+@import url('./restaurant/restaurant.css');
+@import url('./hotel/hotel.css');
+@import url('./room/room.css');
+
+@import url(./backdrop.css);
+@import url(./modal/modal.css);
+
+@import url('./footer.css');
+
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
