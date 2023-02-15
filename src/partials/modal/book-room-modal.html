@@ -1,0 +1,45 @@
+<form class="book_room_modal">
+  <h3>ЗАБРОНЮВАТИ НОМЕР</h3>
+  <div class="form-group">
+    <label for="name">На кого забронювати номер?</label>
+    <input type="text" id="name" placeholder="Ваше ім’я" />
+  </div>
+  <div class="form-group">
+    <label for="phone">Номер телефону</label>
+    <input
+      type="tel"
+      id="phone"
+      name="phone"
+      pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+      placeholder="+38 (___) ___-__-__"
+    />
+  </div>
+  <div class="form-group">
+    <label for="name">Категорія номеру</label>
+    <select id="category_room" name="category_room">
+      <option style="display: none" value="Двомісний люкс" disabled selected>
+        Двомісний люкс
+      </option>
+      <option value="Двомісний люкс">Двомісний люкс</option>
+      <option value="select_2">select_2</option>
+      <option value="select_3">select_2</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="from">Дата заїзду</label>
+    <select id="from" name="from">
+      <option style="display: none" disabled selected>Сьогодні</option>
+      <option value="today">Сьогодні</option>
+      <option value="tomorrow">Завтра</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="till">Дата виїзду</label>
+    <select id="till" name="till">
+      <option style="display: none" disabled selected>Сьогодні</option>
+      <option value="today">Сьогодні</option>
+      <option value="tomorrow">Завтра</option>
+    </select>
+  </div>
+  <button type="submit">ОФОРМИТИ БРОНЮВАННЯ</button>
+</form>
