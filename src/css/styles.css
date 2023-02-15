@@ -1,9 +1,13 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
+/* @font-face {
+  font-family:'FilmP3Bold' ;
+  src: url(../fonts/FilmP3Bold.ttf) format("truetype");
+  src: url(../fonts/FilmP3Bold.woff) format("woff");
+} */
+
+
+
+
+
 @import url('./reset.css');
 
 @import url('./header.css');
@@ -19,7 +23,9 @@
 @import url('./footer.css');
 
 
-:root {
+
+
+/* :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -33,4 +39,4 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-}
+} */
