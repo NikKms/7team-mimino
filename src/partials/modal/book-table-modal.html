@@ -1,0 +1,36 @@
+<form class="book_table_modal">
+  <h3>ЗАБРОНЮВАТИ СТОЛИК</h3>
+  <div class="form-group">
+    <label for="name">На кого забронювати столик?</label>
+    <input type="text" id="name" placeholder="Ваше ім’я" />
+  </div>
+  <div class="form-group">
+    <label for="phone">Номер телефону</label>
+    <input
+      type="tel"
+      id="phone"
+      name="phone"
+      placeholder="+38 (___) ___-__-__"
+    />
+  </div>
+  <div class="form-group">
+    <label for="people_number">Столик на яку кількість осіб?</label>
+    <select id="people_number" name="people_number">
+      <option style="display: none" disabled selected>2</option>
+      <option value="two">2</option>
+      <option value="three">3</option>
+      <option value="four">4</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="date">На яку дату бронювати?</label>
+    <select id="date" name="date">
+      <option style="display: none" value="today" disabled selected>
+        Сьогодні
+      </option>
+      <option value="today">Сьогодні</option>
+      <option value="tomorrow">Завтра</option>
+    </select>
+  </div>
+  <button type="submit">ОФОРМИТИ БРОНЮВАННЯ</button>
+</form>
