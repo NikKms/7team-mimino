@@ -1,0 +1,127 @@
+
+.text1 {
+Font-family: ‘Film P3’, sans-serif;
+Font-style: normal;
+Font-weight: 700;
+Font-size: 40px;
+Line-height: calc(43/40);
+Letter-spacing: 0.3em;
+color: var(--white);
+padding-top: 24px;
+margin-bottom: 12px;
+padding-left: 140px;}
+
+.headtext {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--primary-title-color);
+padding-left: 140px;
+margin-bottom: 20px;
+}
+.text2 {
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 1.25;
+letter-spacing: 0.02em;
+color: #BABABA;
+padding-left: 140px;;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.modal-open-btn {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: 0.02em;
+color: var(--accent-color);
+cursor: pointer;
+background: rgba(0, 0, 0, 0.4);
+border: 2px solid var(--white);
+border-radius: 25px;
+text-align: center;
+width: 236px;
+height: 48px;
+display: block;
+margin: auto;
+
+}
+
+.modal-open-btn:hover,
+.modal-open-btn:focus {background-color: white;
+border: 2px solid #F3C653;
+}
+
+.link-to-restaurantpage {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: 0.02em;
+color: var(--accent-color);
+cursor: pointer;
+background: rgba(0, 0, 0, 0.4);
+border: 2px solid var(--white);
+border-radius: 25px;
+text-align: center;
+width: 236px;
+height: 48px;
+display: block;
+margin: auto;
+
+}
+.link-to-restaurantpage:hover,
+.link-to-restaurantpage:focus {
+background-color: white;
+border: 2px solid #F3C653;
+}
+
+.details-restaurant {
+background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/restaurantdetails/bg-mob1.jpg);
+height: 735px;
+max-width: 414px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+display: flex;
+justify-content: center;
+margin-right: auto;
+margin-left: auto;
+
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .details-restaurant {
+        background-image:linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/restaurantdetails/bg-mob2.jpg)
+        
+            
+    }
+}
+
+    
+
+
+.box {
+    width: 300px;
+    height: 270px;
+    border: 2px solid tomato;
+    margin-bottom: 80px;
+    margin-top: 48px;
+}
+
+
