@@ -1,6 +1,7 @@
 .about-kitchen-section {
   background-color: var(--primary-bgc);
   padding-top: 16px;
+  padding-bottom: 72px;
 }
 .about-kitchen-amet {
   font-family: 'Times New Roman';
@@ -25,12 +26,13 @@
   font-size: 12px;
   line-height: 1.25;
   color: var(--primary-text-color);
-  width: 258px;
+  min-width: 258px;
   margin-bottom: 28px;
 }
 .about-kitchen-img-one {
   position: relative;
   left: 140px;
+  width: 244px;
   margin-bottom: 32px;
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
@@ -40,8 +42,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  margin-bottom: 32px;
-  padding-bottom: 349px;
+  margin-bottom: 45px;
 }
 .about-kitchen-img-two {
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
@@ -52,11 +53,18 @@
   font-size: 12px;
   line-height: 1.25;
   color: var(--secondary-text-color);
-  width: 163px;
+  max-width: 163px;
+}
+.slider-restaurant {
+  background-color: #fff;
+  width: 245px;
+  height: 245px;
 }
 @media screen and (min-width: 1024px) {
   .about-kitchen-section {
     padding-top: 120px;
+    padding-left: 47px;
+    padding-bottom: 95px;
   }
   .about-kitchen-one-blok {
     display: flex;
@@ -75,7 +83,7 @@
   .about-kitchen-non {
     font-size: 16px;
     line-height: 1.25;
-    width: 439px;
+    max-width: 439px;
   }
   .about-kitchen-img-one {
     position: relative;
@@ -92,25 +100,45 @@
   .about-kitchen-text {
     font-size: 16px;
     line-height: 1.25;
-    width: 312px;
+    max-width: 312px;
   }
   .about-kitchen-block {
     position: relative;
     top: -190px;
     justify-content: flex-start;
     gap: 48px;
-    margin-bottom: 0;
-    padding-bottom: 262px;
+  }
+  .slider-restaurant {
+    position: relative;
+    width: 194px;
+    height: 194px;
+    top: -260px;
+    margin-left: 535px;
   }
 }
 @media screen and (min-width: 1280px) {
+  .about-kitchen-section {
+    padding-left: 85px;
+    margin: 0 auto;
+    padding-bottom: 118px;
+  }
+  .about-kitchen-block {
+    gap: 37px;
+  }
   .about-kitchen-non {
-    width: 518px;
+    min-width: 518px;
   }
   .about-kitchen-img-one {
     width: 460px;
   }
   .about-kitchen-img-two {
+    position: relative;
+    top: -100px;
     width: 460px;
+  }
+  .slider-restaurant {
+    width: 254px;
+    height: 254px;
+    top: -430px;
   }
 }
