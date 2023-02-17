@@ -1,0 +1,110 @@
+.hotel-details-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url(../img/main/details-hotel/bed_background_section@1x.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 24px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hotel-details-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url(../img/main/details-hotel/bed_background_section@2x.jpg);
+  }
+}
+
+/* .hotel-details-container {
+  max-width: 414px;
+} */
+
+.hotel-details-text-wrapper {
+  width: 243px;
+  padding-left: 17px;
+}
+
+.hotel-details-title-text {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.hotel-details-logo {
+  font-family: 'Film P3', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.07;
+  letter-spacing: 0.3em;
+  color: var(--white);
+  text-align: right;
+}
+
+.hotel-details-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--white);
+  padding-top: 12px;
+}
+.hotel-details-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  color: #bababa;
+  padding-top: 20px;
+}
+.hotel-details-images-wrapper {
+}
+.hotel-details-services-image-list {
+  display: flex;
+  padding-top: 48px;
+  padding-bottom: 80px;
+  gap: 20px;
+  /* Переделать на слайдер */
+}
+.hotel-details-services-image-item {
+}
+.hotel-details-buttons-block {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hotel-details-button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--accent-color);
+
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  padding: 14px 32px;
+  width: 236px;
+}
+
+.hotel-details-button:hover,
+.hotel-details-button:focus {
+  background: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  color: var(--black);
+}
+
+.hotel-details-button:active {
+  background: #ffffff;
+  border: 2px solid var(--accent-color);
+  color: var(--accent-color);
+}
+
+.button-booking {
+}
+.button-prices {
+}
