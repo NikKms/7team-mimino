@@ -1,0 +1,44 @@
+.about-restaurant-section {
+  background-color: var(--primary-bgc);
+}
+
+.about-restaurant-description {
+}
+.about-restaurant-amet {
+  font-family: 'Times New Roman';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  color: #b4b4b4;
+}
+.about-restaurant-mimino {
+  font-family: 'Film P3';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.075;
+  letter-spacing: 0.3em;
+  color: var(--secondary-title-color);
+}
+.about-restaurant-non {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  color: var(--primary-text-color);
+  position: absolute;
+  width: 258px;
+  height: 76px;
+}
+.about-restaurant-img-one {
+  position: relative;
+}
+.about-restaurant-block {
+}
+.about-restaurant-img-two {
+}
+.about-restaurant-text {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  color: var(--secondary-text-color);
+}
