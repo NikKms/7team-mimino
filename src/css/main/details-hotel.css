@@ -6,6 +6,8 @@
   padding-top: 24px;
   padding-bottom: 40px;
   position: relative;
+  max-width: 1280px;
+  /* box-sizing: content-box; */
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -18,13 +20,10 @@
   }
 }
 
-/* .hotel-details-container {
-  max-width: 414px;
-} */
 
 .hotel-details-text-wrapper {
   width: 243px;
-  padding-left: 17px;
+  margin-left: 32px;
 }
 
 .hotel-details-title-text {
@@ -107,4 +106,46 @@
 .button-booking {
 }
 .button-prices {
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  
+}
+
+@media screen and (min-width: 1024px) {
+
+  .hotel-details-section {
+    padding-top: 48px;
+    padding-bottom: 96px;
+  }
+  .hotel-details-text-wrapper {
+    width: 549px;
+    margin-left: 197px;
+  }
+  .hotel-details--images-buttons-wrapper {
+    display: flex;
+    align-items: flex-end;
+    /* padding-left: 47px; */
+    padding-top: 40px;
+  }
+  .hotel-details-buttons-block {
+    padding-left: 32px;
+  }
+  .hotel-details-services-image-list {
+    padding-top: 0;
+    padding-bottom: 0;
+    gap: 34px;
+  }
+  .hotel-details-button {
+    padding: 14px 26px;
+  }
+  .hotel-details-title {
+    padding-top: 16px;
+  }
+  .hotel-details-text {
+    padding-top: 8px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
 }
