@@ -1,8 +1,6 @@
 .about-restaurant-section {
   background-color: var(--primary-bgc);
-}
-
-.about-restaurant-description {
+  padding-top: 16px;
 }
 .about-restaurant-amet {
   font-family: 'Times New Roman';
@@ -10,6 +8,7 @@
   font-size: 20px;
   line-height: 1.15;
   color: #b4b4b4;
+  margin-bottom: 12px;
 }
 .about-restaurant-mimino {
   font-family: 'Film P3';
@@ -19,26 +18,99 @@
   line-height: 1.075;
   letter-spacing: 0.3em;
   color: var(--secondary-title-color);
+  margin-bottom: 12px;
 }
 .about-restaurant-non {
   font-weight: 600;
   font-size: 12px;
   line-height: 1.25;
   color: var(--primary-text-color);
-  position: absolute;
   width: 258px;
-  height: 76px;
+  margin-bottom: 28px;
 }
 .about-restaurant-img-one {
   position: relative;
+  left: 140px;
+  margin-bottom: 32px;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
 }
 .about-restaurant-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 32px;
+  padding-bottom: 349px;
 }
 .about-restaurant-img-two {
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
 }
 .about-restaurant-text {
   font-weight: 600;
   font-size: 12px;
   line-height: 1.25;
   color: var(--secondary-text-color);
+  width: 163px;
+}
+@media screen and (min-width: 1024px) {
+  .about-restaurant-section {
+    padding-top: 120px;
+  }
+  .about-restaurant-one-blok {
+    display: flex;
+    gap: 26px;
+  }
+  .about-restaurant-amet {
+    font-size: 32px;
+    line-height: 1.15;
+    margin-bottom: 4px;
+  }
+  .about-restaurant-mimino {
+    font-size: 64px;
+    line-height: 1.078;
+    margin-bottom: 24px;
+  }
+  .about-restaurant-non {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 439px;
+  }
+  .about-restaurant-img-one {
+    position: relative;
+    top: -152px;
+    left: 0;
+    width: 400px;
+    box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+    margin-bottom: 0;
+  }
+  .about-restaurant-img-two {
+    width: 351px;
+    box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+  }
+  .about-restaurant-text {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 312px;
+  }
+  .about-restaurant-block {
+    position: relative;
+    top: -190px;
+    justify-content: flex-start;
+    gap: 48px;
+    margin-bottom: 0;
+    padding-bottom: 262px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .about-restaurant-non {
+    width: 518px;
+  }
+  .about-restaurant-img-one {
+    width: 460px;
+  }
+  .about-restaurant-img-two {
+    width: 460px;
+  }
 }
