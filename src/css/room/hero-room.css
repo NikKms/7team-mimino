@@ -19,14 +19,14 @@
 }
 
 .swiper-slide.aa {
-  background-image: url(../img/room/room1mobile.jpg);
+  background-image: url(../../img/room/room1mobile.jpg);
 }
 .swiper-slide.ab {
-  background-image: url(../img/room/room2mobile.jpg);
+  background-image: url(../../img/room/room2mobile.jpg);
 }
 
 .swiper-slide.ac {
-  background-image: url(../img/room/room3mobile.jpg);
+  background-image: url(../../img/room/room3mobile.jpg);
 }
 
 .room-hero .swiper {
@@ -83,7 +83,7 @@
   display: block;
   width: 40px;
   height: 40px;
-  background-image: url(../img/room/swiper-arrow-left.svg);
+  background-image: url(../../img/room/swiper-arrow-left.svg);
 }
 
 .swiper-button-next {
@@ -98,7 +98,7 @@
   display: block;
   width: 40px;
   height: 40px;
-  background-image: url(../img/room/swiper-arrow-right.svg);
+  background-image: url(../../img/room/swiper-arrow-right.svg);
 }
 .room-btn {
   background: rgba(0, 0, 0, 0.4);
@@ -137,14 +137,14 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .swiper-slide.aa {
-    background-image: url(../img/room/room1tablet.jpg);
+    background-image: url(../../img/room/room1tablet.jpg);
   }
   .swiper-slide.ab {
-    background-image: url(../img/room/room2tablet.jpg);
+    background-image: url(../../img/room/room2tablet.jpg);
   }
 
   .swiper-slide.ac {
-    background-image: url(../img/room/room3tablet.jpg);
+    background-image: url(../../img/room/room3tablet.jpg);
   }
   .slider .swiper {
     max-width: 1024px;
@@ -175,14 +175,14 @@
 /* 1280px+ */
 @media screen and (min-width: 1280px) {
   .swiper-slide.aa {
-    background-image: url(../img/room/room1desktop.jpg);
+    background-image: url(../../img/room/room1desktop.jpg);
   }
   .swiper-slide.ab {
-    background-image: url(../img/room/room2desktop.jpg);
+    background-image: url(../../img/room/room2desktop.jpg);
   }
 
   .swiper-slide.ac {
-    background-image: url(../img/room/room3desktop.jpg);
+    background-image: url(../../img/room/room3desktop.jpg);
   }
   .slider .swiper {
     max-width: 1280px;
@@ -215,14 +215,14 @@
   screen and (min-resolution: 192dpi) and (min-width: 1024px) and (max-width: 1279px),
   screen and (min-resolution: 2dppx) and (min-width: 1024px) and (max-width: 1279px) {
   .swiper-slide.aa {
-    background-image: url(../img/room/room1tablet@2x.jpg);
+    background-image: url(../../img/room/room1tablet@2x.jpg);
   }
   .swiper-slide.ab {
-    background-image: url(../img/room/room2tablet@2x.jpg);
+    background-image: url(../../img/room/room2tablet@2x.jpg);
   }
 
   .swiper-slide.ac {
-    background-image: url(../img/room/room3tablet@2x.jpg);
+    background-image: url(../../img/room/room3tablet@2x.jpg);
   }
 }
 
@@ -232,14 +232,14 @@
   screen and (min-resolution: 192dpi) and (max-width: 1023px),
   screen and (min-resolution: 2dppx) and (max-width: 1023px) {
   .swiper-slide.aa {
-    background-image: url(../img/room/room1mobile@2x.jpg);
+    background-image: url(../../img/room/room1mobile@2x.jpg);
   }
   .swiper-slide.ab {
-    background-image: url(../img/room/room2mobile@2x.jpg);
+    background-image: url(../../img/room/room2mobile@2x.jpg);
   }
 
   .swiper-slide.ac {
-    background-image: url(../img/room/room3mobile@2x.jpg);
+    background-image: url(../../img/room/room3mobile@2x.jpg);
   }
 }
 
@@ -249,13 +249,13 @@
   screen and (min-resolution: 192dpi) and (min-width: 1280px),
   screen and (min-resolution: 2dppx) and (min-width: 1280px) {
   .swiper-slide.aa {
-    background-image: url(../img/room/room1desktop@2x.jpg);
+    background-image: url(../../img/room/room1desktop@2x.jpg);
   }
   .swiper-slide.ab {
-    background-image: url(../img/room/room2desktop@2x.jpg);
+    background-image: url(../../img/room/room2desktop@2x.jpg);
   }
 
   .swiper-slide.ac {
-    background-image: url(../img/room/room3desktop@2x.jpg);
+    background-image: url(../../img/room/room3desktop@2x.jpg);
   }
 }
