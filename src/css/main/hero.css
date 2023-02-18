@@ -10,7 +10,7 @@
   .hero {
     background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
     url("../../img/main-hero img/mobile\ background\ main\ hero.jpg");
-    background-repeat: no-repeat;
+    background-repeat: round;
     background-position: top;
     padding-top: 62px;
     padding-bottom: 20px;
@@ -25,7 +25,7 @@
     font-family: "MontserratRegular";
     line-height: 1.25;
     letter-spacing: 0.01em;
-    margin-left: auto;
+    margin: auto;
     margin-bottom: 70px;
     color: #e5e5e5;
   }
@@ -116,9 +116,8 @@
     gap: 23px;
     margin-top: 58px;
   }
-  .hero-social-item{
-
-  }
+  /* .hero-social-item{
+  } */
   .icon {
     height: 20px;
     width: 20px;
