@@ -98,6 +98,7 @@ width: 236px;
 height: 48px;
 display: block;
 margin: auto;
+padding-top: 14px;
 
 }
 .link-to-restaurantpage:hover,
@@ -162,7 +163,9 @@ margin-left: auto;
 
 /* ---------------MEDIA TABLET(1024)---------------------- */
 @media screen and (min-width: 1024px) {
-    
+    /* .container {
+        width: 1024px;
+    } */
     .details-restaurant
     {
 background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/restaurantdetails/bg-tab1.jpg);
