@@ -1,0 +1,139 @@
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) {
+  .container {
+    width: 414px;
+  }
+  .hero {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
+    url("../../img/main-hero img/mobile\ background\ main\ hero.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 62px;
+    padding-bottom: 20px;
+    width: 414px;
+  }
+  .adress-hotel {
+    position: relative;
+    width: 210px;
+    padding: 8px 3px 8px 34px;
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    border-radius: 2px;
+    font-family: "MontserratRegular";
+    line-height: 1.25;
+    letter-spacing: 0.01em;
+    margin-left: auto;
+    margin-bottom: 70px;
+    color: #e5e5e5;
+  }
+  .icon-svg-location {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 5px;
+    margin: auto 0;
+    height: 20px;
+    width: 20px;
+    fill: #f3c653;
+  }
+  .hotel-location {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.01em;
+    color: #e5e5e5;
+  }
+
+  .info-hotel {
+    text-align: center;
+  }
+  .hero-title {
+    width: 303px;
+    font-family: "Film P3";
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 1.07;
+    letter-spacing: 0.3em;
+    margin-bottom: 24px;
+    color: #ffffff;
+  }
+  .hero-main-title {
+    font-family: "MontserratSemiBold";
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
+  .hero-main-big {
+    font-family: "Times New Roman";
+    font-size: 32px;
+    line-height: 1.15;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    margin-bottom: 113px;
+  }
+  .dislocation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .btn:last-child {
+    width: 232px;
+    height: 48px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;    
+    margin-top: 24px;
+    color: #F3C653;
+  }
+  .btn{
+    width: 232px;
+    height: 48px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;    
+    margin-top: 24px;
+    color: #F3C653;
+  }
+  .btn:hover{
+    background-color: var#FFFFFF;
+  }
+  .btn:focus{
+    background-color: #FFFFFF;
+  }
+
+  .hero-social-main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    margin-top: 58px;
+  }
+  .hero-social-item{
+
+  }
+  .icon {
+    height: 20px;
+    width: 20px;
+    fill: rgba(243, 198, 83, 0.7);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 960px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1140px;
+  }
+}
