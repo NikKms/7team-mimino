@@ -1,0 +1,190 @@
+/* KATERYNA SELYVONENKO */
+
+/* STYLES */
+
+.contacts {
+  background-color: #fffdee;
+}
+
+.contacts-heading-2 {
+  font-family: 'Film P3';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 0.93;
+  letter-spacing: 0.3em;
+  color: #494848;
+
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+.contacts-paragaph {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #7a7a7a;
+
+  margin-bottom: 16px;
+}
+.contacts-list {
+  list-style: none;
+}
+.contacts-list-item-0 {
+  display: flex;
+
+  margin-bottom: 16px;
+  /* background-color: #ffffff;
+  border: 0.5px solid #f3c653;
+  border-radius: 2px; */
+}
+.contacts-list-item {
+  display: flex;
+  background-color: #ffffff;
+  border: 0.5px solid #f3c653;
+  border-radius: 2px;
+  justify-content: center;
+
+  margin-left: 22px;
+}
+
+.contacts-box {
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+
+  width: 260px;
+}
+
+.contacts-box-1 {
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 7px;
+}
+.contacts-paragaph-1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #c79002;
+
+  margin-top: 8px;
+}
+.contacts-list-2 {
+}
+.contacts-item {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #494848;
+}
+
+.contacts-item-hotel-1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #494848;
+  padding-top: 12px;
+  padding-bottom: 11px;
+}
+.contacts-item-hotel-2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #494848;
+  padding-top: 12px;
+  padding-bottom: 11px;
+}
+.contacts-list-3 {
+  margin-right: 0;
+}
+
+.contacts-list-inside {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.contacts-list-inside-1 {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 12px;
+}
+.contacts-list-item-1 {
+  background-color: #ffffff;
+  border: 0.5px solid #f3c653;
+  border-radius: 2px;
+
+  margin-left: 44px;
+  margin-bottom: 16px;
+}
+
+.contacts-phone-icon {
+  fill: #c79002;
+  margin-top: 9px;
+  margin-bottom: 7px;
+  margin-right: 8px;
+}
+.contacts-location-icon {
+  fill: #c79002;
+}
+.contacts-list-item-2 {
+  background-color: #ffffff;
+  border: 0.5px solid #f3c653;
+  border-radius: 2px;
+
+  margin-left: 44px;
+}
+
+/* АДРЕСА */
+.contacts-address {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  color: #494848;
+}
+
+/* МАПА */
+.contacts-map {
+  width: 100%;
+  margin: 32px auto;
+}
+
+/* MOBILE */
+
+@media screen and (min-width: 414px) and (max-width: 1024px) {
+  .container {
+    max-width: 414px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1440px) {
+  .container {
+    max-width: 1280px;
+  }
+}
