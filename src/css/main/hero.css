@@ -2,7 +2,7 @@
 .hero-main {
     margin-left: auto;
     margin-right: auto;
-    max-width: 1280px;
+   
 }
   @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -14,7 +14,6 @@
     background-position: top;
     padding-top: 62px;
     padding-bottom: 20px;
-    max-width: 1280px;
         background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
     url("../../img/main-hero img/mobile\ background\ main\ hero\ x2.jpg");
     }
@@ -59,7 +58,7 @@
   .hero-title {
     max-width: 325px;
     margin-right: auto;
-    font-family: 'Times New Roman';
+    font-family: 'FilmP3Bold';
     font-weight: 700;
     font-size: 96px;
     line-height: 1.07;
@@ -68,7 +67,7 @@
     color: #ffffff;
   }
   .hero-main-title {
-    font-family: 'Montserrat';
+    font-family: 'Film P3';
     width: 294px;
     height: 20px;
     font-size: 16px;
