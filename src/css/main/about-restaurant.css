@@ -26,7 +26,7 @@
   font-size: 12px;
   line-height: 1.25;
   color: var(--primary-text-color);
-  min-width: 258px;
+  width: 258px;
   margin-bottom: 28px;
 }
 .about-restaurant-img-one {
@@ -65,7 +65,6 @@
 @media screen and (min-width: 1024px) {
   .about-restaurant-section {
     padding-top: 120px;
-    padding-left: 47px;
     padding-bottom: 95px;
   }
   .about-restaurant-one-blok {
@@ -85,7 +84,7 @@
   .about-restaurant-non {
     font-size: 16px;
     line-height: 1.25;
-    max-width: 439px;
+    width: 449px;
   }
   .about-restaurant-img-one {
     position: relative;
@@ -101,7 +100,7 @@
   .about-restaurant-text {
     font-size: 16px;
     line-height: 1.25;
-    width: 312px;
+    width: 287px;
   }
   .about-restaurant-block {
     position: relative;
@@ -119,7 +118,6 @@
 }
 @media screen and (min-width: 1280px) {
   .about-restaurant-section {
-    padding-left: 85px;
     margin: 0 auto;
     padding-bottom: 118px;
   }
