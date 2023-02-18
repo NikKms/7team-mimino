@@ -12,7 +12,7 @@
   margin-bottom: 12px;
 }
 .about-kitchen-mimino {
-  font-family: 'Film P3';
+  font-family: 'FilmP3Bold', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -22,6 +22,7 @@
   margin-bottom: 12px;
 }
 .about-kitchen-non {
+  font-family: 'Montserrat-Light', sans-serif;
   font-weight: 600;
   font-size: 12px;
   line-height: 1.25;
@@ -49,6 +50,7 @@
   border-radius: 2px;
 }
 .about-kitchen-text {
+  font-family: 'Montserrat-Bold', sans-serif;
   font-weight: 600;
   font-size: 12px;
   line-height: 1.25;
@@ -99,7 +101,7 @@
   .about-kitchen-text {
     font-size: 16px;
     line-height: 1.25;
-    width: 287px;
+    max-width: 287px;
   }
   .about-kitchen-block {
     position: relative;
