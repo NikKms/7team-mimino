@@ -1,2 +1,10 @@
-
-
+@font-face {
+  font-family: 'FilmP3Bold';
+  src: url('../fonts/FilmP3Bold.eot');
+  src: url('../fonts/FilmP3Bold.eot') format('embedded-opentype'),
+    url('../fonts/FilmP3Bold.woff2') format('woff2'),
+    url('../fonts/FilmP3Bold.woff') format('woff'),
+    url('../fonts/FilmP3Bold.ttf') format('truetype'),
+    url('../fonts/FilmP3Bold.svg#FilmP3Bold') format('svg');
+  font-weight: 700;
+}
