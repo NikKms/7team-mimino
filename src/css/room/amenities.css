@@ -4,7 +4,7 @@
 }
 
 .amenities-title {
-  font-family: 'Times New Roman';
+  font-family: 'Times New Roman', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -14,7 +14,7 @@
 }
 .amenities-txt-main {
   margin-bottom: 32px;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat-Bold', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -24,7 +24,7 @@
 }
 
 .amenities-txt {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat-Bold', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -98,7 +98,6 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    min-width: 384px;
   }
   .amenities-link {
     justify-content: center;
