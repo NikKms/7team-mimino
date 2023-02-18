@@ -7,6 +7,7 @@
   .container {
     width: 414px;
   }
+
   .hero {
     background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
     url("../../img/main-hero img/mobile\ background\ main\ hero.jpg");
@@ -15,6 +16,14 @@
     padding-top: 62px;
     padding-bottom: 20px;
     width: 414px;
+  }
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .hero{
+        background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
+    url("../../img/main-hero img/mobile\ background\ main\ hero\ x2.jpg");
+    }
   }
   .adress-hotel {
     position: relative;
