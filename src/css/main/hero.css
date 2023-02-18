@@ -1,25 +1,22 @@
 
-.hero {
-    margin: auto;
+.hero-main {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
 }
-@media screen and (min-width: 320px) {
-  .container {
-    width: 414px;
-  }
-
-  .hero {
+  .hero-main {
     background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
     url("../../img/main-hero img/mobile\ background\ main\ hero.jpg");
     background-repeat: round;
     background-position: top;
     padding-top: 62px;
     padding-bottom: 20px;
-    width: 414px;
+    max-width: 1280px;
   }
   @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-    .hero{
+    .hero-main{
         background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
     url("../../img/main-hero img/mobile\ background\ main\ hero\ x2.jpg");
     }
@@ -49,7 +46,7 @@
     fill: var(--secondary-text-color);
   }
   .hotel-location {
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -62,8 +59,10 @@
     text-align: center;
   }
   .hero-title {
-    width: 303px;
-    font-family: "Film P3";
+    max-width: 325px;
+    margin-right: auto;
+    margin-right: auto;
+    font-family: 'Times New Roman';
     font-weight: 700;
     font-size: 96px;
     line-height: 1.07;
@@ -72,7 +71,7 @@
     color: #ffffff;
   }
   .hero-main-title {
-    font-family: "MontserratSemiBold";
+    font-family: 'Montserrat';
     width: 294px;
     height: 20px;
     font-size: 16px;
@@ -82,6 +81,7 @@
     margin-bottom: 40px;
   }
   .hero-main-big {
+    font-family: 'Times New Roman';
     width: 317px;
     height: 37px;
     font-family: inherit;
@@ -117,10 +117,12 @@
     color: #F3C653;
   }
   .btn:hover{
-    background-color: var#FFFFFF;
+    background-color: #FFFFFF;
+    border: 2px solid #F3C653;
   }
   .btn:focus{
     background-color: #FFFFFF;
+    border: 2px solid #F3C653;
   }
 
   .hero-social-main {
@@ -129,14 +131,12 @@
     gap: 23px;
     margin-top: 58px;
   }
-  /* .hero-social-item{
-  } */
   .icon {
     height: 20px;
     width: 20px;
     fill: rgba(243, 198, 83, 0.7);
   }
-}
+
 
 @media screen and (min-width: 1024px) {
   .container {
