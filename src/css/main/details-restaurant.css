@@ -17,6 +17,7 @@ left: 3.5%;
 }
 .alltexts {
     padding-left: 140px;
+    align-items: center;
 }
 .text1 {
 Font-family: ‘Film P3’, sans-serif;
@@ -49,13 +50,15 @@ font-size: 12px;
 line-height: 1.25;
 letter-spacing: 0.02em;
 color: #BABABA;
+margin-bottom: 398px;
+width: 259px;
 }
 
-.buttons {
+/* .buttons {
     display: flex;
     flex-direction: column;
     gap: 16px;
-}
+} */
 .modal-open-btn {
 font-family: 'Montserrat';
 font-style: normal;
@@ -72,7 +75,8 @@ text-align: center;
 width: 236px;
 height: 48px;
 display: block;
-margin: auto;
+padding: 14px 30px;
+margin-bottom: 16px;
 
 }
 
@@ -97,8 +101,7 @@ text-align: center;
 width: 236px;
 height: 48px;
 display: block;
-margin: auto;
-padding-top: 14px;
+padding: 14px 30px;
 
 }
 .link-to-restaurantpage:hover,
@@ -134,14 +137,14 @@ margin-left: auto;
     }
 }
 
-
+/* 
 .box {
+    position: absolute;
     width: 300px;
     height: 270px;
     border: 2px solid tomato;
-    margin-bottom: 80px;
-    margin-top: 48px;
-}
+  
+} */
 
 @media screen and (max-width: 413px) {
    .details-restaurant {max-width: 414px;} 
@@ -157,6 +160,14 @@ margin-left: auto;
     @media screen and (max-width: 1023px) {
         .container {
             width: 414px;
+        }
+        .modal-open-btn {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .link-to-restaurantpage {
+            margin-left: auto;
+            margin-right: auto;
         }
         
     }
@@ -178,20 +189,42 @@ height: 620px;
 (min-resolution: 2dppx) {
     .details-restaurant {
         background-image:linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/restaurantdetails/bg-tab2.jpg);
-    
+
     }
 }
-
 }
 
 @media screen and (min-width: 1024px) {
     .alltexts {
         padding-left: 278px;
-    }}
+    }
+.text1 {
+    padding-top: 48px;
+     
+}
+.text2 {
+    margin-bottom: 198px;
+ }}
     @media screen and (max-width: 1279px) {
     .line {
         display: none;
     }}
+    @media screen and (min-width: 1024px) {
+        .buttons {
+            margin-left: 47px;
+
+            
+}
+        /* .modal-open-btn {
+            margin-left: 47px;
+            margin-bottom: 16px;
+            margin-top: -160px;
+        }
+        .link-to-restaurantpage {
+            margin-left: 47px;
+        } */
+
+    }
 /* ---------------MEDIA DESKTOP(1280)---------------------- */
 
 
@@ -217,4 +250,10 @@ height: 620px;
 @media screen and (min-width: 1280px) {
     .alltexts {
         padding-left: 338px;
-    }}
+    }
+    .buttons {
+        margin-left: 85px;}
+       
+        }
+    
+    
