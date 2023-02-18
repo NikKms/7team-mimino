@@ -99,7 +99,7 @@
   .about-kitchen-text {
     font-size: 16px;
     line-height: 1.25;
-    max-width: 287px;
+    width: 287px;
   }
   .about-kitchen-block {
     position: relative;
