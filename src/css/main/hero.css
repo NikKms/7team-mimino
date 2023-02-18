@@ -1,15 +1,13 @@
-.container {
-  padding: 0 15px;
-  margin: 0 auto;
-}
 
+.hero {
+    margin: auto;
+}
 @media screen and (min-width: 320px) {
   .container {
     width: 414px;
   }
 
   .hero {
-    align-items: center;
     background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
     url("../../img/main-hero img/mobile\ background\ main\ hero.jpg");
     background-repeat: round;
@@ -37,6 +35,7 @@
     letter-spacing: 0.01em;
     margin: auto;
     margin-bottom: 70px;
+    margin-right: 0;
     color: #e5e5e5;
   }
   .icon-svg-location {
@@ -74,26 +73,30 @@
   }
   .hero-main-title {
     font-family: "MontserratSemiBold";
-    width: 100%;
+    width: 294px;
+    height: 20px;
     font-size: 16px;
     line-height: 1.25;
     color: #ffffff;
+    margin: auto;
     margin-bottom: 40px;
   }
   .hero-main-big {
-    font-family: "Times New Roman";
+    width: 317px;
+    height: 37px;
+    font-family: inherit;
     font-size: 32px;
     line-height: 1.15;
     font-weight: 700;
     letter-spacing: 0.05em;
     color: #ffffff;
+    margin: auto;
     margin-bottom: 113px;
   }
   .dislocation{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 236px;
   }
   
   .btn:last-child {
@@ -111,7 +114,6 @@
     background: rgba(0, 0, 0, 0.4);
     border: 2px solid #FFFFFF;
     border-radius: 25px;    
-    margin-top: 24px;
     color: #F3C653;
   }
   .btn:hover{
