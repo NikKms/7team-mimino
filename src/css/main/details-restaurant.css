@@ -51,7 +51,8 @@ line-height: 1.25;
 letter-spacing: 0.02em;
 color: #BABABA;
 margin-bottom: 398px;
-width: 259px;
+/* width: 259px;
+height: 62px; */
 }
 
 /* .buttons {
@@ -202,8 +203,22 @@ height: 620px;
     padding-top: 48px;
      
 }
+.headtext {
+    font-size: 24px;
+    line-height: 1.20;
+}
 .text2 {
-    margin-bottom: 198px;
+margin-bottom: 198px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: 0.02em;
+width: 610px;
+height: 44px;
+
+    
  }}
     @media screen and (max-width: 1279px) {
     .line {
@@ -250,6 +265,9 @@ height: 620px;
 @media screen and (min-width: 1280px) {
     .alltexts {
         padding-left: 338px;
+    }
+    .text2 {
+        margin-bottom: 200px;
     }
     .buttons {
         margin-left: 85px;}
