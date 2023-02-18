@@ -1,0 +1,259 @@
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.add {
+    position: relative;
+}
+.line {
+width: 620px;
+border: 1px solid rgba(122, 122, 122, 0.4);
+filter: blur(0.5px);
+transform: rotate(-90deg);
+position: absolute;
+top: 50%;
+left: 3.5%;
+}
+.alltexts {
+    padding-left: 140px;
+    align-items: center;
+}
+.text1 {
+Font-family: ‘Film P3’, sans-serif;
+Font-style: normal;
+Font-weight: 700;
+Font-size: 40px;
+Line-height: calc(43/40);
+Letter-spacing: 0.3em;
+color: var(--white);
+padding-top: 24px;
+margin-bottom: 12px;
+}
+
+.headtext {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--primary-title-color);
+margin-bottom: 20px;
+}
+.text2 {
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 1.25;
+letter-spacing: 0.02em;
+color: #BABABA;
+margin-bottom: 398px;
+width: 259px;
+}
+
+/* .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+} */
+.modal-open-btn {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: 0.02em;
+color: var(--accent-color);
+cursor: pointer;
+background: rgba(0, 0, 0, 0.4);
+border: 2px solid var(--white);
+border-radius: 25px;
+text-align: center;
+width: 236px;
+height: 48px;
+display: block;
+padding: 14px 30px;
+margin-bottom: 16px;
+
+}
+
+.modal-open-btn:hover,
+.modal-open-btn:focus {background-color: white;
+border: 2px solid #F3C653;
+}
+
+.link-to-restaurantpage {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: 0.02em;
+color: var(--accent-color);
+cursor: pointer;
+background: rgba(0, 0, 0, 0.4);
+border: 2px solid var(--white);
+border-radius: 25px;
+text-align: center;
+width: 236px;
+height: 48px;
+display: block;
+padding: 14px 30px;
+
+}
+.link-to-restaurantpage:hover,
+.link-to-restaurantpage:focus {
+background-color: white;
+border: 2px solid #F3C653;
+}
+
+.details-restaurant {
+background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/restaurantdetails/bg-mob1.jpg);
+height: 735px;
+width: 414px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+display: flex;
+justify-content: center;
+margin-right: auto;
+margin-left: auto;
+
+}
+
+
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .details-restaurant {
+        background-image:linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/restaurantdetails/bg-mob2.jpg)
+        
+            
+    }
+}
+
+/* 
+.box {
+    position: absolute;
+    width: 300px;
+    height: 270px;
+    border: 2px solid tomato;
+  
+} */
+
+@media screen and (max-width: 413px) {
+   .details-restaurant {max-width: 414px;} 
+}
+
+/* ---------------MEDIA MOBILE(414)---------------------- */
+
+/* @media screen and (min-width: 414px) {
+    .container {
+        width: 414px;
+    }} */
+
+    @media screen and (max-width: 1023px) {
+        .container {
+            width: 414px;
+        }
+        .modal-open-btn {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .link-to-restaurantpage {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+    }
+
+/* ---------------MEDIA TABLET(1024)---------------------- */
+@media screen and (min-width: 1024px) {
+    /* .container {
+        width: 1024px;
+    } */
+    .details-restaurant
+    {
+background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/restaurantdetails/bg-tab1.jpg);
+background-size: cover;
+width: 1024px;
+height: 620px;
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .details-restaurant {
+        background-image:linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/restaurantdetails/bg-tab2.jpg);
+
+    }
+}
+}
+
+@media screen and (min-width: 1024px) {
+    .alltexts {
+        padding-left: 278px;
+    }
+.text1 {
+    padding-top: 48px;
+     
+}
+.text2 {
+    margin-bottom: 198px;
+ }}
+    @media screen and (max-width: 1279px) {
+    .line {
+        display: none;
+    }}
+    @media screen and (min-width: 1024px) {
+        .buttons {
+            margin-left: 47px;
+
+            
+}
+        /* .modal-open-btn {
+            margin-left: 47px;
+            margin-bottom: 16px;
+            margin-top: -160px;
+        }
+        .link-to-restaurantpage {
+            margin-left: 47px;
+        } */
+
+    }
+/* ---------------MEDIA DESKTOP(1280)---------------------- */
+
+
+@media screen and (min-width: 1280px) {
+   
+    .details-restaurant
+    {
+background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/restaurantdetails/bg-desktop1.jpg);
+background-size: cover;
+width: 1280px;
+height: 620px;
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .details-restaurant {
+        background-image:linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/restaurantdetails/bg-desktop2.jpg)
+        
+            
+    }
+}
+}
+@media screen and (min-width: 1280px) {
+    .alltexts {
+        padding-left: 338px;
+    }
+    .buttons {
+        margin-left: 85px;}
+       
+        }
+    
+    
