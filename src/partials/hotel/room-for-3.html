@@ -1,11 +1,11 @@
 <!-- Triple - трьохмісний -->
 <section class="triple">
-  <div class="triple-container">
+  <div class="triple-container container">
     <!-- Ці додаткові діви на Mobile не потрібні, але на Tablet та Desktop так буже зручніше (потім можливі зміни) -->
     <div class="triple-top">
       <div class="triple-wrapper">
         <h3 class="triple-pretitle">Amet minim mollit non</h3>
-        <h3 class="triple-subtitle">Mimino</h3>
+        <h3 class="triple-subtitle">Mimin<span>o</span></h3>
         <h2 class="triple-title">ТРЬОХМІСНИЙ НОМЕР</h2>
         <p class="triple-text">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
@@ -13,14 +13,28 @@
           veniam consequat sunt nostrud amet.
         </p>
       </div>
-      <img src="" alt="" />
+      <picture>
+        <source
+          srcset="../../img/hotel/room-for-3/triple-01-desktop.jpg"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="../../img/hotel/room-for-3/triple-01-tablet.jpg"
+          media="(min-width: 1024px)"
+        />
+        <source
+          srcset="../../img/hotel/room-for-3/triple-01-mobile.jpg"
+          media="(max-width: 1023px)"
+        />
+        <img src="../../img/hotel/room-for-3/triple-01-desktop.jpg" alt="" />
+      </picture>
     </div>
     <div class="triple-bottom">
       <!-- Майбутній Slider -->
-      <!-- <div class="swiper"></div> -->
+      <div class="triple-swiper"></div>
       <div class="triple-btns">
         <!-- Перша кнопка повинна бути посиланням за ТЗ -->
-        <a href="" class="triple-btn">Детальніше</a>
+        <a href="../../room.html" class="triple-btn">Детальніше</a>
         <button type="button" class="triple-btn">Переглянути ціни</button>
       </div>
     </div>
