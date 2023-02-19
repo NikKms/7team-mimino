@@ -1,0 +1,59 @@
+.header-container {
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 16px;
+  width: 414px;
+
+  display: flex;
+  align-items: end;
+  column-gap: 52px;
+
+  background-color: black;
+}
+
+.header .header-logo {
+  font-family: 'Film P3', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.08;
+  letter-spacing: 0.3em;
+
+  color: white;
+}
+
+.header .nav-list {
+  display: flex;
+  column-gap: 20px;
+  padding-bottom: 5px;
+}
+
+.header .nav-item {
+  display: flex;
+  column-gap: 6px;
+}
+
+.header .restaurant-link,
+.header .hotel-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+
+  color: #f3c653;
+}
+
+.header .nav-tel {
+  display: none;
+}
+
+.header .nav-icon {
+  width: 24px;
+  height: 24px;
+  fill: #f3c653;
+}
+
+.header .contacts {
+  display: none;
+}
