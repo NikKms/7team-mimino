@@ -115,7 +115,7 @@
 }
 
 .contacts-item-hotel-1 {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat-Regular', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -263,7 +263,7 @@
   }
 
   .contacts-heading-2 {
-    font-family: 'FilmP3Bold';
+    font-family: 'FilmP3Bold', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
