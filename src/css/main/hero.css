@@ -170,7 +170,7 @@
     }
   .hero-main{
     background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
-    url("../../img/main-hero img/tablet\ background\ main\ hero\ x2.jpg");
+    url("../../img/main-hero img/tablet\ background\ main\ hero.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -189,7 +189,7 @@
         background-size: cover;
         padding-top: 62px;
         padding-bottom: 20px;
-        width: 1024px;
+        width:1024px;
       }
     }
      .container-position{
@@ -205,7 +205,7 @@
     font-family: "MontserratRegular";
     line-height: 1.25;
     letter-spacing: 0.01em;
-    left: 50px;
+    left: 32px;
     bottom: -20px;
     color: #e5e5e5;
     z-index: 1;
@@ -325,6 +325,7 @@
     background-color: #FFFFFF;
     border: 2px solid #F3C653;
   }
+  
 }
           /* DECKTOP STYLES */
 
