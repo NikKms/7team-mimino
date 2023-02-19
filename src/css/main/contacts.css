@@ -6,6 +6,17 @@
   background-color: #fffdee;
   justify-content: center;
   align-items: center;
+  /* padding-top: 20px;
+  padding-bottom: ; */
+}
+
+.contacts-division-1 {
+  padding-top: 36px;
+  padding-bottom: 32px;
+}
+
+.contacts-division-2 {
+  padding-bottom: 32px;
 }
 
 .contacts-heading-2 {
@@ -17,7 +28,7 @@
   letter-spacing: 0.3em;
   color: #494848;
 
-  margin-top: 32px;
+  /* margin-top: 32px; */
   margin-bottom: 12px;
 }
 .contacts-paragaph {
@@ -201,7 +212,7 @@
 .contacts-map {
   width: 100%;
   height: 220px;
-  margin: 32px auto;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 1024px) {
@@ -237,16 +248,20 @@
 
   .contacts-division-1 {
     width: 294px;
+    padding-bottom: 44px;
+    padding-top: 56px;
   }
   .contacts-division-2 {
     width: 535px;
+    padding-bottom: 40px;
+    padding-top: 69px;
   }
 
   .contacts-map {
     width: 535px;
     height: 412px;
-    margin-bottom: 40px;
-    margin-top: 69px;
+    /* padding-bottom: 40px;
+    padding-top: 69px; */
   }
 
   .contacts-box-1 {
@@ -277,13 +292,15 @@
 
 @media screen and (min-width: 1280px) {
   .contacts {
+    /* padding-top: 56px;
+    padding-bottom: ; */
   }
 
   .contacts-map {
     width: 634px;
     height: 412px;
-    margin-bottom: 74px;
-    margin-top: 64px;
+    /* padding-bottom: 74px;
+    padding-top: 64px; */
   }
 
   .contacts-list {
@@ -311,20 +328,23 @@
 
   .contacts-division-1 {
     width: 368px;
+    padding-bottom: 73px;
+    padding-top: 56px;
   }
   .contacts-division-2 {
     width: 634px;
+    padding-bottom: 40px;
+    padding-top: 69px;
   }
 
   .contacts-box-1 {
     margin-top: 48px;
     /* margin-right: 191px; */
-    margin-bottom: 73px;
+
     width: 285px;
   }
 
   .contacts-heading-2 {
-    margin-top: 56px;
     margin-bottom: 16px;
 
     font-family: 'FilmP3Bold';
