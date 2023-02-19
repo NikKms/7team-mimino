@@ -66,7 +66,9 @@
     text-align: center;
   }
   .hero-title {
-    margin-right: auto;
+    width: 303px;
+    margin-right: 55px;
+    margin-left: 42px;
     font-family: 'FilmP3Bold';
     font-weight: 700;
     font-size: 96px;
