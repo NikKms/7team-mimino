@@ -14,18 +14,21 @@
       </div>
       <picture>
         <source
-        srcset="../../img/hotel/luxe/luxe-01-desktop.jpg"
-        media="(min-width: 1280px)"
-        />  
-        <source
-        srcset="../../img/hotel/luxe/luxe-01-tablet.jpg"
-        media="(min-width: 1024px)"
+          srcset="./img/hotel/luxe/luxe-01-desktop.jpg"
+          media="(min-width: 1280px)"
         />
         <source
-        srcset="../../img/hotel/luxe/luxe-01-mobile.jpg"
-        media="(max-width: 1023px)"
+          srcset="./img/hotel/luxe/luxe-01-tablet.jpg"
+          media="(min-width: 1024px)"
         />
-        <img src="../../img/hotel/room-for-2/double-01-desktop.jpg" alt="" />
+        <source
+          srcset="./img/hotel/luxe/luxe-01-mobile.jpg"
+          media="(max-width: 1023px)"
+        />
+        <img
+          src="./img/hotel/room-for-2/double-01-desktop.jpg"
+          alt="hotel room interier"
+        />
       </picture>
     </div>
     <div class="luxe-bottom">
@@ -33,7 +36,9 @@
       <div class="luxe-swiper">swiper</div>
       <div class="luxe-btns">
         <!-- Перша кнопка повинна бути посиланням за ТЗ -->
-        <a href="../../room.html" class="luxe-btn">Детальніше</a>
+        <a href="./room.html" class="luxe-btn">Детальніше</a>
+
+        <!-- ROOM PRICE MODAL -->
         <button type="button" class="luxe-btn">Переглянути ціни</button>
       </div>
     </div>
