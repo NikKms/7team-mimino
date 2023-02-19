@@ -5,11 +5,17 @@
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAACTElEQVR4nO2WO2gVQRSGPxUTNFpoYZXCKmBsfBWCGlOKYCkiEggqohC0sLARzuyV4CNYxMYHNmoRsBACCpYRQQQVFAsFLUQRFMFXJaj5Zda9snfv7N65cK+kyA+nmT1nzj/n/DNnYR5zGTJWyzEtxxcZL+U4IlgQEdcvx4kmM/rjk0/QJ8crOdRgxuGWsTU2NsX9jd0QT8CxN7iJ40XLWGOghMBAPAHjZMkmv1rGTtIr43Mh9pOMnngCjpESAq8jD7Ap6/1xGYdUY310cg8Zq+T4FiAxTgAyxoLCaxbiGLGQY4+MH7nk92QsKyEwmt6WsG7q5m/TaDQBD9VYm5bRsa+tHv5vyNghY7ZFBfJamvUx4c3OslwJW5Swrelbwq6038ZggMSQjDORNhQ6xVYZM3L8/Hd1Juhr8HHcyZ3ikoyFJRXZGRJheQkvs1jGh0CpjhYIvCv4TPnYgs94UICOqXICxrqSXr2pJ5CxssTnts6zJPM5l1t/nL6oxnCRZIjAwQrRjGQ+wxWimpFxobB2tzJpHnJcrCDw3E9BOY61ofKHXszEQo5HlRt69ft+N65PlyR/qtOsiE9u9BRevJDdl/G2kMhr4lRxWvpnPDp5bnCobctKLGN/NjeetPXTUUc6rRpP9jWyz0vpBOQ4kNv0un9c0pfQuCrjeymBSXo7Q8BSDVzxPxsyNgfaExrL0k0WdYRAHaqxpqheGbcqWtD96SjH+woCg90nYBWCTNjdfQKOZ3L8zq7aNTk+ynggxw0lbO86AY+Oi20ecwl/ABYmTp0EihQsAAAAAElFTkSuQmCC" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MIMINO-ROOM</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     
-    <script type="module" crossorigin src="/7team-mimino/assets/swiper-d4fe9cad.js"></script>
-    <link rel="stylesheet" href="/7team-mimino/assets/swiper-74d945d9.css">
+    <script type="module" crossorigin src="/7team-mimino/assets/modal-e3080ad3.js"></script>
+    <link rel="stylesheet" href="/7team-mimino/assets/modal-a35b0047.css">
   </head>
   <body>
     <header><section class="header">
@@ -203,11 +209,47 @@
     <a class="amenities-link" href="./hotel.html"
       >Повернутися до перегляду номерів
       <svg height="24" width="24" class="amenities-icon-arrow">
-        <use xlink:href="/7team-mimino/assets/icons-33b8c5c2.svg#icon-arrow-link"></use>
+        <use xlink:href="/7team-mimino/assets/icons-871dcc29.svg#icon-arrow-link"></use>
       </svg>
     </a>
   </div>
 </section>
+
+      <div id="modal_price" class="modal">
+  <div class="modal_container">
+    <button class="modal_close" type="button">
+      <svg class="icon" width="24" height="24">
+        <use href="../../img/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h3 class="modal_title">ЦІНИ НА НОМЕР</h3>
+    <p class="modal_room_types">Двомісний люкс</p>
+    <p class="modal_room_categoty">Категорія номеру</p>
+    <form class="room_price_modal">
+      <div class="form_group">
+        <input
+          class="modal_input"
+          type="c_number"
+          name="c_number"
+          id="c_number"
+          placeholder="1"
+        />
+        <label class="modal_label" for="c_number">Категорія номеру</label>
+      </div>
+      <div class="form_group">
+        <input
+          class="modal_input"
+          id="price"
+          type="text"
+          name="price"
+          placeholder="100"
+        />
+        <label class="modal_label" for="price">Кількість ночей</label>
+      </div>
+      <button class="modal_btn" type="submit">ЗАБРОНЮВАТИ НОМЕР</button>
+    </form>
+  </div>
+</div>
 
     </main>
 
@@ -250,7 +292,6 @@
   </ul>
 </section>
 </footer>
-    
 
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
