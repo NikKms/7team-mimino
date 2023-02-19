@@ -1,0 +1,344 @@
+/* KATERYNA SELYVONENKO */
+
+/* STYLES */
+
+.contacts {
+  background-color: #fffdee;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts-heading-2 {
+  font-family: 'FilmP3Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 0.93;
+  letter-spacing: 0.3em;
+  color: #494848;
+
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+.contacts-paragaph {
+  font-family: 'Montserrat-SemiBold', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #7a7a7a;
+
+  margin-bottom: 16px;
+}
+.contacts-list {
+  list-style: none;
+}
+.contacts-list-item-0 {
+  display: flex;
+  gap: 54px;
+  margin-bottom: 16px;
+}
+
+.contacts-list-item-0-rest {
+  display: flex;
+  gap: 22px;
+  margin-bottom: 16px;
+}
+.contacts-list-item {
+  display: flex;
+
+  /* justify-content: center; */
+
+  /* margin-left: 22px; */
+}
+
+.contacts-box {
+  display: flex;
+  /* align-items: center; */
+  padding-left: 8px;
+  /* padding-right: 8px; */
+
+  background-color: #ffffff;
+  border: 0.5px solid #f3c653;
+  border-radius: 2px;
+
+  /* width: 260px; */
+}
+
+.contacts-box-rest {
+  display: flex;
+  /* align-items: center; */
+  padding-left: 8px;
+  padding-right: 8px;
+
+  background-color: #ffffff;
+  border: 0.5px solid #f3c653;
+  border-radius: 2px;
+
+  /* width: 260px; */
+}
+
+.contacts-box-1 {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  /* padding-right: 33px; */
+  padding-top: 8px;
+  padding-bottom: 7px;
+
+  background-color: #ffffff;
+  border: 0.5px solid #f3c653;
+  border-radius: 2px;
+}
+.contacts-paragaph-1 {
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #c79002;
+
+  margin-top: 8px;
+}
+.contacts-list-2 {
+}
+.contacts-item {
+  font-family: 'Montserrat-Regular', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #494848;
+}
+
+.contacts-item-hotel-1 {
+  font-family: 'Montserrat-Regular', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #494848;
+  padding-top: 12px;
+  padding-bottom: 11px;
+}
+.contacts-item-hotel-2 {
+  font-family: 'Montserrat-Regular', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #494848;
+  padding-top: 12px;
+  padding-bottom: 11px;
+}
+.contacts-list-3 {
+  margin-right: 0;
+}
+
+.contacts-list-inside {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.contacts-list-inside-1 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.contacts-list-inside-1:not(last-child) {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 12px;
+}
+
+.contacts-list-inside-2 {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-right: 33px;
+}
+.contacts-list-item-1 {
+  /* background-color: #ffffff;
+  border: 0.5px solid #f3c653;
+  border-radius: 2px; */
+
+  /* margin-left: 54px; */
+  margin-bottom: 16px;
+}
+
+.contacts-phone-icon {
+  fill: #c79002;
+  margin-top: 9px;
+  margin-bottom: 7px;
+  margin-right: 8px;
+}
+.contacts-location-icon {
+  fill: #c79002;
+}
+.contacts-list-item-2 {
+  /* background-color: #ffffff;
+  border: 0.5px solid #f3c653;
+  border-radius: 2px; */
+
+  /* margin-left: 54px; */
+}
+
+/* АДРЕСА */
+.contacts-address {
+  font-family: 'Montserrat-Regular', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  color: #494848;
+}
+
+/* МАПА */
+.contacts-map {
+  width: 100%;
+  height: 220px;
+  margin: 32px auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .contacts .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .contacts-list {
+    list-style: none;
+    margin-top: 52px;
+  }
+  .contacts-list-item-0 {
+    display: block;
+    margin-top: 24px;
+  }
+
+  .contacts-list-item-0-rest {
+    display: block;
+    margin-top: 24px;
+  }
+
+  .contacts-list-item {
+    margin-left: 0;
+  }
+
+  .contacts-list-item-1 {
+    margin-left: 0;
+  }
+  .contacts-list-item-2 {
+    margin-left: 0;
+  }
+
+  .contacts-division-1 {
+    width: 294px;
+  }
+  .contacts-division-2 {
+    width: 535px;
+  }
+
+  .contacts-map {
+    width: 535px;
+    height: 412px;
+    margin-bottom: 40px;
+    margin-top: 69px;
+  }
+
+  .contacts-box-1 {
+    margin-top: 48px;
+    margin-right: 110px;
+    width: 285px;
+  }
+  .contacts-box {
+    width: 264px;
+  }
+
+  .contacts-box-rest {
+    /* width: 144px; */
+  }
+
+  .contacts-heading-2 {
+    font-family: 'FilmP3Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.07;
+  }
+
+  .contacts-paragaph-1 {
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contacts {
+  }
+
+  .contacts-map {
+    width: 634px;
+    height: 412px;
+    margin-bottom: 74px;
+    margin-top: 64px;
+  }
+
+  .contacts-list {
+    list-style: none;
+    margin-top: 0;
+    width: fit-content;
+  }
+  .contacts-list-item-0 {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 24px;
+    width: fit-content;
+  }
+
+  .contacts-list-item {
+    margin-left: 0;
+  }
+
+  .contacts-list-item-1 {
+    margin-left: 0;
+  }
+  .contacts-list-item-2 {
+    margin-left: 0;
+  }
+
+  .contacts-division-1 {
+    width: 368px;
+  }
+  .contacts-division-2 {
+    width: 634px;
+  }
+
+  .contacts-box-1 {
+    margin-top: 48px;
+    /* margin-right: 191px; */
+    margin-bottom: 73px;
+    width: 285px;
+  }
+
+  .contacts-heading-2 {
+    margin-top: 56px;
+    margin-bottom: 16px;
+
+    font-family: 'FilmP3Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.07;
+  }
+
+  .contacts-paragaph-1 {
+    margin-bottom: 8px;
+  }
+
+  .contacts-paragaph {
+    margin-bottom: 40px;
+  }
+}
