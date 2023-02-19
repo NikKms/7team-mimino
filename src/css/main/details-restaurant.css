@@ -48,7 +48,6 @@ font-size: 12px;
 line-height: 1.25;
 letter-spacing: 0.02em;
 color: #BABABA;
-/* margin-bottom: 398px; */
 width: 259px;
 height: 62px;
 }
@@ -83,7 +82,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 padding: 14px 0;
-
 
 }
 
@@ -133,15 +131,12 @@ margin-left: auto;
 
 }
 
-
-
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .details-restaurant {
         background-image:linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/restaurantdetails/bg-mob2.jpg)
-        
-            
+             
     }
 }
 
@@ -213,10 +208,7 @@ height: 620px;
     line-height: 1.20;
 }
 .text2 {
-/* margin-bottom: 198px; */
-/* font-family: 'Montserrat-SemiBold', sans-serif;
-font-style: normal;
-font-weight: 600; */
+
 font-size: 16px;
 line-height: 1.25;
 letter-spacing: 0.02em;
@@ -264,9 +256,7 @@ height: 620px;
     .alltexts {
         margin-right: auto;
     }
-    /* .text2 {
-        margin-bottom: 200px;
-    } */
+   
     .buttons {
         margin-left: 10px;}
        
