@@ -1,29 +1,69 @@
 <section class="hotel-details-section section">
-  <p class="hotel-details-logo">MIMIHO</p>
-  <h2 class="hotel-details-title">Готель</h2>
-  <p class="hotel-details-text">
-    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-    Velit officia consequat duis enim velit mollit.
-  </p>
-  <div class="hotel-details-images-wrapper">
-    <ul class="hotel-details-services-image-list">
-      <li class="hotel-details-services-image-item">
-        <img src="" alt="sleeping bed" width="" height="" />
-      </li>
-      <li class="hotel-details-services-image-item">
-        <img src="" alt="breakfast" width="" height="" />
-      </li>
-      <li class="hotel-details-services-image-item">
-        <img src="" alt="reception" width="" height="" />
-      </li>
-    </ul>
-  </div>
-  <div>
-    <button class="hotel-details-button button-booking" type="button">
-      Забронювати номер
-    </button>
-    <button class="hotel-details-button button-prices" type="form">
-      Переглянути ціни
-    </button>
+  <div class="hotel-details-container container">
+    <div class="hotel-details-text-wrapper">
+      <div class="hotel-details-title-text">
+        <p class="hotel-details-logo">MIMIHO</p>
+        <h2 class="hotel-details-title">Готель</h2>
+      </div>
+      <p class="hotel-details-text">
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit.
+      </p>
+    </div>
+    <div class="hotel-details-content-block-wrapper">
+      <div class="hotel-details-images-wrapper">
+        <ul class="hotel-details-services-image-list">
+          <li class="hotel-details-services-image-item">
+            <img
+              class="hotel-details-first-image"
+              srcset="
+                ./img/main/details-hotel/bed_in_the_room@1x.jpg 1x,
+                ./img/main/details-hotel/bed_in_the_room@2x.jpg 2x
+              "
+              src="./img/main/details-hotel/bed_in_the_room@1x.jpg"
+              alt="sleeping bed"
+              width="274"
+              height="270"
+            />
+          </li>
+          <li class="hotel-details-services-image-item">
+            <img
+              class="hotel-details-second-image"
+              srcset="
+                ./img/main/details-hotel/breakfast@1x.jpg 1x,
+                ./img/main/details-hotel/breakfast@2x.jpg 2x
+              "
+              src="./img/main/details-hotel/breakfast@1x.jpg"
+              alt="breakfast"
+              width="274"
+              height="270"
+            />
+          </li>
+          <li class="hotel-details-services-image-item">
+            <img
+              class="hotel-details-third-image"
+              srcset="
+                ./img/main/details-hotel/reception@1x.jpg  1x,
+                ../img/main/details-hotel/reception@2x.jpg 2x
+              "
+              src="./img/main/details-hotel/reception@1x.jpg"
+              alt="reception"
+              width="274"
+              height="270"
+            />
+          </li>
+        </ul>
+      </div>
+      <div class="hotel-details-buttons-block">
+        <button class="hotel-details-button button-booking" type="button">
+          Забронювати номер
+        </button>
+        <form action="./about-hotel.html" target="_self">
+          <button class="hotel-details-button button-prices" type="form">
+            Переглянути ціни
+          </button>
+        </form>
+      </div>
+    </div>
   </div>
 </section>
