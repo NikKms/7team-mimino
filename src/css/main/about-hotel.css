@@ -5,6 +5,7 @@
 }
 
 .about-hotel-pre-title {
+  font-family: 'Times New Roman';
   font-size: 20px;
   line-height: 1.15;
   text-align: right;
@@ -22,6 +23,10 @@
   text-align: right;
   margin-bottom: 16px;
   color: var(--secondary-title-color);
+}
+
+.span-title {
+  letter-spacing: 0;
 }
 
 .about-hotel-list {
@@ -81,7 +86,7 @@
     padding-top: 120px;
   }
   .about-hotel-pre-title {
-    font-size: 20px;
+    font-size: 32px;
     margin-bottom: 4px;
   }
 
@@ -99,6 +104,7 @@
 
   .about-hotel-text-1 {
     width: 419px;
+    height: 80px;
     font-size: 16px;
     letter-spacing: 0.02em;
     margin-left: 46px;
