@@ -1,0 +1,194 @@
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #0000008a;
+  z-index: -1;
+  transition-duration: 250ms;
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+}
+
+.modal .modal_container {
+  position: relative;
+  width: 100%;
+  max-width: 414px;
+  background-color: #fffdee;
+  padding: 60px 15px;
+  opacity: 0;
+}
+
+.modal_container > .modal_close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.modal_close > svg {
+  pointer-events: none;
+}
+
+.active_modal {
+  opacity: 1;
+  z-index: 99;
+}
+
+.active_modal > .modal_container {
+  opacity: 1;
+}
+
+.modal_title {
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+.modal_input {
+  width: 100%;
+  letter-spacing: 0.05em;
+  border: 1px solid #c79002;
+  padding: 14.5px 12px;
+  font-family: 'Times New Roman';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.modal_input::placeholder {
+  color: #808080;
+}
+
+.form_group {
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.select_wrapper {
+  position: relative;
+}
+
+.select_wrapper > .icon {
+  position: absolute;
+  top: calc(50% - 14px);
+  right: 20px;
+  pointer-events: none;
+  fill: #c79002;
+}
+
+.modal_label {
+  display: flex;
+  order: 1;
+  font-family: 'MontserratMedium';
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #c79002;
+  padding-left: 12px;
+  margin-top: 8px;
+}
+
+.modal_select {
+  width: 100%;
+  position: relative;
+  padding: 14.5px 12px;
+  border: 1px solid #c79002;
+  font-family: 'Times New Roman';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+  appearance: none;
+  color: #808080;
+}
+
+.modal_select > option[value=''][disabled] {
+  display: none;
+}
+
+.modal_btn {
+  width: 100%;
+  padding: 20px 43px;
+  font-family: 'MontserratMedium';
+  font-size: 20px;
+  line-height: 1.15;
+  background-color: #000;
+  color: #fff;
+  letter-spacing: normal;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.modal_room_types {
+  font-family: 'Times New Roman';
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  color: #808080;
+  margin-bottom: 28px;
+}
+
+.modal_room_categoty {
+  font-family: 'MontserratMedium';
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #c79002;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .modal .modal_container {
+    max-width: 712px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .modal_form {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+  }
+  .form_group {
+    flex-basis: calc(50% - 8px);
+  }
+  .modal_btn {
+    width: 100%;
+  }
+
+  .book_room_modal > .form_group:nth-child(3) {
+    flex-basis: 100%;
+  }
+  .book_room_modal > .form_group_right {
+    width: calc(50% - 7.5px);
+    margin-left: auto;
+  }
+
+  .modal_title {
+    font-size: 40px;
+  }
+  .modal_btn {
+    font-size: 24px;
+  }
+  .room_price_modal {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 16px;
+  }
+}
