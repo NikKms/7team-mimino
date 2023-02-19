@@ -175,6 +175,7 @@
   .header .contacts {
     display: block;
     padding-top: 8px;
+    background-color: transparent;
   }
 
   .header .contacts-list {
