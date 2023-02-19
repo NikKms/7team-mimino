@@ -15,6 +15,9 @@
   line-height: 0.8;
   letter-spacing: 0.02em;
 }
+.container-menu {
+  padding: 32px 15px;
+}
 
 .menu-restoran {
   background-color: #f0ecd6;
@@ -115,11 +118,12 @@
   height: 100%;
 }
 /* -------------------MEDIA-------------- */
-@media screen and (min-width: 1028px) {
+@media screen and (min-width: 1024px) {
   .flex-wrap {
     display: flex;
-    /* gap: 88px; */
-    justify-content: space-between;
+    gap: 88px;
+    justify-content: center;
+    /* justify-content: space-evenly; */
   }
   .container-menu {
     padding-left: 48px;
@@ -131,5 +135,25 @@
     margin: unset;
     margin-left: auto;
     margin-top: 64px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .flex-wrap {
+    display: flex;
+    gap: 140px;
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
+  }
+  .container-menu {
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 58px;
+    padding-bottom: 60px;
+  }
+  .menu-btn {
+    margin: unset;
+    margin-left: auto;
+    margin-top: 48px;
   }
 }
