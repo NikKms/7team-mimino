@@ -5,22 +5,25 @@
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAACTElEQVR4nO2WO2gVQRSGPxUTNFpoYZXCKmBsfBWCGlOKYCkiEggqohC0sLARzuyV4CNYxMYHNmoRsBACCpYRQQQVFAsFLUQRFMFXJaj5Zda9snfv7N65cK+kyA+nmT1nzj/n/DNnYR5zGTJWyzEtxxcZL+U4IlgQEdcvx4kmM/rjk0/QJ8crOdRgxuGWsTU2NsX9jd0QT8CxN7iJ40XLWGOghMBAPAHjZMkmv1rGTtIr43Mh9pOMnngCjpESAq8jD7Ap6/1xGYdUY310cg8Zq+T4FiAxTgAyxoLCaxbiGLGQY4+MH7nk92QsKyEwmt6WsG7q5m/TaDQBD9VYm5bRsa+tHv5vyNghY7ZFBfJamvUx4c3OslwJW5Swrelbwq6038ZggMSQjDORNhQ6xVYZM3L8/Hd1Juhr8HHcyZ3ikoyFJRXZGRJheQkvs1jGh0CpjhYIvCv4TPnYgs94UICOqXICxrqSXr2pJ5CxssTnts6zJPM5l1t/nL6oxnCRZIjAwQrRjGQ+wxWimpFxobB2tzJpHnJcrCDw3E9BOY61ofKHXszEQo5HlRt69ft+N65PlyR/qtOsiE9u9BRevJDdl/G2kMhr4lRxWvpnPDp5bnCobctKLGN/NjeetPXTUUc6rRpP9jWyz0vpBOQ4kNv0un9c0pfQuCrjeymBSXo7Q8BSDVzxPxsyNgfaExrL0k0WdYRAHaqxpqheGbcqWtD96SjH+woCg90nYBWCTNjdfQKOZ3L8zq7aNTk+ynggxw0lbO86AY+Oi20ecwl/ABYmTp0EihQsAAAAAElFTkSuQmCC" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MIMINO</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     
-    <script type="module" crossorigin src="/7team-mimino/assets/modal-5ebad597.js"></script>
-    <link rel="stylesheet" href="/7team-mimino/assets/modal-cb4c48f7.css">
+    <script type="module" crossorigin src="/7team-mimino/assets/modal-698c114d.js"></script>
+    <link rel="stylesheet" href="/7team-mimino/assets/modal-7e76138c.css">
   </head>
   <body>
-    <header><section class="header">
+    <header><div class="header">
   <div class="header-container">
-    <a class="header-logo" href="./index.html">МІМІНО</a>
+    <a class="header-logo" href="./index.html">MIMIHO</a>
 
     <nav class="nav">
       <ul class="nav-list">
         <li class="nav-item">
-          <a href="./restaurant.html">Ресторан</a>
+          <a class="restaurant-link" href="../restaurant.html">Ресторан</a>
 
-          <a href="tel:+380955559533">
+          <a class="tel-link" href="tel:+380955559533">
             <svg class="nav-icon">
               <use href="../img/icons.svg#icon-phone"></use>
             </svg>
@@ -29,9 +32,9 @@
         </li>
 
         <li class="nav-item">
-          <a href="./hotel.html">Готель</a>
+          <a class="hotel-link" href="../hotel.html">Готель</a>
 
-          <a href="tel:+380668491089">
+          <a class="tel-link" href="tel:+380668491089">
             <svg class="nav-icon">
               <use href="../img/icons.svg#icon-phone"></use>
             </svg>
@@ -62,47 +65,68 @@
         </li>
       </ul>
     </div>
+
+    <!-- <div class="header-adress">
+      <a class="adress-link" href="">
+        <svg class="adress-icon">
+          <use href="../img/icons.svg#icon-location"></use>
+        </svg>
+        <span class="adress-text"
+          >Україна, м. Полтава, вул. Маршала Бірюзова, 15</span
+        >
+      </a>
+    </div> -->
   </div>
-</section>
+</div>
 </header>
 
     <main>
       
-<section class="hero">
-<div class="container">
-    <address>
-        <svg width="10px" height="10px">
-            <use href=""></use>
-        </svg>
-        <p>Україна, м. Полтава,
-        вул. Маршала Бірюзова, 15</p>
-    </address>
-    <div>
-        <h1>MIMIHO</h1>
-        <h2>Ресторанно-готельний комплекс</h2>
-        <p>СМАК ЖИТТЯ 24/7</p>
-        <button type="button">Забронювати столик</button>
-        <button type="button">Забронювати номер</button>
+                                <!-- OCHERETKO OLEG -->
+<section class="hero-main">
+<div class="container container-position">
+    <a href="https://goo.gl/maps/gsLoxivQWbPbsx788" target="_blank" title="Ресторанно-готельний комплекс">
+        <address class="adress-hotel">
+            <svg class="icon-svg-location">
+                <use href="../../img/main-hero img/main-hero-svg/symbol-defs.svg#icon-location"></use>
+            </svg>
+        <p class="hotel-location">Україна, м. Полтава,<br/>вул. Маршала Бірюзова, 15
+        </p>
+        </address>
+    </a>
+    <div class="info-hotel">
+        <h1 class="hero-title">MIMIHO</h1>
+        <h2 class="hero-main-title">Ресторанно-готельний комплекс</h2>
+        <p class="hero-main-big">СМАК ЖИТТЯ 24/7</p>
+        <div class="dislocation">
+
+            <!-- Кнопка “Забронювати столик” має відкривати модальне вікно BOOR TABLE MODAL WINDOW -->
+            <button class="btn-main-1" type="button">Забронювати столик</button>
+
+                <!-- Кнопка “Забронювати номер” має відкривати модальне вікно BOOR ROOM MODAL WINDOW. -->
+            <button class="btn-main-2" type="button">Забронювати номер</button>
+
+        </div>
     </div>
-    <ul>
-        <li>
-            <a href="#">
-                <svg>
-                    <use href=""></use>
+    <ul class="hero-social-main">
+        <li class="hero-social-item">
+            <a target="_blank" href="https://www.instagram.com/">
+                <svg class="icon">
+                    <use href="../../img/main-hero img/main-hero-svg/symbol-defs.svg#icon-instagram"></use>
                 </svg>
             </a>
         </li>
-        <li>
-            <a href="#">
-                <svg>
-                    <use href=""></use>
+        <li class="hero-social-item">
+            <a target="_blank" href="https://www.facebook.com/">
+                <svg class="icon">
+                    <use href="../../img/main-hero img/main-hero-svg/symbol-defs.svg#icon-facebook"></use>
                 </svg>
             </a>
         </li>
-        <li>
-            <a href="#">
-                <svg >
-                    <use href=""></use>
+        <li class="hero-social-item">
+            <a target="_blank" href="https://t.me/c/1135908310/588">
+                <svg class="icon">
+                    <use href="../../img/main-hero img/main-hero-svg/symbol-defs.svg#icon-telegram"></use>
                 </svg>
             </a>
         </li>
@@ -182,7 +206,75 @@
     </div>
 </div>
 </section>
-      
+      <section class="about-hotel">
+  <div class="container">
+    <h2 class="visually-hidden">About-hotel</h2>
+    <p class="about-hotel-pre-title">Amet minim mollit non</p>
+    <h3 class="about-title">MIMIH<span class="span-title
+      ">O</span> </h3>
+    <ul class="about-hotel-list">
+      <li class="about-hotel-item">
+        <p class="about-hotel-text-1">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+        <div class="pictures-hotel">
+          <picture>
+            <source
+              media="(min-width: 1280px)"
+              srcset="/7team-mimino/assets/about-hotel-1-6bf9d14b.jpg 1x, /7team-mimino/assets/about-hotel-1-2x-06487002.jpg 2x"
+            />
+            <source
+              media="(min-width: 1024px) and (max-width: 1279px)"
+              srcset="/7team-mimino/assets/about-hotel-tab-1-949d81b3.jpg 1x, /7team-mimino/assets/about-hotel-tab-1-2x-a2060dbb.jpg 2x"
+            />
+            <source
+              media="(max-width: 1023px)"
+              srcset="/7team-mimino/assets/about-hotel-mob-1-530e87ea.jpg 1x, /7team-mimino/assets/about-hotel-mob-1-2x-1a85eac2.jpg 2x"
+            />
+            <img
+              src="/7team-mimino/assets/about-hotel-mob-1-530e87ea.jpg"
+              alt="modern-studio-apartment"
+              width="460px"
+              height="574px"
+            />
+          </picture>
+        </div>
+      </li>
+      <li class="about-hotel-item flex">
+        <p class="about-hotel-text-2">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+        <div class="pictures-hotel-position">
+          <picture>
+            <source
+              media="(min-width: 1280px)"
+              srcset="/7team-mimino/assets/about-hotel-2-3174fb37.jpg 1x, /7team-mimino/assets/about-hotel-2-2x-dde669b6.jpg 2x"
+            />
+            <source
+              media="(min-width: 1024px) and (max-width: 1279px)"
+              srcset="/7team-mimino/assets/about-hotel-tab-2-3f1dd309.jpg 1x, /7team-mimino/assets/about-hotel-tab-2-2x-a1042519.jpg 2x"
+            />
+            <source
+              media="(max-width: 1023px)"
+              srcset="/7team-mimino/assets/about-hotel-mob-2-ad0c39f4.jpg 1x, /7team-mimino/assets/about-hotel-mob-2-2x-8ea4fc45.jpg 2x"
+            />
+            <img
+              src="/7team-mimino/assets/about-hotel-mob-2-ad0c39f4.jpg"
+              alt="hotel"
+              width="460px"
+              height="574px"
+            />
+          </picture>
+        </div>
+      </li>
+    </ul>
+    <div class="slider-about-hotel"></div>
+  </div>
+</section>
 
       <section class="dh-section">
   <div class="container">
@@ -262,51 +354,96 @@
 
       <!-- KATERYNA SELYVONENKO -->
 <section class="contacts">
-  <div>
+  <div class="container">
     <h2 class="visually-hidden">Contacts</h2>
-    <h3 class="contacts-heading-2">МІМІНО</h3>
-    <p class="contacts-paragaph">Ресторанно-готельний комплекс</p>
-    <ul class="contacts-list">
-      <li class="contacts-list-item">
-        <p class="contacts-paragaph-1">Ресторан</p>
-        <ul class="contacts-list-2">
-          <li class="contacts-list-item">
-            <a class="contacts-item" href="tel:+380955559533">095 555 95 33</a>
-          </li>
-        </ul>
-      </li>
+    <div class="contacts-division-1">
+      <h3 class="contacts-heading-2">MIMIHO</h3>
+      <p class="contacts-paragaph">Ресторанно-готельний комплекс</p>
+      <ul class="contacts-list">
+        <!-- РЕСТОРАН -->
+        <li class="contacts-list-item-0-rest">
+          <p class="contacts-paragaph-1">Ресторан</p>
+          <ul class="contacts-list-2">
+            <li class="contacts-list-item">
+              <!-- всередині коробочки -->
+              <ul class="contacts-box-rest">
+                <li class="contacts-list-inside">
+                  <svg class="contacts-phone-icon" width="24" height="24">
+                    <use href="../../img/icons.svg#icon-phone"></use>
+                  </svg>
+                </li>
 
-      <li class="contacts-list-item">
-        <p class="contacts-paragaph-1">Готель</p>
-        <ul class="contacts-list-3">
-          <li class="contacts-list-item-1">
-            <a class="contacts-item" href="tel:+380668491089">066 849 10 89</a>
-            <a class="contacts-item" href="tel:+380672758540">067 275 85 40</a>
-          </li>
-          <li class="contacts-list-item-1">
-            <a
-              class="contacts-map"
-              href="https://goo.gl/maps/rWrmUMpZLwgkyBE68"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              >Україна, м. Полтава,<br />
-              вул. Маршала<br />
-              Бірюзова, 15</a
-            >
-          </li>
-        </ul>
-      </li>
-    </ul>
+                <li class="contacts-list-inside">
+                  <a class="contacts-item" href="tel:+380955559533"
+                    >095 555 95 33</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- ГОТЕЛЬ -->
+        <li class="contacts-list-item-0">
+          <p class="contacts-paragaph-1">Готель</p>
+          <ul class="contacts-list-3">
+            <li class="contacts-list-item-1">
+              <ul class="contacts-box">
+                <!-- всередині коробочки -->
+                <li class="contacts-list-inside">
+                  <svg class="contacts-phone-icon" width="24" height="24">
+                    <use href="../../img/icons.svg#icon-phone"></use>
+                  </svg>
+                </li>
 
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2585.9232137442536!2d34.52435761511849!3d49.59919745621388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d82601f3347a5f%3A0x36f3f9aeec44a6a!2z0LLRg9C70LjRhtGPINCc0LDRgNGI0LDQu9CwINCR0ZbRgNGO0LfQvtCy0LAsIDE1LCDQn9C-0LvRgtCw0LLQsCwg0J_QvtC70YLQsNCy0YHRjNC60LAg0L7QsdC70LDRgdGC0YwsINCj0LrRgNCw0ZfQvdCwLCAzNjAwMA!5e0!3m2!1suk!2sbg!4v1676496911739!5m2!1suk!2sbg"
-      width="600"
-      height="450"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-    ></iframe>
+                <li class="contacts-list-inside-1">
+                  <a class="contacts-item-hotel-1" href="tel:+380668491089"
+                    >066 849 10 89</a
+                  >
+                </li>
+
+                <li class="contacts-list-inside">
+                  <a class="contacts-item-hotel-2" href="tel:+380672758540"
+                    >067 275 85 40</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <!-- всередині коробочки -->
+            <li class="contacts-list-item-2">
+              <ul class="contacts-box-1">
+                <li class="contacts-list-inside">
+                  <svg class="contacts-phone-icon" width="24" height="24">
+                    <use href="../../img/icons.svg#icon-location"></use>
+                  </svg>
+                </li>
+
+                <li class="contacts-list-inside-2">
+                  <a
+                    class="contacts-address"
+                    href="https://goo.gl/maps/rWrmUMpZLwgkyBE68"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    >Україна, м. Полтава, вул. Маршала Бірюзова, 15</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="contacts-division-2">
+      <iframe
+        class="contacts-map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2585.9232137442536!2d34.52435761511849!3d49.59919745621388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d82601f3347a5f%3A0x36f3f9aeec44a6a!2z0LLRg9C70LjRhtGPINCc0LDRgNGI0LDQu9CwINCR0ZbRgNGO0LfQvtCy0LAsIDE1LCDQn9C-0LvRgtCw0LLQsCwg0J_QvtC70YLQsNCy0YHRjNC60LAg0L7QsdC70LDRgdGC0YwsINCj0LrRgNCw0ZfQvdCwLCAzNjAwMA!5e0!3m2!1suk!2sbg!4v1676496911739!5m2!1suk!2sbg"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
   </div>
 </section>
 
@@ -351,7 +488,6 @@
   </ul>
 </section>
 </footer>
-    
 
     
   </body>
