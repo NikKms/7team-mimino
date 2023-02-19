@@ -1,3 +1,4 @@
+const $ = require('jquery');
 $(function () {
   function modal() {
     $('.open_modal').on('click', function () {
