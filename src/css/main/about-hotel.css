@@ -14,7 +14,7 @@
 }
 
 .about-title {
-  font-family: 'Film P3', sans-serif;
+  font-family: 'FilmP3Bold', sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 1.07;
@@ -40,6 +40,7 @@
 
 .about-hotel-text-1,
 .about-hotel-text-2 {
+  font-family: 'Montserrat-Medium', sans-serif;
   font-weight: 600;
   font-size: 12px;
   line-height: 1.25;
@@ -76,9 +77,11 @@
 /* TABLET */
 
 @media screen and (min-width: 1024px) {
+  .about-hotel {
+    padding-top: 120px;
+  }
   .about-hotel-pre-title {
     font-size: 20px;
-    margin-top: 120px;
     margin-bottom: 4px;
   }
 
