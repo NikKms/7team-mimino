@@ -208,6 +208,7 @@
     left: 50px;
     bottom: -20px;
     color: #e5e5e5;
+    z-index: 1;
   } 
     .icon-svg-location {
     width: 24px;
@@ -371,6 +372,7 @@
     left: 50px;
     bottom: -20px;
     color: #e5e5e5;
+    z-index: 1;
   } 
     .icon-svg-location {
     width: 24px;
