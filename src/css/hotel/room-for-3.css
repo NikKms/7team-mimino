@@ -1,0 +1,230 @@
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+.triple-container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/*-------CONTAINER-------*/
+
+@media screen and (min-width: 414px) {
+  .triple-container {
+    width: 414px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .triple-container {
+    width: 960px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .triple-container {
+    width: 1140px;
+  }
+}
+.triple {
+  padding: 32px 0;
+  background: #f0ecd6;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.triple-top {
+}
+.triple-wrapper {
+  text-align: end;
+}
+.triple-pretitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  color: #b4b4b4;
+  margin-bottom: 8px;
+}
+.triple-subtitle {
+  font-family: 'FilmP3Bold', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 1.07;
+  letter-spacing: 0.3em;
+  color: #494848;
+  margin-bottom: 32px;
+}
+.triple-subtitle span {
+  letter-spacing: 0;
+}
+
+.triple-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin-bottom: 12px;
+}
+.triple-text {
+  font-family: 'Montserrat', sans-serif;
+  max-width: 258px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #7a7a7a;
+  margin-bottom: 32px;
+  text-align: start;
+  margin-left: 85px;
+}
+.triple-top img {
+  margin-right: auto;
+  margin-bottom: 32px;
+}
+.triple-bottom {
+}
+.triple-btns {
+}
+.triple-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 236px;
+  max-width: 100%;
+  height: 48px;
+  margin: 0 auto;
+  background: #000000;
+  border: 2px solid #fffdee;
+  border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #f3c653;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.triple-btn:not(:last-child) {
+  margin-bottom: 16px;
+}
+.triple-btn:hover,
+.triple-btn:focus {
+  background-color: #ffffff;
+  border: 2px solid #f3c653;
+}
+.triple-swiper {
+  width: 194px;
+  height: 194px;
+  background-color: #000000;
+  color: #ffffff;
+  margin-bottom: 72px;
+}
+.triple-top img {
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+picture {
+  width: 400px;
+}
+
+/*-----MEDIA(MIN-WIDTH:1024PX)-----*/
+
+@media screen and (min-width: 1024px) {
+  .triple {
+    padding: 62px 0;
+  }
+  .triple-top {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 42px;
+  }
+  .triple-bottom {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .triple-swiper {
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
+  }
+  .triple-pretitle {
+    font-size: 32px;
+    margin-bottom: 0;
+  }
+  .triple-subtitle {
+    font-size: 64px;
+    letter-spacing: 0.3em;
+    margin-bottom: 62px;
+  }
+  .triple-title {
+    font-size: 30px;
+    line-height: 1.13;
+    letter-spacing: 0.05em;
+    color: #000000;
+    text-align: start;
+  }
+  .triple-text {
+    max-width: 439px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: #7a7a7a;
+  }
+  picture {
+    position: relative;
+    min-width: 400px;
+    min-height: 430px;
+    margin-bottom: 48px;
+  }
+  .triple-top img {
+    position: absolute;
+    top: -94px;
+    left: 0;
+    margin-bottom: 0;
+    box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+  }
+  .triple-swiper {
+    margin-bottom: 0;
+  }
+}
+
+/*-----MEDIA(MIN-WIDTH:1280PX)-----*/
+
+@media screen and (min-width: 1280px) {
+  .triple {
+    padding: 72px 0;
+  }
+  .triple-top {
+    gap: 100px;
+  }
+  .triple-pretitle {
+  }
+  .triple-subtitle {
+    margin-bottom: 72px;
+  }
+  .triple-title {
+    font-size: 36px;
+    margin-bottom: 24px;
+  }
+  .triple-text {
+    max-width: 400px;
+  }
+  picture {
+    width: 460px;
+    height: calc(574px - 104px);
+    margin-bottom: 50px;
+  }
+  .triple-top img {
+    top: -104px;
+  }
+}

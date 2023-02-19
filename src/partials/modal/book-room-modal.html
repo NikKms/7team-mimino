@@ -1,45 +1,79 @@
-<form class="book_room_modal">
-  <h3>ЗАБРОНЮВАТИ НОМЕР</h3>
-  <div class="form-group">
-    <label for="name">На кого забронювати номер?</label>
-    <input type="text" id="name" placeholder="Ваше ім’я" />
+<div id="modal_room" class="modal">
+  <div class="modal_container">
+    <button class="modal_close" type="button">
+      <svg class="icon" width="24" height="24">
+        <use href="../../img/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h3 class="modal_title">ЗАБРОНЮВАТИ НОМЕР</h3>
+    <form class="book_room_modal modal_form">
+      <div class="form_group">
+        <input
+          class="modal_input"
+          type="text"
+          id="name"
+          placeholder="Ваше ім’я"
+        />
+        <label class="modal_label" for="name">На кого забронювати номер?</label>
+      </div>
+      <div class="form_group">
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          class="modal_input"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          placeholder="+38 (___) ___-__-__"
+        />
+        <label class="modal_label" for="phone">Номер телефону</label>
+      </div>
+      <div class="form_group">
+        <div class="form_group_right">
+          <div class="select_wrapper">
+            <select
+              class="modal_select"
+              id="category_room"
+              name="category_room"
+            >
+              <option value disabled selected>Двомісний люкс</option>
+              <option value="Двомісний люкс">Двомісний люкс</option>
+              <option value="select_2">select_2</option>
+              <option value="select_3">select_2</option>
+            </select>
+            <svg class="icon" width="24px" height="24px">
+              <use href="../../img/icons.svg#icon-select_arrow"></use>
+            </svg>
+          </div>
+          <label class="modal_label" for="name">Категорія номеру</label>
+        </div>
+      </div>
+      <div class="form_group">
+        <div class="select_wrapper">
+          <select class="modal_select" id="from" name="from">
+            <option value disabled selected>Сьогодні</option>
+            <option value="today">Сьогодні</option>
+            <option value="tomorrow">Завтра</option>
+          </select>
+          <svg class="icon" width="24px" height="24px">
+            <use href="../../img/icons.svg#icon-select_arrow"></use>
+          </svg>
+        </div>
+        <label class="modal_label" for="from">Дата заїзду</label>
+      </div>
+      <div class="form_group">
+        <div class="select_wrapper">
+          <select class="modal_select" id="till" name="till">
+            <option value disabled selected>Сьогодні</option>
+            <option value="today">Сьогодні</option>
+            <option value="tomorrow">Завтра</option>
+          </select>
+          <svg class="icon" width="24px" height="24px">
+            <use href="../../img/icons.svg#icon-select_arrow"></use>
+          </svg>
+        </div>
+        <label class="modal_label" for="till">Дата виїзду</label>
+      </div>
+      <button class="modal_btn" type="submit">ОФОРМИТИ БРОНЮВАННЯ</button>
+    </form>
   </div>
-  <div class="form-group">
-    <label for="phone">Номер телефону</label>
-    <input
-      type="tel"
-      id="phone"
-      name="phone"
-      pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-      placeholder="+38 (___) ___-__-__"
-    />
-  </div>
-  <div class="form-group">
-    <label for="name">Категорія номеру</label>
-    <select id="category_room" name="category_room">
-      <option style="display: none" value="Двомісний люкс" disabled selected>
-        Двомісний люкс
-      </option>
-      <option value="Двомісний люкс">Двомісний люкс</option>
-      <option value="select_2">select_2</option>
-      <option value="select_3">select_2</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="from">Дата заїзду</label>
-    <select id="from" name="from">
-      <option style="display: none" disabled selected>Сьогодні</option>
-      <option value="today">Сьогодні</option>
-      <option value="tomorrow">Завтра</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="till">Дата виїзду</label>
-    <select id="till" name="till">
-      <option style="display: none" disabled selected>Сьогодні</option>
-      <option value="today">Сьогодні</option>
-      <option value="tomorrow">Завтра</option>
-    </select>
-  </div>
-  <button type="submit">ОФОРМИТИ БРОНЮВАННЯ</button>
-</form>
+</div>
