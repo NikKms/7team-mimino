@@ -1,22 +1,20 @@
 /* SLIDER */
 .room-hero {
-  width: fit-content;
   margin-left: auto;
   margin-right: auto;
   max-width: 1280px;
 }
 .slidera .swiper-slide {
   max-width: 1280px;
-  height: 720px;
-  background-repeat: no-repeat;
-  background-position: center;
   font-size: 18px;
   color: #fff;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding-left: 15px;
   padding-right: 15px;
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .swiper-slide.aa {
@@ -58,7 +56,6 @@
   font-size: 28px;
   line-height: 1.14;
   letter-spacing: 0.05em;
-  margin-top: 450px;
 }
 
 .room-text {
