@@ -3,7 +3,7 @@
   margin-right: auto;
 }
 /* MOBILE STYLES */
-.hero-main {
+.hero-restaurant {
   background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
     url('../../img/hero-restaurant-bg/mobile-restaurant-hero.jpg');
   background-repeat: no-repeat;
@@ -163,7 +163,7 @@
 /* TABLET STYLES */
 
 @media screen and (min-width: 1024px) {
-  .hero-main {
+  .hero-restaurant {
     background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
       url('../../img/hero-restaurant-bg/tablet-restaurant-hero.jpg');
     background-repeat: no-repeat;
@@ -177,7 +177,7 @@
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .hero-main {
+    .hero-restaurant {
       background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
         url('../../img/hero-restaurant-bg/tablet-restaurant-herox2.jpg');
       background-repeat: no-repeat;
@@ -339,7 +339,7 @@
 /* DECKTOP STYLES */
 
 @media screen and (min-width: 1280px) {
-  .hero-main {
+  .hero-restaurant {
     background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
       url('../../img/hero-restaurant-bg/decktop-restaurant-hero.jpg');
     background-repeat: no-repeat;
@@ -353,7 +353,7 @@
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .hero-main {
+    .hero-restaurant {
       background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
         url('../../img/hero-restaurant-bg/decktop-restaurant-hero-x2.jpg');
       background-repeat: no-repeat;
