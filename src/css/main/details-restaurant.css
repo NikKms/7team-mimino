@@ -126,6 +126,7 @@
   justify-content: center;
   margin-right: auto;
   margin-left: auto;
+  padding-bottom: 40px;
 }
 
 @media (min-device-pixel-ratio: 2),
