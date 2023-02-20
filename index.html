@@ -10,8 +10,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     
-    <script type="module" crossorigin src="/7team-mimino/assets/jquery.mask-b9bf19d6.js"></script>
-    <link rel="stylesheet" href="/7team-mimino/assets/jquery-75e13996.css">
+    <script type="module" crossorigin src="/7team-mimino/assets/main-da83bb43.js"></script>
+    <link rel="modulepreload" crossorigin href="/7team-mimino/assets/jquery.mask-cc481d7f.js">
+    <link rel="stylesheet" href="/7team-mimino/assets/jquery-d15736ce.css">
   </head>
   <body>
     <header><div class="header">
@@ -25,7 +26,7 @@
 
           <a class="tel-link" href="tel:+380955559533">
             <svg class="nav-icon">
-              <use href="/7team-mimino/assets/icons-871dcc29.svg#icon-phone"></use>
+              <use href="/7team-mimino/assets/icons-c0ccf45c.svg#icon-phone"></use>
             </svg>
             <p class="nav-tel">095 555 95 33</p>
           </a>
@@ -36,7 +37,7 @@
 
           <a class="tel-link" href="tel:+380668491089">
             <svg class="nav-icon">
-              <use href="/7team-mimino/assets/icons-871dcc29.svg#icon-phone"></use>
+              <use href="/7team-mimino/assets/icons-c0ccf45c.svg#icon-phone"></use>
             </svg>
             <p class="nav-tel">066 849 10 89</p>
           </a>
@@ -48,19 +49,19 @@
       <ul class="contacts-list">
         <li class="contacts-item">
           <svg class="contacts-icon">
-            <use href="/7team-mimino/assets/icons-871dcc29.svg#icon-intagram"></use>
+            <use href="/7team-mimino/assets/icons-c0ccf45c.svg#icon-intagram"></use>
           </svg>
         </li>
 
         <li class="contacts-item">
           <svg class="contacts-icon">
-            <use href="/7team-mimino/assets/icons-871dcc29.svg#icon-facebook"></use>
+            <use href="/7team-mimino/assets/icons-c0ccf45c.svg#icon-facebook"></use>
           </svg>
         </li>
 
         <li class="contacts-item">
           <svg class="contacts-icon">
-            <use href="/7team-mimino/assets/icons-871dcc29.svg#icon-telegram"></use>
+            <use href="/7team-mimino/assets/icons-c0ccf45c.svg#icon-telegram"></use>
           </svg>
         </li>
       </ul>
@@ -207,29 +208,73 @@
     </div>
 </section>
       <section class="details-restaurant">
-    <div class="container add">
-        <div class="line"></div>
-        <div class="textandbuttons">
-    <div class="alltexts">
-    <p class="text1">MIMIHO</p>
-    <h2 class="headtext">Ресторан</h2>
-    <p class="text2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-    </div>
-    <!-- <div class="box"></div> -->
-    <div class="buttons">
-        <button type="button" class="modal-open-btn">Забронювати столик</button>
-    
-        <a class="link-to-restaurantpage" href="./restaurant.html">Переглянути меню</a>
-       </div>
-        <!-- <button type="button" class="link-to-restaurantpage">Переглянути меню</button> -->
+  <div class="container add">
+    <div class="textandbuttons">
+      <div class="alltexts">
+        <p class="text1">MIMIHO</p>
+        <h2 class="headtext">Ресторан</h2>
+        <p class="text2">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit.
+        </p>
+      </div>
+      <!-- <div class="box"></div> -->
+      <div class="section_slider">
+        <div class="carousel_wrapper right">
+          <ul class="carousel carousel_right" id="details_restaurant_slider">
+            <li>
+              <img
+                src="../../img/restaurantdetails/details_restaurant_slider_1.jpg"
+                alt=""
+              />
+            </li>
+            <li>
+              <img
+                src="../../img/restaurantdetails/details_restaurant_slider_2.jpg"
+                alt=""
+              />
+            </li>
+            <li>
+              <img
+                src="../../img/restaurantdetails/details_restaurant_slider_2.jpg"
+                alt=""
+              />
+            </li>
+          </ul>
+          <div class="paginator_right" id="slider_1">
+            <ul class="carousel_right_arrow carousel_arrow">
+              <li class="prev">
+                <svg class="icon" height="32" width="32">
+                  <use href="../../img/icons.svg#icon-arrow_left"></use>
+                </svg>
+              </li>
+              <li class="next">
+                <svg class="icon" height="32" width="32">
+                  <use href="../../img/icons.svg#icon-arrow_right"></use>
+                </svg>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="buttons">
+          <button type="button" class="modal-open-btn">
+            Забронювати столик
+          </button>
 
-       <!---- <a href="https://www.restaurant.page.com/" class="button">Переглянути меню</a> 
+          <a class="link-to-restaurantpage" href="./restaurant.html"
+            >Переглянути меню</a
+          >
+        </div>
+      </div>
+      <!-- <button type="button" class="link-to-restaurantpage">Переглянути меню</button> -->
+
+      <!---- <a href="https://www.restaurant.page.com/" class="button">Переглянути меню</a> 
         
         <a class="mob-menu-navigation-item" href="./restaurant.html">Переглянути меню</a>-->
-
     </div>
-</div>
+  </div>
 </section>
+
       <section class="about-hotel">
   <div class="container">
     <h2 class="visually-hidden">About-hotel</h2>
@@ -393,7 +438,7 @@
               <ul class="contacts-box-rest">
                 <li class="contacts-list-inside">
                   <svg class="contacts-phone-icon" width="24" height="24">
-                    <use href="/7team-mimino/assets/icons-871dcc29.svg#icon-phone"></use>
+                    <use href="/7team-mimino/assets/icons-c0ccf45c.svg#icon-phone"></use>
                   </svg>
                 </li>
 
@@ -415,7 +460,7 @@
                 <!-- всередині коробочки -->
                 <li class="contacts-list-inside">
                   <svg class="contacts-phone-icon" width="24" height="24">
-                    <use href="/7team-mimino/assets/icons-871dcc29.svg#icon-phone"></use>
+                    <use href="/7team-mimino/assets/icons-c0ccf45c.svg#icon-phone"></use>
                   </svg>
                 </li>
 
@@ -438,7 +483,7 @@
               <ul class="contacts-box-1">
                 <li class="contacts-list-inside">
                   <svg class="contacts-phone-icon" width="24" height="24">
-                    <use href="/7team-mimino/assets/icons-871dcc29.svg#icon-location"></use>
+                    <use href="/7team-mimino/assets/icons-c0ccf45c.svg#icon-location"></use>
                   </svg>
                 </li>
 
@@ -658,6 +703,13 @@
   </div>
 </div>
 
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.slim.min.js"
+      integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo="
+      crossorigin="anonymous"
+    ></script>
+    
+    
     
     
   </body>
