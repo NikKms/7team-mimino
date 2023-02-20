@@ -63,15 +63,18 @@
   text-align: center;
 }
 .hero-title {
-  width: 303px;
+  /* width: 303px; */
   margin: auto;
   font-family: 'FilmP3Bold', sans-serif;
   font-weight: 700;
-  font-size: 96px;
+  font-size: 87px;
   line-height: 1.07;
   letter-spacing: 0.3em;
   margin-bottom: 24px;
   color: #ffffff;
+}
+.hero-title > span {
+  letter-spacing: 0;
 }
 .hero-main-title {
   font-family: 'Montserrat-SemiBold', sans-serif;
@@ -228,8 +231,8 @@
   }
   .hero-title {
     width: 404px;
-    padding-top: 135px;
-    margin: auto;
+    margin-top: 135px;
+    margin-left: auto;
     margin-bottom: 16px;
     font-family: 'FilmP3Bold', sans-serif;
     font-weight: 700;
@@ -237,6 +240,7 @@
     line-height: 1.07;
     letter-spacing: 0.3em;
     color: #ffffff;
+    margin-right: auto;
   }
   .hero-main-title {
     width: 368px;
