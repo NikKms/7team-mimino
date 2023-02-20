@@ -12,7 +12,7 @@
         background-size: cover;
         padding-top: 62px;
         padding-bottom: 20px;
-        width: 414px;}
+        width: 100%;}
 
     @media (min-device-pixel-ratio: 2), 
         (min-resolution: 192dpi),
@@ -25,7 +25,7 @@
         background-size: cover;
         padding-top: 62px;
         padding-bottom: 20px;
-        width: 414px;
+        width: 100%;
       }
     }
   
@@ -68,8 +68,7 @@
   }
   .hero-title {
     width: 303px;
-    margin-right: 55px;
-    margin-left: 42px;
+    margin: auto;
     font-family: 'FilmP3Bold';
     font-weight: 700;
     font-size: 96px;
@@ -90,14 +89,14 @@
   }
   .hero-main-big {
     font-family:'Times New Roman';
-    width: 317px;
+    margin: auto;
     height: 37px;
     font-size: 32px;
     line-height: 1.15;
     font-weight: 700;
     letter-spacing: 0.04em;
     color: #ffffff;
-    margin: auto;
+
     margin-bottom: 113px;
   }
   .dislocation{
@@ -126,7 +125,7 @@
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.02em;
-    width: 232px;
+    width: 236px;
     height: 48px;
     background: rgba(0, 0, 0, 0.4);
     border: 2px solid #FFFFFF;
@@ -165,9 +164,7 @@
           /* TABLET STYLES */
 
 @media screen and (min-width: 1024px) {
-  .container{
-        width: 960px;
-    }
+
   .hero-main{
     background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
     url("../../img/main-hero img/tablet\ background\ main\ hero.jpg");
@@ -176,7 +173,7 @@
         background-size: cover;
         padding-top: 62px;
         padding-bottom: 20px;
-        width: 1024px;}
+        width: 100%;}
 
     @media (min-device-pixel-ratio: 2), 
         (min-resolution: 192dpi),
@@ -189,7 +186,7 @@
         background-size: cover;
         padding-top: 62px;
         padding-bottom: 20px;
-        width:1024px;
+        width:100%;
       }
     }
      .container-position{
@@ -205,7 +202,7 @@
     font-family: "MontserratRegular";
     line-height: 1.25;
     letter-spacing: 0.01em;
-    left: 32px;
+    left: 15px;
     bottom: -20px;
     color: #e5e5e5;
     z-index: 1;
@@ -235,7 +232,7 @@
   }
   .hero-title {
     width: 404px;
-    padding-top: 168px;
+    padding-top: 135px;
     margin: auto;
     margin-bottom: 16px;
     font-family: 'FilmP3Bold';
@@ -253,7 +250,7 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin: auto;
-    margin-bottom: 64px;
+    margin-bottom: 56px;
     color: #FFFFFF;
   }
     .hero-main-big {
@@ -268,19 +265,20 @@
     margin: auto;
     margin-bottom: 120px;
   }
-    .dislocation{
+    
+  .dislocation{
     position: relative;
     top: 35px;
     right: 32px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
+
     gap: 40px;
+    width: 508px;
+    left: 421px;
   }
-  .hero-social-item{
-    margin-left: 33px;
-  }
+
   .icon {
     height: 24px;
     width: 24px;
@@ -325,14 +323,23 @@
     background-color: #FFFFFF;
     border: 2px solid #F3C653;
   }
+    .hero-social-main {
+    display: flex;
+    width: 112px;
+    flex-wrap: nowrap;
+    gap: 23px;
+    margin-top: 58px;
+  }
+  .icon {
+    height: 24px;
+    width: 24px;
+    fill: rgba(243, 198, 83, 0.7);
+  }
   
 }
           /* DECKTOP STYLES */
 
 @media screen and (min-width: 1280px) {
-  .container {
-    width: 1140px;
-  }
   .hero-main{
     background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
     url("../../img/main-hero img/decktop\ background\ main\ hero.jpg");
@@ -341,7 +348,8 @@
         background-size: cover;
         padding-top: 62px;
         padding-bottom: 20px;
-        width: 1280px;}
+        width: 100%;
+      }
 
     @media (min-device-pixel-ratio: 2), 
         (min-resolution: 192dpi),
@@ -353,8 +361,8 @@
         background-position: center;
         background-size: cover;
         padding-top: 62px;
-        padding-bottom: 20px;
-        width: 1280px;
+        padding-bottom: 0;
+        width: 100%;
       }
     }
     .container-position{
@@ -370,8 +378,8 @@
     font-family: "MontserratRegular";
     line-height: 1.25;
     letter-spacing: 0.01em;
-    left: 50px;
-    bottom: -20px;
+    left: 16px;
+    padding-bottom: 0;
     color: #e5e5e5;
     z-index: 1;
   } 
@@ -400,7 +408,7 @@
   }
   .hero-title {
     width: 404px;
-    padding-top: 144px;
+    padding-top: 100px;
     margin: auto;
     margin-bottom: 32px;
     font-family: 'FilmP3Bold';
@@ -418,7 +426,7 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin: auto;
-    margin-bottom: 56px;
+    margin-bottom: 64px;
     color: #FFFFFF;
   }
     .hero-main-big {
@@ -431,21 +439,20 @@
     letter-spacing: 0.05em;
     color: #FFFFFF;
     margin: auto;
-    margin-bottom: 113px;
+    margin-bottom: 205px;
   }
     .dislocation{
     position: relative;
-    top: 35px;
-    right: 32px;
+    top: -62px;
+    left: 539px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
-    gap: 40px;
+    gap: 60px;
+    width: 572px;
+    justify-content: space-between;
   }
-  .hero-social-item{
-    margin-left: 33px;
-  }
+
   .icon {
     height: 24px;
     width: 24px;
@@ -457,7 +464,7 @@
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.02em;
-    width: 232px;
+    width: 254px;
     height: 48px;
     background: rgba(0, 0, 0, 0.4);
     border: 2px solid #FFFFFF;
@@ -471,7 +478,7 @@
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.02em;
-    width: 236px;
+    width: 258px;
     height: 48px;
     background: rgba(0, 0, 0, 0.4);
     border: 2px solid #FFFFFF;
@@ -493,5 +500,8 @@
   .btn-main-2:focus{
     background-color: #FFFFFF;
     border: 2px solid #F3C653;
+  }
+  .hero-social-main{
+    display: none;
   }
 }
