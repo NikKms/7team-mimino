@@ -1,7 +1,10 @@
-.add {
-  position: relative;
+.details-restaurant > .container {
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
 }
-.line {
+
+/* .line {
   width: 620px;
   border: 1px solid rgba(122, 122, 122, 0.4);
   filter: blur(0.5px);
@@ -9,7 +12,7 @@
   position: absolute;
   top: 50%;
   left: -3.9%;
-}
+} */
 
 .alltexts {
   margin-left: auto;
@@ -47,19 +50,19 @@
   letter-spacing: 0.02em;
   color: #bababa;
   width: 259px;
-  height: 62px;
+  margin-bottom: 23px;
 }
 
-.buttons {
+.details-restaurant .buttons {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  margin-top: 39px;
+  margin-left: -29px;
 }
 .textandbuttons {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 398px;
 }
 
 .modal-open-btn {
@@ -129,6 +132,15 @@
   padding-bottom: 40px;
 }
 
+.carousel_wrapper {
+  max-width: 662px;
+  margin-left: auto;
+}
+
+.section_slider {
+  padding-left: 29px;
+}
+
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
@@ -166,6 +178,9 @@
   }
 }
 
+@media screen and (min-width: 415px) {
+}
+
 /* ---------------MEDIA TABLET(1024)---------------------- */
 @media screen and (min-width: 1024px) {
   .details-restaurant {
@@ -174,7 +189,7 @@
       url(../../img/restaurantdetails/bg-tab1.jpg);
     background-size: cover;
 
-    height: 620px;
+    /* height: 620px; */
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -187,8 +202,15 @@
         url(../../img/restaurantdetails/bg-tab2.jpg);
     }
   }
-  .textandbuttons {
-    gap: 200px;
+
+  .details-restaurant .section_slider {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+  }
+
+  .details-restaurant .buttons {
+    padding-bottom: 61px;
   }
 }
 
@@ -208,7 +230,6 @@
     line-height: 1.25;
     letter-spacing: 0.02em;
     width: 610px;
-    height: 44px;
   }
 }
 @media screen and (max-width: 1279px) {
@@ -229,7 +250,7 @@
       url(../../img/restaurantdetails/bg-desktop1.jpg);
     background-size: cover;
     width: 1280px;
-    height: 620px;
+    /* height: 620px; */
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
