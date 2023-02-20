@@ -30,9 +30,16 @@
   width: 258px;
   margin-bottom: 28px;
 }
+
+.picture-restaurant {
+  display: flex;
+}
+
+.picture-restaurant > picture {
+  margin-left: auto;
+}
+
 .about-restaurant-img-one {
-  position: relative;
-  left: 140px;
   width: 244px;
   margin-bottom: 32px;
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
