@@ -110,9 +110,6 @@ button {
   background: #ffffff;
   border: 2px solid #f3c653;
 }
-picture {
-  width: 400px;
-}
 .luxe-top img {
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
@@ -203,11 +200,11 @@ picture {
   .luxe-text {
     max-width: 400px;
   }
-  picture {
+  /* picture {
     width: 460px;
     height: calc(574px - 104px);
     margin-bottom: 50px;
-  }
+  } */
   .luxe-top img {
     top: -104px;
   }

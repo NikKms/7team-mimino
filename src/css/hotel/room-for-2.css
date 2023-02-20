@@ -124,9 +124,6 @@ button {
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
 }
-picture {
-  width: 400px;
-}
 .double-swiper {
   width: 200px;
   height: 200px;
@@ -212,11 +209,12 @@ picture {
   .double-text {
     max-width: 400px;
   }
-  picture {
+  /* picture {
     width: 460px;
     height: calc(574px - 104px);
     margin-bottom: 50px;
-  }
+  } */
+
   .double-top img {
     top: -104px;
   }
