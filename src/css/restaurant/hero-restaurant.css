@@ -16,7 +16,7 @@
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .hero-main {
+  .hero-restaurant {
     background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
       url('../../img/hero-restaurant-bg/mobile-restaurant-hero-x2.jpg');
     background-repeat: no-repeat;
