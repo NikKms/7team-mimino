@@ -6,6 +6,7 @@
 }
 .slidera .swiper-slide {
   padding-top: 65px;
+  padding-bottom: 40px;
   max-width: 1280px;
   font-size: 18px;
   color: #fff;
@@ -47,6 +48,7 @@
 
 .room-title {
   max-width: 325px;
+  margin-top: 315px;
 
   margin-right: auto;
   margin-right: auto;
@@ -101,6 +103,8 @@
 }
 
 .room-adress {
+  position: absolute;
+
   width: 210px;
   display: block;
   border: 1px solid rgba(243, 198, 83, 0.7);
@@ -124,6 +128,7 @@
 .room-icon {
   fill: var(--accent-color);
 }
+
 .room-btn {
   background: rgba(0, 0, 0, 0.4);
 
@@ -141,6 +146,18 @@
   border: 2px solid var(--accent-color);
 }
 
+/* 0 - 1023px */
+@media screen and (max-width: 1023px) {
+  .room-adress {
+    top: 63px;
+    right: 20px;
+  }
+  .room-soc-list {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+  }
+}
 /* 1024px+ */
 @media screen and (min-width: 1024px) {
   .room-title {
@@ -154,6 +171,11 @@
     line-height: 1.25;
     letter-spacing: 0.02em;
     max-width: 400px;
+  }
+  .room-adress-link {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
   }
 }
 
@@ -189,10 +211,24 @@
   }
   .room-title {
     max-width: 512px;
-    margin-top: 470px;
+    margin-top: 400px;
   }
   .room-text {
     max-width: 339px;
+  }
+  .room-adress {
+    left: 50px;
+    bottom: -50px;
+    min-width: 282px;
+  }
+
+  .room-soc-list {
+    display: flex;
+    flex-wrap: wrap;
+    left: 360px;
+    bottom: 33px;
+    position: absolute;
+    gap: 22px;
   }
 }
 
@@ -231,6 +267,13 @@
     position: absolute;
     top: 79%;
     right: 7%;
+  }
+  .room-adress {
+    display: none;
+  }
+
+  .room-soc-list {
+    display: none;
   }
 }
 
