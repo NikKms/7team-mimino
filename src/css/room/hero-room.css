@@ -5,6 +5,7 @@
   max-width: 1280px;
 }
 .slidera .swiper-slide {
+  padding-top: 65px;
   max-width: 1280px;
   font-size: 18px;
   color: #fff;
@@ -97,6 +98,31 @@
   width: 40px;
   height: 40px;
   background-image: url(../../img/room/swiper-arrow-right.svg);
+}
+
+.room-adress {
+  width: 210px;
+  display: block;
+  border: 1px solid rgba(243, 198, 83, 0.7);
+  border-radius: 2px;
+  font-size: 12px;
+  font-family: 'MontserratRegular', sans-serif;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  margin: auto;
+  margin-bottom: 70px;
+  margin-right: 0;
+  color: #e5e5e5;
+  padding: 10px 5px;
+  margin-left: auto;
+}
+.room-adress-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.room-icon {
+  fill: var(--accent-color);
 }
 .room-btn {
   background: rgba(0, 0, 0, 0.4);
