@@ -10,8 +10,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     
-    <script type="module" crossorigin src="/7team-mimino/assets/modal-51bcd239.js"></script>
-    <link rel="stylesheet" href="/7team-mimino/assets/modal-69248369.css">
+    <script type="module" crossorigin src="/7team-mimino/assets/jquery.mask-b9bf19d6.js"></script>
+    <link rel="stylesheet" href="/7team-mimino/assets/jquery-69248369.css">
   </head>
   <body>
     <header><div class="header">
@@ -81,57 +81,79 @@
 </header>
 
     <main>
-      
-                                <!-- OCHERETKO OLEG -->
+      <!-- OCHERETKO OLEG -->
 <section class="hero-main">
-<div class="container container-position">
-    <a href="https://goo.gl/maps/gsLoxivQWbPbsx788" target="_blank" title="Ресторанно-готельний комплекс">
-        <address class="adress-hotel">
-            <svg class="icon-svg-location">
-                <use href="/7team-mimino/assets/symbol-defs-b2b464a2.svg#icon-location"></use>
-            </svg>
-        <p class="hotel-location">Україна, м. Полтава,<br/>вул. Маршала Бірюзова, 15
+  <div class="container container-position">
+    <a
+      href="https://goo.gl/maps/gsLoxivQWbPbsx788"
+      target="_blank"
+      title="Ресторанно-готельний комплекс"
+    >
+      <address class="adress-hotel">
+        <svg class="icon-svg-location">
+          <use
+            href="/7team-mimino/assets/symbol-defs-b2b464a2.svg#icon-location"
+          ></use>
+        </svg>
+        <p class="hotel-location">
+          Україна, м. Полтава,<br />вул. Маршала Бірюзова, 15
         </p>
-        </address>
+      </address>
     </a>
     <div class="info-hotel">
-        <h1 class="hero-title">MIMIHO</h1>
-        <h2 class="hero-main-title">Ресторанно-готельний комплекс</h2>
-        <p class="hero-main-big">СМАК ЖИТТЯ 24/7</p>
-        <div class="dislocation">
+      <h1 class="hero-title">MIMIHO</h1>
+      <h2 class="hero-main-title">Ресторанно-готельний комплекс</h2>
+      <p class="hero-main-big">СМАК ЖИТТЯ 24/7</p>
+      <div class="dislocation">
+        <!-- Кнопка “Забронювати столик” має відкривати модальне вікно BOOR TABLE MODAL WINDOW -->
+        <button
+          class="btn-main-1 open_modal"
+          data-modal-id="#modal_table"
+          type="button"
+        >
+          Забронювати столик
+        </button>
 
-            <!-- Кнопка “Забронювати столик” має відкривати модальне вікно BOOR TABLE MODAL WINDOW -->
-            <button class="btn-main-1" type="button">Забронювати столик</button>
-
-                <!-- Кнопка “Забронювати номер” має відкривати модальне вікно BOOR ROOM MODAL WINDOW. -->
-            <button class="btn-main-2" type="button">Забронювати номер</button>
-
-        </div>
+        <!-- Кнопка “Забронювати номер” має відкривати модальне вікно BOOR ROOM MODAL WINDOW. -->
+        <button
+          class="btn-main-2 open_modal"
+          data-modal-id="#modal_room"
+          type="button"
+        >
+          Забронювати номер
+        </button>
+      </div>
     </div>
     <ul class="hero-social-main">
-        <li class="hero-social-item">
-            <a target="_blank" href="https://www.instagram.com/">
-                <svg class="icon">
-                    <use href="/7team-mimino/assets/symbol-defs-b2b464a2.svg#icon-instagram"></use>
-                </svg>
-            </a>
-        </li>
-        <li class="hero-social-item">
-            <a target="_blank" href="https://www.facebook.com/">
-                <svg class="icon">
-                    <use href="/7team-mimino/assets/symbol-defs-b2b464a2.svg#icon-facebook"></use>
-                </svg>
-            </a>
-        </li>
-        <li class="hero-social-item">
-            <a target="_blank" href="https://t.me/c/1135908310/588">
-                <svg class="icon">
-                    <use href="/7team-mimino/assets/symbol-defs-b2b464a2.svg#icon-telegram"></use>
-                </svg>
-            </a>
-        </li>
+      <li class="hero-social-item">
+        <a target="_blank" href="https://www.instagram.com/">
+          <svg class="icon">
+            <use
+              href="/7team-mimino/assets/symbol-defs-b2b464a2.svg#icon-instagram"
+            ></use>
+          </svg>
+        </a>
+      </li>
+      <li class="hero-social-item">
+        <a target="_blank" href="https://www.facebook.com/">
+          <svg class="icon">
+            <use
+              href="/7team-mimino/assets/symbol-defs-b2b464a2.svg#icon-facebook"
+            ></use>
+          </svg>
+        </a>
+      </li>
+      <li class="hero-social-item">
+        <a target="_blank" href="https://t.me/c/1135908310/588">
+          <svg class="icon">
+            <use
+              href="/7team-mimino/assets/symbol-defs-b2b464a2.svg#icon-telegram"
+            ></use>
+          </svg>
+        </a>
+      </li>
     </ul>
-    </div>
+  </div>
 </section>
 
       <section class="about-restaurant-section">
@@ -488,7 +510,153 @@
   </ul>
 </section>
 </footer>
+    <div id="modal_room" class="modal">
+  <div class="modal_container">
+    <button class="modal_close" type="button">
+      <svg class="icon" width="24" height="24">
+        <use href="../../img/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h3 class="modal_title">ЗАБРОНЮВАТИ НОМЕР</h3>
+    <form class="book_room_modal modal_form">
+      <div class="form_group">
+        <input
+          class="modal_input"
+          type="text"
+          id="name"
+          placeholder="Ваше ім’я"
+        />
+        <label class="modal_label" for="name">На кого забронювати номер?</label>
+      </div>
+      <div class="form_group">
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          class="modal_input"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+          placeholder="+38 (___) ___-__-__"
+        />
+        <label class="modal_label" for="phone">Номер телефону</label>
+      </div>
+      <div class="form_group">
+        <div class="form_group_right">
+          <div class="select_wrapper">
+            <select
+              class="modal_select"
+              id="category_room"
+              name="category_room"
+            >
+              <option value disabled selected>Двомісний люкс</option>
+              <option value="Двомісний люкс">Двомісний люкс</option>
+              <option value="select_2">select_2</option>
+              <option value="select_3">select_2</option>
+            </select>
+            <svg class="icon" width="24px" height="24px">
+              <use href="../../img/icons.svg#icon-select_arrow"></use>
+            </svg>
+          </div>
+          <label class="modal_label" for="name">Категорія номеру</label>
+        </div>
+      </div>
+      <div class="form_group">
+        <div class="select_wrapper">
+          <select class="modal_select" id="from" name="from">
+            <option value disabled selected>Сьогодні</option>
+            <option value="today">Сьогодні</option>
+            <option value="tomorrow">Завтра</option>
+          </select>
+          <svg class="icon" width="24px" height="24px">
+            <use href="../../img/icons.svg#icon-select_arrow"></use>
+          </svg>
+        </div>
+        <label class="modal_label" for="from">Дата заїзду</label>
+      </div>
+      <div class="form_group">
+        <div class="select_wrapper">
+          <select class="modal_select" id="till" name="till">
+            <option value disabled selected>Сьогодні</option>
+            <option value="today">Сьогодні</option>
+            <option value="tomorrow">Завтра</option>
+          </select>
+          <svg class="icon" width="24px" height="24px">
+            <use href="../../img/icons.svg#icon-select_arrow"></use>
+          </svg>
+        </div>
+        <label class="modal_label" for="till">Дата виїзду</label>
+      </div>
+      <button class="modal_btn" type="submit">ОФОРМИТИ БРОНЮВАННЯ</button>
+    </form>
+  </div>
+</div>
 
+    <div id="modal_table" class="modal">
+  <div class="modal_container">
+    <button class="modal_close" type="button">
+      <svg class="icon" width="24" height="24">
+        <use href="../../img/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h3 class="modal_title">ЗАБРОНЮВАТИ СТОЛИК</h3>
+    <form class="book_table_modal modal_form">
+      <div class="form_group">
+        <input
+          class="modal_input"
+          type="text"
+          id="name"
+          placeholder="Ваше ім’я"
+        />
+        <label class="modal_label" for="name"
+          >На кого забронювати столик?</label
+        >
+      </div>
+      <div class="form_group">
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          class="modal_input"
+          placeholder="+38 (___) ___-__-__"
+        />
+        <label class="modal_label" for="phone">Номер телефону</label>
+      </div>
+      <div class="form_group">
+        <div class="select_wrapper">
+          <select class="modal_select" id="people_number" name="people_number">
+            <option style="display: none" disabled selected>2</option>
+            <option value="two">2</option>
+            <option value="three">3</option>
+            <option value="four">4</option>
+          </select>
+          <svg class="icon" width="24px" height="24px">
+            <use href="../../img/icons.svg#icon-select_arrow"></use>
+          </svg>
+        </div>
+        <label class="modal_label" for="people_number"
+          >Столик на яку кількість осіб?</label
+        >
+      </div>
+      <div class="form_group">
+        <div class="select_wrapper">
+          <select class="modal_select" id="date" name="date">
+            <option style="display: none" value="today" disabled selected>
+              Сьогодні
+            </option>
+            <option value="today">Сьогодні</option>
+            <option value="tomorrow">Завтра</option>
+          </select>
+          <svg class="icon" width="24px" height="24px">
+            <use href="../../img/icons.svg#icon-select_arrow"></use>
+          </svg>
+        </div>
+        <label class="modal_label" for="date">На яку дату бронювати?</label>
+      </div>
+      <button class="modal_btn" type="submit">ОФОРМИТИ БРОНЮВАННЯ</button>
+    </form>
+  </div>
+</div>
+
+    
     
   </body>
 </html>
