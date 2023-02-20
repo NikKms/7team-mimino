@@ -3,6 +3,9 @@
   margin-right: auto;
 }
 /* MOBILE STYLES */
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
 .hero-main {
   background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
     url('../../img/hero-main/mobile-background-main-hero.jpg');
@@ -13,6 +16,7 @@
   padding-bottom: 20px;
   width: 100%;
 }
+  }
 
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -71,7 +75,7 @@
   margin: auto;
   font-family: 'FilmP3Bold', sans-serif;
   font-weight: 700;
-  font-size: 96px;
+  font-size: 92px;
   line-height: 1.07;
   letter-spacing: 0.3em;
   margin-bottom: 24px;
