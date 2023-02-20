@@ -35,7 +35,7 @@
     padding: 8px 3px 8px 34px;
     border: 1px solid rgba(243, 198, 83, 0.7);
     border-radius: 2px;
-    font-family: "MontserratRegular";
+    font-family: 'MontserratRegular',sans-serif;
     line-height: 1.25;
     letter-spacing: 0.01em;
     margin: auto;
@@ -54,7 +54,7 @@
     fill: var(--secondary-text-color);
   }
   .hotel-location {
-    font-family: 'Montserrat-Regular';
+    font-family: 'Montserrat-Regular',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -69,7 +69,7 @@
   .hero-title {
     width: 303px;
     margin: auto;
-    font-family: 'FilmP3Bold';
+    font-family: 'FilmP3Bold',sans-serif;
     font-weight: 700;
     font-size: 96px;
     line-height: 1.07;
@@ -78,7 +78,7 @@
     color: #ffffff;
   }
   .hero-main-title {
-    font-family: 'Montserrat-SemiBold';
+    font-family: 'Montserrat-SemiBold',sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.25;
@@ -88,7 +88,7 @@
     margin-bottom: 40px;
   }
   .hero-main-big {
-    font-family:'Times New Roman';
+    font-family:'Times New Roman',serif;
     margin: auto;
     height: 37px;
     font-size: 32px;
@@ -107,7 +107,7 @@
   }
   
   .btn-main-2:last-child {
-    font-family: 'Montserrat-Bold';
+    font-family: 'Montserrat-Bold',sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.25;
@@ -120,7 +120,7 @@
     border-radius: 25px;    
   }
   .btn-main-1{
-    font-family: 'Montserrat-Bold';
+    font-family: 'Montserrat-Bold',sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.25;
@@ -199,7 +199,7 @@
     padding: 8px 8px 8px 44px;
     border: 1px solid rgba(243, 198, 83, 0.7);
     border-radius: 2px;
-    font-family: "MontserratRegular";
+    font-family: "MontserratRegular",sans-serif;
     line-height: 1.25;
     letter-spacing: 0.01em;
     left: 15px;
@@ -222,7 +222,7 @@
     fill: var(--secondary-text-color);
   }
   .hotel-location {
-    font-family: 'Montserrat-Regular';
+    font-family: 'Montserrat-Regular',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -235,7 +235,7 @@
     padding-top: 135px;
     margin: auto;
     margin-bottom: 16px;
-    font-family: 'FilmP3Bold';
+    font-family: 'FilmP3Bold',sans-serif;
     font-weight: 700;
     font-size: 128px;
     line-height: 1.07;
@@ -244,7 +244,7 @@
   } 
     .hero-main-title {
       width: 368px;
-    font-family: 'Montserrat-SemiBold';
+    font-family: 'Montserrat-SemiBold',sans-serif;
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
@@ -254,7 +254,7 @@
     color: #FFFFFF;
   }
     .hero-main-big {
-    font-family:'Times New Roman';
+    font-family:'Times New Roman',serif;
     width: 358px;
     height: 41px;
     font-weight: 700;
@@ -299,7 +299,7 @@
     color: #F3C653;
   }
   .btn-main-1{
-    font-family: 'Montserrat-Bold';
+    font-family: 'Montserrat-Bold',sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.25;
@@ -375,7 +375,7 @@
     padding: 8px 8px 8px 44px;
     border: 1px solid rgba(243, 198, 83, 0.7);
     border-radius: 2px;
-    font-family: "MontserratRegular";
+    font-family: 'MontserratRegular',sans-serif;
     line-height: 1.25;
     letter-spacing: 0.01em;
     left: 16px;
@@ -398,7 +398,7 @@
     fill: var(--secondary-text-color);
   }
   .hotel-location {
-    font-family: 'Montserrat-Regular';
+    font-family: 'Montserrat-Regular',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -411,7 +411,7 @@
     padding-top: 100px;
     margin: auto;
     margin-bottom: 32px;
-    font-family: 'FilmP3Bold';
+    font-family: 'FilmP3Bold',sans-serif;
     font-weight: 700;
     font-size: 128px;
     line-height: 1.07;
@@ -420,7 +420,7 @@
   } 
     .hero-main-title {
     width: 368px;
-    font-family: 'Montserrat-SemiBold';
+    font-family: 'Montserrat-SemiBold',sans-serif;
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
@@ -430,7 +430,7 @@
     color: #FFFFFF;
   }
     .hero-main-big {
-    font-family:'Times New Roman';
+    font-family:'Times New Roman',serif;
     width: 358px;
     height: 41px;
     font-weight: 700;
@@ -459,7 +459,7 @@
     fill: rgba(243, 198, 83, 0.7);
   }
     .btn-main-2{
-    font-family: 'Montserrat-Bold';
+    font-family: 'Montserrat-Bold',sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.25;
@@ -473,7 +473,7 @@
     color: #F3C653;
   }
   .btn-main-1{
-    font-family: 'Montserrat-Bold';
+    font-family: 'Montserrat-Bold',sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.25;
