@@ -1,4 +1,4 @@
-console.log('fgdfg');
-import '../src/js/slick';
-import '../src/js/slider';
-import '../src/js/modal';
+import './js/swiper.js';
+import './js/slick.js';
+import './js/slider.js';
+import './js/modal.js';
