@@ -4,6 +4,7 @@
 
 @import url('./header.css');
 
+@import url('./slider.css');
 @import url('./main/main.css');
 @import url('./restaurant/restaurant.css');
 @import url('./hotel/hotel.css');
@@ -13,7 +14,3 @@
 @import url(./modal/modal.css);
 
 @import url('./footer.css');
-
-
-
-
