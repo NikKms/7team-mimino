@@ -1,0 +1,198 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 99;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0)); */
+  background-image: linear-gradient(
+    180deg,
+    #000000 0%,
+    rgba(0, 0, 0, 0.55) 54.17%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  /* background-image: linear-gradient(
+    180deg,
+    #000000 0%,
+    rgba(0, 0, 0, 0.55) 54.17%,
+    rgba(0, 0, 0, 0.65)
+  ); */
+}
+
+.header-container {
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 16px;
+  max-width: 414px;
+
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.header .header-logo {
+  font-family: 'FilmP3Bold', sans-serif;
+  font-size: 32px;
+  line-height: 1.08;
+  letter-spacing: 0.3em;
+
+  color: white;
+}
+
+.header .nav-list {
+  display: flex;
+  column-gap: 10px;
+  padding-bottom: 5px;
+}
+
+.header .nav-item {
+  display: flex;
+  column-gap: 6px;
+}
+
+.header .restaurant-link,
+.header .hotel-link {
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+
+  color: var(--accent-color);
+}
+
+.header .nav-tel {
+  display: none;
+}
+
+.header .nav-icon {
+  width: 18px;
+  height: 18px;
+  fill: var(--accent-color);
+}
+
+.header .contacts {
+  display: none;
+}
+
+@media screen and (min-width: 414px) {
+  .header .header-logo {
+    font-size: 36px;
+  }
+
+  .header .nav-list {
+    column-gap: 20px;
+  }
+
+  .header .restaurant-link,
+  .header .hotel-link {
+    font-size: 16px;
+  }
+
+  .header .nav-icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header-adress {
+    display: none;
+  }
+
+  .header-container {
+    width: 960px;
+    height: 80px;
+    max-width: 960px;
+    padding-top: 24px;
+    align-items: start;
+  }
+
+  .header .header-logo {
+    font-size: 40px;
+    line-height: calc(43 / 40);
+
+    letter-spacing: 0.3em;
+  }
+
+  .header .nav-list {
+    padding-bottom: 0;
+    column-gap: 72px;
+  }
+
+  .header .nav-item {
+    align-items: center;
+    column-gap: 32px;
+  }
+
+  .header .restaurant-link,
+  .header .hotel-link {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+    color: var(--accent-color);
+  }
+
+  .header .tel-link {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    padding-right: 8px;
+
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    border-radius: 2px;
+
+    transition: border-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  }
+
+  .header .tel-link:hover,
+  .header .tel-link:focus {
+    border-color: var(--accent-color);
+  }
+
+  .header .nav-tel {
+    display: block;
+    font-family: 'Montserrat-Regular';
+    font-size: 14px;
+    line-height: 1.21;
+    align-items: center;
+    letter-spacing: 0.02em;
+
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header-container {
+    width: 1140px;
+    max-width: 1140px;
+  }
+
+  .header .contacts {
+    display: block;
+    padding-top: 8px;
+    background-color: transparent;
+  }
+
+  .header .contacts-list {
+    display: flex;
+    column-gap: 20px;
+  }
+
+  .header .contacts-icon {
+    width: 24px;
+    height: 24px;
+    fill: rgba(243, 198, 83, 0.7);
+
+    transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  }
+
+  .header .contacts-icon:hover,
+  .header .contacts-icon:focus {
+    fill: var(--accent-color);
+  }
+}
