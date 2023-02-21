@@ -1,4 +1,4 @@
-import './js/swiper.js';
-import './js/slick.js';
-import './js/slider.js';
-import './js/modal.js';
+import './js/swiper';
+import './js/slick';
+import './js/slider';
+import './js/modal';
