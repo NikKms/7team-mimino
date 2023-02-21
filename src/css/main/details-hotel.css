@@ -88,6 +88,10 @@
   color: var(--accent-color);
 }
 
+.dh-section .section_slider .buttons {
+  margin-top: 32px;
+}
+
 /* 1024px+ */
 @media screen and (min-width: 1024px) {
   .dh-section {
