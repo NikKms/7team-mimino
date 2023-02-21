@@ -22,4 +22,34 @@ jQuery(function () {
     prevArrow: $('#slider_1 .carousel_right_arrow > .prev'),
     nextArrow: $('#slider_1 .carousel_right_arrow > .next'),
   });
+  jQuery('#about_restaurant').slick({
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    mobileFirst: true,
+    variableWidth: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 2,
+          variableWidth: true,
+        },
+      },
+      {
+        breakpoint: 414,
+        settings: {
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 2,
+          variableWidth: true,
+          arrows: true,
+        },
+      },
+    ],
+    prevArrow: $('#slider_2 .carousel_right_arrow > .prev'),
+    nextArrow: $('#slider_2 .carousel_right_arrow > .next'),
+  });
 });
