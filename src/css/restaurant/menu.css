@@ -1,8 +1,29 @@
 .menu {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
+.tables{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 16px;
+
+}
+.main-dishes{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.secondary-dishes{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 
 .menu-title {
+  margin-bottom: 32px;
+
   color: var(--black);
 
   font-family: 'Times New Roman', sans-serif;
@@ -17,6 +38,8 @@ line-height: calc(37/32);
 }
 
 .menu-chapter{
+  margin-bottom: 16px;
+
   color: var(--black);
 
 font-family: 'Times New Roman', sans-serif;
@@ -24,6 +47,8 @@ font-style: normal;
 font-weight: 700;
 font-size: 20px;
 line-height: calc(23/20);
+
+text-align: start;
 }
 
 
@@ -38,15 +63,31 @@ line-height: calc(12/10);
 letter-spacing: 0.02em;
 }
 
-td.dish-name {
-  width: 221px;
-}
-
 .dish-name> span {
+  margin-bottom: 4px;
+
   font-weight: 500;
 font-size: 14px;
 line-height: calc(17/14);
 }
+
+tr td:nth-child(1){
+  width: 60%;
+  padding-right: 30px;
+}
+
+tr td:nth-child(2){
+  width: 15%;
+}
+
+tr td:nth-child(3){
+  width: 15%;
+}
+
+td {
+  margin-bottom: 8px;
+}
+
 
 .weigth {
 color: var(--black);
@@ -71,4 +112,97 @@ letter-spacing: 0.02em;
 }
 
 .menu-btn {
+  padding: 14px 24px;
+
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: var(--accent-color);
+  background-color: var(--black);
+
+  font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: calc(20/16);
+letter-spacing: 0.02em;
+
+border: 2px solid #FFFDEE;
+border-radius: 25px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+cursor: pointer;
+}
+
+.menu-btn:hover, .menu-btn:focus {
+  background-color: var(--white);
+}
+
+
+@media screen and (min-width: 1024px) {
+
+  .menu {
+    padding-top: 58px;
+    padding-bottom: 40px;
+    background-color: #F0ECD6;
+  }
+
+  .tables{
+    flex-direction: row;
+    gap:88px ;
+  }
+  
+  .main-dishes{
+    gap: 20px;
+  }
+
+  .secondary-dishes{
+    gap: 20px;
+  }
+
+  .menu-title{
+    margin-bottom: 40px;
+  }
+
+  .column {
+    width: 421px;
+  }
+
+  
+  .menu-btn{
+    margin-top: 78px;
+    margin-left: auto;
+    margin-right: 12px;
+  }
+  
+}
+
+@media screen and (min-width:1280px) {
+
+  .menu {
+    padding-top: 58px;
+    padding-bottom: 60px;
+  }
+  
+  .tables{
+    gap: 140px;
+  }
+
+  .column{
+    width: 470px;
+  }
+
+  .dish-name> span{
+    font-size: 16px;
+  }
+
+  .menu-btn{
+    margin-top: 51px;
+    
+  }
+  
 }
