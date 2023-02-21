@@ -338,6 +338,73 @@
 </section>
     </main>
 
+    <div id="modal_table" class="modal">
+  <div class="modal_container">
+    <button class="modal_close" type="button">
+      <svg class="icon" width="24" height="24">
+        <use href="/7team-mimino/assets/icons-c0ccf45c.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h3 class="modal_title">ЗАБРОНЮВАТИ СТОЛИК</h3>
+    <form class="book_table_modal modal_form">
+      <div class="form_group">
+        <input
+          class="modal_input"
+          type="text"
+          id="name"
+          placeholder="Ваше ім’я"
+        />
+        <label class="modal_label" for="name"
+          >На кого забронювати столик?</label
+        >
+      </div>
+      <div class="form_group">
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          class="modal_input"
+          placeholder="+38 (___) ___-__-__"
+        />
+        <label class="modal_label" for="phone">Номер телефону</label>
+      </div>
+      <div class="form_group">
+        <div class="select_wrapper">
+          <select class="modal_select" id="people_number" name="people_number">
+            <option style="display: none" disabled selected>2</option>
+            <option value="two">2</option>
+            <option value="three">3</option>
+            <option value="four">4</option>
+          </select>
+          <svg class="icon" width="24px" height="24px">
+            <use href="/7team-mimino/assets/icons-c0ccf45c.svg#icon-select_arrow"></use>
+          </svg>
+        </div>
+        <label class="modal_label" for="people_number"
+          >Столик на яку кількість осіб?</label
+        >
+      </div>
+      <div class="form_group">
+        <div class="select_wrapper">
+          <select class="modal_select" id="date" name="date">
+            <option style="display: none" value="today" disabled selected>
+              Сьогодні
+            </option>
+            <option value="today">Сьогодні</option>
+            <option value="tomorrow">Завтра</option>
+          </select>
+          <svg class="icon" width="24px" height="24px">
+            <use href="/7team-mimino/assets/icons-c0ccf45c.svg#icon-select_arrow"></use>
+          </svg>
+        </div>
+        <label class="modal_label" for="date">На яку дату бронювати?</label>
+      </div>
+      <button class="modal_btn" type="submit">ОФОРМИТИ БРОНЮВАННЯ</button>
+    </form>
+  </div>
+</div>
+
+
     <script
     src="https://code.jquery.com/jquery-3.6.3.min.js"
     integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
