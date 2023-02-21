@@ -1,1 +1,0 @@
-import"./styles-fac82e35.js";import"./modal-687f0c5a.js";new Swiper(".swiper",{direction:"horizontal",loop:!0,speed:1e3,parallax:!0,spaceBetween:30,navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"}});
