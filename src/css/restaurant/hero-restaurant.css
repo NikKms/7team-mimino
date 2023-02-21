@@ -105,7 +105,10 @@
   gap: 24px;
 }
 
-.btn-main-2:last-child {
+.btn-main-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'Montserrat-Bold', sans-serif;
   font-weight: 700;
   font-size: 16px;
