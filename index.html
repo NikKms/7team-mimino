@@ -11,8 +11,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     
     <script type="module" crossorigin src="/7team-mimino/assets/modal-71c8453d.js"></script>
-    <script type="module" crossorigin src="/7team-mimino/assets/jquery.mask-3163ca33.js"></script>
-    <link rel="stylesheet" href="/7team-mimino/assets/modal-ca5a2f7d.css">
+    <script type="module" crossorigin src="/7team-mimino/assets/jquery.mask-28746881.js"></script>
+    <link rel="stylesheet" href="/7team-mimino/assets/modal-11a5638e.css">
   </head>
 
   <header><div class="header">
@@ -263,6 +263,26 @@
             />
           </picture>
         </li>
+        <li>
+          <picture>
+            <source
+              media="(min-width: 320px)"
+              srcset="/7team-mimino/assets/slider-restaurant-2-mobile-1x-60f011fc.jpg , /7team-mimino/assets/slider-restaurant-2-mobile-2x-4c590df9.jpg 2x"
+            />
+            <source
+              media="(min-width: 1024px)"
+              srcset="/7team-mimino/assets/slider-restaurant-2-desktop-1x-de8623f3.jpg , /7team-mimino/assets/slider-restaurant-2-desktop-2x-e99aed01.jpg 2x"
+            />
+            <source
+              media="(min-width: 1280px)"
+              srcset="/7team-mimino/assets/slider-restaurant-2-tablet-1x-c572b2e7.jpg , /7team-mimino/assets/slider-restaurant-2-tablet-2x-ad556dd0.jpg 2x"
+            />
+            <img
+              src="/7team-mimino/assets/slider-restaurant-2-mobile-1x-60f011fc.jpg"
+              alt=""
+            />
+          </picture>
+        </li>
       </ul>
       <div class="paginator_right" id="slider_2">
         <ul class="carousel_right_arrow carousel_arrow">
@@ -311,7 +331,7 @@
             </li>
             <li>
               <img
-                src="/7team-mimino/assets/details_restaurant_slider_2-75ada92e.jpg"
+                src="/7team-mimino/assets/details_restaurant_slider_1-96897ef0.jpg"
                 alt=""
               />
             </li>
@@ -427,26 +447,67 @@
       <section class="dh-section">
   <div class="container">
     <div class="dh-text-wrapper">
-      <div class="dh-title-text">
+      <div class="dh_text_content">
         <p class="dh-logo">MIMIHO</p>
         <h2 class="dh-title">Готель</h2>
+
+        <p class="dh-text">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit.
+        </p>
       </div>
-      <p class="dh-text">
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-        sint. Velit officia consequat duis enim velit mollit.
-      </p>
     </div>
 
-    <!-- ROOM MODAL -->
-    <button
-      class="dh-button open_modal"
-      data-modal-id="#modal_room"
-      type="button"
-    >
-      Забронювати номер
-    </button>
+    <div class="section_slider">
+      <div class="carousel_wrapper right">
+        <ul class="carousel carousel_right" id="dh_section_slider">
+          <li>
+            <img
+              src="/7team-mimino/assets/details_restaurant_slider_1-96897ef0.jpg"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="/7team-mimino/assets/details_restaurant_slider_2-75ada92e.jpg"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="/7team-mimino/assets/details_restaurant_slider_1-96897ef0.jpg"
+              alt=""
+            />
+          </li>
+        </ul>
+        <div class="paginator_right" id="dh_section_paginator">
+          <ul class="carousel_right_arrow carousel_arrow">
+            <li class="prev">
+              <svg class="icon" height="32" width="32">
+                <use href="/7team-mimino/assets/icons-c0ccf45c.svg#icon-arrow_left"></use>
+              </svg>
+            </li>
+            <li class="next">
+              <svg class="icon" height="32" width="32">
+                <use href="/7team-mimino/assets/icons-c0ccf45c.svg#icon-arrow_right"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="buttons">
+        <!-- ROOM MODAL -->
+        <button
+          class="dh-button open_modal"
+          data-modal-id="#modal_room"
+          type="button"
+        >
+          Забронювати номер
+        </button>
 
-    <a class="dh-link" href="./hotel.html">Переглянути ціни</a>
+        <a class="dh-link" href="./hotel.html">Переглянути ціни</a>
+      </div>
+    </div>
   </div>
 </section>
 
