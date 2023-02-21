@@ -92,7 +92,7 @@ td {
 .weigth {
 color: var(--black);
 
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 300;
 font-size: 14px;
@@ -161,7 +161,7 @@ cursor: pointer;
   }
 
   .secondary-dishes{
-    gap: 20px;
+    gap: 10px;
   }
 
   .menu-title{
