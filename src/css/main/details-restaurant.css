@@ -58,7 +58,6 @@
   flex-direction: column;
   gap: 16px;
   margin-top: 39px;
-  margin-left: -29px;
 }
 .textandbuttons {
   display: flex;
@@ -132,7 +131,7 @@
   padding-bottom: 40px;
 }
 
-.carousel_wrapper {
+.details-restaurant .carousel_wrapper {
   max-width: 662px;
   margin-left: auto;
 }
@@ -211,16 +210,19 @@
   }
 
   .details-restaurant .slick-slide {
-    padding-left: 17px;
-    padding-right: 17px;
-  }
-
-  .details-restaurant .buttons {
-    margin-left: 18px;
+    padding-right: 34px;
+    padding-left: 0;
   }
 
   .details-restaurant .buttons {
     padding-bottom: 61px;
+  }
+  .details-restaurant .carousel_wrapper {
+    max-width: calc(100% - 265px);
+  }
+  .details-restaurant > .container {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -242,14 +244,17 @@
     width: 610px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .details-restaurant .slick-slide {
+    padding-right: 86px;
+    padding-left: 0;
+  }
+}
+
 @media screen and (max-width: 1279px) {
   .line {
     display: none;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .buttons {
-    margin-left: 32px;
   }
 }
 /* ---------------MEDIA DESKTOP(1280)---------------------- */
@@ -277,9 +282,5 @@
 @media screen and (min-width: 1280px) {
   .alltexts {
     margin-right: auto;
-  }
-
-  .buttons {
-    margin-left: 10px;
   }
 }

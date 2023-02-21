@@ -1,25 +1,66 @@
 <section class="dh-section">
   <div class="container">
     <div class="dh-text-wrapper">
-      <div class="dh-title-text">
+      <div class="dh_text_content">
         <p class="dh-logo">MIMIHO</p>
         <h2 class="dh-title">Готель</h2>
+
+        <p class="dh-text">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit.
+        </p>
       </div>
-      <p class="dh-text">
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-        sint. Velit officia consequat duis enim velit mollit.
-      </p>
     </div>
 
-    <!-- ROOM MODAL -->
-    <button
-      class="dh-button open_modal"
-      data-modal-id="#modal_room"
-      type="button"
-    >
-      Забронювати номер
-    </button>
+    <div class="section_slider">
+      <div class="carousel_wrapper right">
+        <ul class="carousel carousel_right" id="dh_section_slider">
+          <li>
+            <img
+              src="./img/restaurantdetails/details_restaurant_slider_1.jpg"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="./img/restaurantdetails/details_restaurant_slider_2.jpg"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="./img/restaurantdetails/details_restaurant_slider_1.jpg"
+              alt=""
+            />
+          </li>
+        </ul>
+        <div class="paginator_right" id="dh_section_paginator">
+          <ul class="carousel_right_arrow carousel_arrow">
+            <li class="prev">
+              <svg class="icon" height="32" width="32">
+                <use href="./img/icons.svg#icon-arrow_left"></use>
+              </svg>
+            </li>
+            <li class="next">
+              <svg class="icon" height="32" width="32">
+                <use href="./img/icons.svg#icon-arrow_right"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="buttons">
+        <!-- ROOM MODAL -->
+        <button
+          class="dh-button open_modal"
+          data-modal-id="#modal_room"
+          type="button"
+        >
+          Забронювати номер
+        </button>
 
-    <a class="dh-link" href="./hotel.html">Переглянути ціни</a>
+        <a class="dh-link" href="./hotel.html">Переглянути ціни</a>
+      </div>
+    </div>
   </div>
 </section>
