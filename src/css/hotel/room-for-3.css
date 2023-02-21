@@ -177,12 +177,12 @@ button {
     letter-spacing: 0.02em;
     color: #7a7a7a;
   }
-  picture {
+  /* picture {
     position: relative;
     min-width: 400px;
     min-height: 430px;
     margin-bottom: 48px;
-  }
+  } */
   .triple-top img {
     position: absolute;
     top: -94px;

@@ -207,6 +207,16 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
+    padding-left: 0;
+  }
+
+  .details-restaurant .slick-slide {
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+
+  .details-restaurant .buttons {
+    margin-left: 18px;
   }
 
   .details-restaurant .buttons {
