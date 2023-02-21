@@ -44,8 +44,6 @@
 }
 .dh-text-wrapper {
   max-width: 243px;
-  margin-left: 17px;
-  margin-bottom: 390px;
 }
 /* .dh-button-wrap {
   margin-left: auto;
@@ -96,7 +94,6 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url(../../img/details-hotel/dh-bg-tablet.jpg);
     width: 1024px;
-    height: 620px;
     padding-top: 50px;
   }
 
@@ -114,13 +111,41 @@
   }
   .dh-text-wrapper {
     max-width: 535px;
-    margin-left: 170px;
-    margin-bottom: 200px;
   }
   .dh-button,
   .dh-link {
     margin-right: 10px;
     margin-left: auto;
+  }
+  .dh-section .section_slider {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 0;
+    gap: 29px;
+  }
+  .dh-section .buttons {
+    max-width: 236px;
+    padding-bottom: 63px;
+    margin-left: 0;
+  }
+  .dh-section .carousel_wrapper {
+    max-width: calc(100% - 265px);
+    margin-right: auto;
+  }
+  .dh-section .dh-text-wrapper {
+    max-width: calc(100% - 265px);
+    text-align: right;
+  }
+  .dh-section .dh_text_content {
+    max-width: 595px;
+    margin-left: auto;
+  }
+  .dh-section .dh_text_content .dh-logo {
+    margin-right: -20px;
+  }
+  .dh-section .slick-slide {
+    padding-right: 34px;
+    padding-left: 0;
   }
 }
 
@@ -133,8 +158,10 @@
   }
   .dh-text-wrapper {
     max-width: 584px;
-    margin-left: 285px;
-    margin-bottom: 200px;
+  }
+  .dh-section .slick-slide {
+    padding-right: 86px;
+    padding-left: 0;
   }
 }
 

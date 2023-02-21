@@ -153,10 +153,7 @@
   }
   .about_restaurant_slider .carousel_wrapper {
     max-width: 568px;
-  }
-
-  .about_restaurant_slider .carousel_wrapper {
-    max-width: 568px;
+    margin-left: auto;
   }
 }
 @media screen and (min-width: 1280px) {
