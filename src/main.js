@@ -1,4 +1,4 @@
-
-import './js/swiper';
-import './js/jquery.mask';
-import './js/modal';
+import './js/swiper.js';
+import './js/slick.js';
+import './js/slider.js';
+import './js/modal.js';

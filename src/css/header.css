@@ -58,6 +58,15 @@
   letter-spacing: 0.02em;
 
   color: var(--accent-color);
+
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+}
+
+.header .restaurant-link:hover,
+.header .restaurant-link:focus,
+.header .hotel-link:hover,
+.header .hotel-link:focus {
+  color: var(--primary-title-color);
 }
 
 .header .nav-tel {
@@ -68,6 +77,13 @@
   width: 18px;
   height: 18px;
   fill: var(--accent-color);
+
+  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+}
+
+.header .nav-icon:hover,
+.header .nav-icon:focus {
+  fill: var(--primary-title-color);
 }
 
 .header .contacts {
@@ -164,6 +180,19 @@
 
     color: #ffffff;
   }
+
+  .header .nav-icon {
+    width: 18px;
+    height: 18px;
+    fill: var(--accent-color);
+
+    transition: none;
+  }
+
+  .header .nav-icon:hover,
+  .header .nav-icon:focus {
+    fill: auto;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -189,6 +218,8 @@
     fill: rgba(243, 198, 83, 0.7);
 
     transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+
+    cursor: pointer;
   }
 
   .header .contacts-icon:hover,
