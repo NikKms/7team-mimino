@@ -31,8 +31,9 @@
   margin-bottom: 28px;
 }
 .about-kitchen-img-one {
-  position: relative;
-  left: 140px;
+  /* position: relative;
+  left: 140px; */
+  margin-left: auto;
   width: 244px;
   margin-bottom: 32px;
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
