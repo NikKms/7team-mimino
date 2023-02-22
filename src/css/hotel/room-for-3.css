@@ -229,7 +229,7 @@ button {
     margin-right: auto;
     margin-left: 0;
   }
-  .slider_hotel .paginator_right {
+  .triple .slider_hotel .paginator_right {
     flex-direction: inherit;
     padding-left: 0;
   }
