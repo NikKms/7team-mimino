@@ -136,11 +136,12 @@ justify-content: center;
 align-items: center;
 
 cursor: pointer;
-transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms, border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .menu-btn:hover, .menu-btn:focus {
   background-color: var(--white);
+  border: 2px solid #f3c653;
 }
 
 
