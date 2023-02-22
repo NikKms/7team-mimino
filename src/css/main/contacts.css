@@ -229,6 +229,7 @@ border-color: var(--accent-color);
   width: 100%;
   height: 100%;
 
+  border: transparent;
 }
 
 .contacts-division-1{
@@ -236,7 +237,7 @@ border-color: var(--accent-color);
 }
 
 .contacts-division-2{
-  max-width: 384px;
+  /* width: 384px; */
   height: 220px;
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 border-radius: 2px;
@@ -284,7 +285,7 @@ border-radius: 2px;
     margin-bottom: 0;
   }
   .contacts-division-2 {
-    max-width: 535px;
+    width: 535px;
     height: 412px ;
   }
 
@@ -346,7 +347,7 @@ border-radius: 2px;
     margin-bottom: 0;
   }
   .contacts-division-2 {
-    max-width: 634px;
+    width: 634px;
   }
 
   .contacts-box-1 {
