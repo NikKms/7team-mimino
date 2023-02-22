@@ -49,4 +49,10 @@
 .carousel_arrow .icon {
   width: 32px;
   height: 32px;
+  fill: #000;
+}
+
+.carousel_arrow .prev:hover > .icon,
+.carousel_arrow .next:hover > .icon {
+  fill: #f3c653;
 }

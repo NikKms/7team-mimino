@@ -177,16 +177,13 @@ button {
     letter-spacing: 0.02em;
     color: #7a7a7a;
   }
-  picture {
+  /* picture {
     position: relative;
     min-width: 400px;
     min-height: 430px;
     margin-bottom: 48px;
-  }
+  } */
   .triple-top img {
-    position: absolute;
-    top: -94px;
-    left: 0;
     margin-bottom: 0;
     box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
   }
@@ -199,7 +196,8 @@ button {
 
 @media screen and (min-width: 1280px) {
   .triple {
-    padding: 72px 0;
+    padding-top: 66px;
+    padding-bottom: 40px;
   }
   .triple-top {
     gap: 100px;
@@ -222,6 +220,17 @@ button {
     margin-bottom: 50px;
   } */
   .triple-top img {
-    top: -104px;
+    margin-top: -104px;
+  }
+  .triple .slider_hotel {
+    flex-direction: row-reverse;
+  }
+  .triple .luxe-btns {
+    margin-right: auto;
+    margin-left: 0;
+  }
+  .triple .slider_hotel .paginator_right {
+    flex-direction: inherit;
+    padding-left: 0;
   }
 }

@@ -7,16 +7,17 @@
     <title>MIMINO-ROOM</title>
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
-    <header><load src="partials/header.html" /></header>
+
+  <header><load src="partials/header.html" /></header>
 
     <main>
       <load src="partials/room/hero-room.html" />
@@ -26,9 +27,17 @@
 
     <footer><load src="partials/footer.html" /></footer>
 
-    <script type="module" src="/main.js"></script>
-    <!-- <script type="module" src="./js/jquery-3.6.3.js"></script> -->
+    <load src="partials/modal/book-room-modal.html" />
+    <load src="partials/modal/room-price-modal.html" />
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+  crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
     
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script type="module" src="/main.js"></script>
   </body>
+
 </html>

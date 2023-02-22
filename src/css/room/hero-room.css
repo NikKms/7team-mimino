@@ -20,14 +20,14 @@
 }
 
 .swiper-slide.aa {
-  background-image: url(../../img/room/room1mobile.jpg);
+  background-image: url(/img/room/room1mobile.jpg);
 }
 .swiper-slide.ab {
-  background-image: url(../../img/room/room2mobile.jpg);
+  background-image: url(/img/room/room2mobile.jpg);
 }
 
 .swiper-slide.ac {
-  background-image: url(../../img/room/room3mobile.jpg);
+  background-image: url(/img/room/room3mobile.jpg);
 }
 
 .room-hero .swiper {
@@ -84,7 +84,7 @@
   display: block;
   width: 40px;
   height: 40px;
-  background-image: url(../../img/room/swiper-arrow-left.svg);
+  background-image: url(/img/room/swiper-arrow-left.svg);
 }
 
 .swiper-button-next {
@@ -99,7 +99,7 @@
   display: block;
   width: 40px;
   height: 40px;
-  background-image: url(../../img/room/swiper-arrow-right.svg);
+  background-image: url(/img/room/swiper-arrow-right.svg);
 }
 
 .room-adress {
@@ -109,27 +109,61 @@
   display: block;
   border: 1px solid rgba(243, 198, 83, 0.7);
   border-radius: 2px;
+
+  margin: auto;
+  margin-bottom: 70px;
+  margin-right: 0;
+  padding: 10px 5px;
+  margin-left: auto;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+}
+.room-adress:hover,
+.room-adress:focus {
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
+.room-adress-link {
   font-size: 12px;
   font-family: 'MontserratRegular', sans-serif;
   line-height: 1.25;
   letter-spacing: 0.01em;
-  margin: auto;
-  margin-bottom: 70px;
-  margin-right: 0;
-  color: #e5e5e5;
-  padding: 10px 5px;
-  margin-left: auto;
-}
-.room-adress-link {
+
   display: flex;
   align-items: center;
   gap: 8px;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
+
+.hotel-location {
+  color: #e5e5e5;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+}
+.hotel-location:hover,
+.hotel-location:focus {
+  color: var(--accent-color);
+}
+
 .room-icon {
+  fill: rgba(243, 198, 83, 0.7);
+  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+}
+.room-icon:hover,
+.room-icon:focus {
+  fill: var(--accent-color);
+}
+.room-adress:hover .room-icon,
+.room-adress:focus .room-icon {
   fill: var(--accent-color);
 }
 
 .room-btn {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+
   background: rgba(0, 0, 0, 0.4);
 
   border: 2px solid #fff;
@@ -138,6 +172,8 @@
   color: var(--accent-color);
   margin-top: 30px;
   margin-left: 109px;
+  transition: border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .room-btn:hover,
 .room-btn:focus,
@@ -183,14 +219,14 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .swiper-slide.aa {
-    background-image: url(../../img/room/room1tablet.jpg);
+    background-image: url(/img/room/room1tablet.jpg);
   }
   .swiper-slide.ab {
-    background-image: url(../../img/room/room2tablet.jpg);
+    background-image: url(/img/room/room2tablet.jpg);
   }
 
   .swiper-slide.ac {
-    background-image: url(../../img/room/room3tablet.jpg);
+    background-image: url(/img/room/room3tablet.jpg);
   }
   .slider .swiper {
     max-width: 1024px;
@@ -207,7 +243,7 @@
   }
   .room-btn {
     margin-top: 0;
-    margin-left: 700px;
+    margin-left: 673px;
   }
   .room-title {
     max-width: 512px;
@@ -235,14 +271,14 @@
 /* 1280px+ */
 @media screen and (min-width: 1280px) {
   .swiper-slide.aa {
-    background-image: url(../../img/room/room1desktop.jpg);
+    background-image: url(/img/room/room1desktop.jpg);
   }
   .swiper-slide.ab {
-    background-image: url(../../img/room/room2desktop.jpg);
+    background-image: url(/img/room/room2desktop.jpg);
   }
 
   .swiper-slide.ac {
-    background-image: url(../../img/room/room3desktop.jpg);
+    background-image: url(/img/room/room3desktop.jpg);
   }
   .slider .swiper {
     max-width: 1280px;
@@ -260,7 +296,7 @@
     top: 60%;
   }
   .room-title {
-    margin-top: 530px;
+    margin-top: 430px;
   }
 
   .room-btn {
@@ -282,14 +318,14 @@
   screen and (min-resolution: 192dpi) and (min-width: 1024px) and (max-width: 1279px),
   screen and (min-resolution: 2dppx) and (min-width: 1024px) and (max-width: 1279px) {
   .swiper-slide.aa {
-    background-image: url(../../img/room/room1tablet@2x.jpg);
+    background-image: url(/img/room/room1tablet@2x.jpg);
   }
   .swiper-slide.ab {
-    background-image: url(../../img/room/room2tablet@2x.jpg);
+    background-image: url(/img/room/room2tablet@2x.jpg);
   }
 
   .swiper-slide.ac {
-    background-image: url(../../img/room/room3tablet@2x.jpg);
+    background-image: url(/img/room/room3tablet@2x.jpg);
   }
 }
 
@@ -299,14 +335,14 @@
   screen and (min-resolution: 192dpi) and (max-width: 1023px),
   screen and (min-resolution: 2dppx) and (max-width: 1023px) {
   .swiper-slide.aa {
-    background-image: url(../../img/room/room1mobile@2x.jpg);
+    background-image: url(/img/room/room1mobile@2x.jpg);
   }
   .swiper-slide.ab {
-    background-image: url(../../img/room/room2mobile@2x.jpg);
+    background-image: url(/img/room/room2mobile@2x.jpg);
   }
 
   .swiper-slide.ac {
-    background-image: url(../../img/room/room3mobile@2x.jpg);
+    background-image: url(/img/room/room3mobile@2x.jpg);
   }
 }
 
@@ -316,13 +352,13 @@
   screen and (min-resolution: 192dpi) and (min-width: 1280px),
   screen and (min-resolution: 2dppx) and (min-width: 1280px) {
   .swiper-slide.aa {
-    background-image: url(../../img/room/room1desktop@2x.jpg);
+    background-image: url(/img/room/room1desktop@2x.jpg);
   }
   .swiper-slide.ab {
-    background-image: url(../../img/room/room2desktop@2x.jpg);
+    background-image: url(/img/room/room2desktop@2x.jpg);
   }
 
   .swiper-slide.ac {
-    background-image: url(../../img/room/room3desktop@2x.jpg);
+    background-image: url(/img/room/room3desktop@2x.jpg);
   }
 }

@@ -1,75 +1,63 @@
 <section class="dh-section">
   <div class="container">
     <div class="dh-text-wrapper">
-      <div class="dh-title-text">
+      <div class="dh_text_content">
         <p class="dh-logo">MIMIHO</p>
         <h2 class="dh-title">Готель</h2>
+
+        <p class="dh-text">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit.
+        </p>
       </div>
-      <p class="dh-text">
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-        sint. Velit officia consequat duis enim velit mollit.
-      </p>
     </div>
 
-    <!-- ROOM MODAL -->
-    <button class="dh-button" type="button">Забронювати номер</button>
-
-    <a class="dh-link" href="./hotel.html">Переглянути ціни</a>
-
-    <!-- <div class="dh-content-block-wrapper">
-      <div class="dh-images-wrapper">
-        <ul class="dh-services-image-list">
-          <li class="dh-services-image-item">
-            <img
-              class="dh-first-image"
-              srcset="
-                ./img/main/details-hotel/bed_in_the_room@1x.jpg 1x,
-                ./img/main/details-hotel/bed_in_the_room@2x.jpg 2x
-              "
-              src="./img/main/details-hotel/bed_in_the_room@1x.jpg"
-              alt="sleeping bed"
-              width="274"
-              height="270"
-            />
+    <div class="section_slider">
+      <div class="carousel_wrapper right">
+        <ul class="carousel carousel_right" id="dh_section_slider">
+          <li>
+            <img src="./img/main/details-hotel/bed_in_the_room@1x.jpg" alt="" />
           </li>
-          <li class="dh-services-image-item">
-            <img
-              class="dh-second-image"
-              srcset="
-                ./img/main/details-hotel/breakfast@1x.jpg 1x,
-                ./img/main/details-hotel/breakfast@2x.jpg 2x
-              "
-              src="./img/main/details-hotel/breakfast@1x.jpg"
-              alt="breakfast"
-              width="274"
-              height="270"
-            />
+          <li>
+            <img src="./img/main/details-hotel/breakfast@1x.jpg" alt="" />
           </li>
-          <li class="dh-services-image-item">
+          <li>
+            <img src="./img/main/details-hotel/reception@1x.jpg" alt="" />
+          </li>
+          <li>
             <img
-              class="dh-third-image"
-              srcset="
-                ./img/main/details-hotel/reception@1x.jpg  1x,
-                ../img/main/details-hotel/reception@2x.jpg 2x
-              "
-              src="./img/main/details-hotel/reception@1x.jpg"
-              alt="reception"
-              width="274"
-              height="270"
+              src="./img/restaurantdetails/details_restaurant_slider_2.jpg"
+              alt=""
             />
           </li>
         </ul>
+        <div class="paginator_right" id="dh_section_paginator">
+          <ul class="carousel_right_arrow carousel_arrow">
+            <li class="prev">
+              <svg class="icon" height="32" width="32">
+                <use href="./img/icons.svg#icon-arrow_left"></use>
+              </svg>
+            </li>
+            <li class="next">
+              <svg class="icon" height="32" width="32">
+                <use href="./img/icons.svg#icon-arrow_right"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="dh-button-wrap dh-buttons-block">
-        <button class="dh-button button-booking" type="button">
+      <div class="buttons">
+        <!-- ROOM MODAL -->
+        <button
+          class="dh-button open_modal"
+          data-modal-id="#modal_room"
+          type="button"
+        >
           Забронювати номер
         </button>
-        <form action="./about-hotel.html" target="_self">
-          <button class="dh-button button-prices" type="form">
-            Переглянути ціни
-          </button>
-        </form>
+
+        <a class="dh-link" href="./hotel.html">Переглянути ціни</a>
       </div>
-    </div> -->
+    </div>
   </div>
 </section>

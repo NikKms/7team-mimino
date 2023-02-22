@@ -9,6 +9,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -22,17 +28,27 @@
       <load src="partials/main/details-hotel.html" />
       <load src="partials/main/contacts.html" />
     </main>
-
     <footer><load src="partials/footer.html" /></footer>
+
     <load src="partials/modal/book-room-modal.html" />
     <load src="partials/modal/book-table-modal.html" />
-    
-    
-    <script type="module" src="./js/modal.js"></script>
+
     <script
-      src="./js/jquery-3.6.3.js"
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
     ></script>
-    <script type="module" src="./js/slick.js"></script>
-    <script type="module" src="./js/slider.js"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+
+    <script type="module" src="/main.js"></script>
+    <!-- <script>
+      AOS.init();
+    </script> -->
   </body>
 </html>
