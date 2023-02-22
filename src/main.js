@@ -4,7 +4,7 @@ import './js/modal'
 // import './js/slick'
 import './js/slider'
 
-import './js/jquery.mask'
+// import './js/jquery.mask'
 
 import './js/swiper'
 
