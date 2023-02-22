@@ -180,9 +180,6 @@ button {
     margin-bottom: 48px;
   } */
   .double-top img {
-    position: absolute;
-    top: -94px;
-    left: 0;
     margin-bottom: 0;
     box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
   }
