@@ -38,6 +38,18 @@
   margin-bottom: 70px;
   margin-right: 0;
   color: #e5e5e5;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    border-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+}
+.adress-hotel:focus,
+.adress-hotel:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
+.adress-hotel:focus .icon-svg-location,
+.adress-hotel:hover .icon-svg-location {
+  fill: var(--accent-color);
 }
 .icon-svg-location {
   width: 20px;
@@ -48,6 +60,7 @@
   left: 5px;
   margin: auto 0;
   fill: var(--secondary-text-color);
+  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .hotel-location {
   font-family: 'Montserrat-Regular', sans-serif;
@@ -117,7 +130,8 @@
   background: rgba(0, 0, 0, 0.4);
   border: 2px solid #ffffff;
   border-radius: 25px;
-  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms, border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .btn-main-1 {
   font-family: 'Montserrat-Bold', sans-serif;
@@ -131,7 +145,8 @@
   border: 2px solid #ffffff;
   border-radius: 25px;
   color: #f3c653;
-  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms, border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .btn-main-1:hover {
   background-color: #ffffff;
@@ -160,6 +175,7 @@
   height: 20px;
   width: 20px;
   fill: rgba(243, 198, 83, 0.7);
+  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 /* TABLET STYLES */
