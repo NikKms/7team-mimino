@@ -63,6 +63,8 @@
 
   margin-left: auto;
   margin-right: auto;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms, background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms, border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+
 }
 .dh-button {
   margin-bottom: 16px;
