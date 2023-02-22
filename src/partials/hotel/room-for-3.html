@@ -32,22 +32,125 @@
         />
       </picture>
     </div>
-    <div class="triple-bottom">
-      <!-- Майбутній Slider -->
-      <div class="triple-swiper"></div>
-      <div class="triple-btns">
-        <!-- Перша кнопка повинна бути посиланням за ТЗ -->
-        <a href="./room.html" class="triple-btn">Детальніше</a>
-
-        <!-- ROOM PRICE MODAL -->
-        <button
-          type="button"
-          class="triple-btn open_modal"
-          data-modal-id="#modal_price"
-        >
-          Переглянути ціни
-        </button>
+  </div>
+  <div class="container slider_hotel">
+    <div class="carousel_wrapper right">
+      <ul class="carousel carousel_right" id="triple_slider">
+        <li>
+          <picture>
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                ./img/kitchen/kitchen-slider-1-desktop-1x.jpg,
+                ./img/kitchen/kitchen-slider-1-desktop-2x.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 1024px)"
+              srcset="
+                ./img/kitchen/kitchen-slider-1-tablet-1x.jpg,
+                ./img/kitchen/kitchen-slider-1-tablet-2x.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 320px)"
+              srcset="
+                ./img/kitchen/kitchen-slider-1-mobile-1x.jpg,
+                ./img/kitchen/kitchen-slider-1-mobile-2x.jpg 2x
+              "
+            />
+            <img
+              src="../../img/kitchen/kitchen-slider-1-mobile-1x.jpg"
+              alt=""
+            />
+          </picture>
+        </li>
+        <li>
+          <picture>
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                ./img/kitchen/kitchen-slider-2-desktop-1x.jpg,
+                ./img/kitchen/kitchen-slider-2-desktop-2x.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 1024px)"
+              srcset="
+                ./img/kitchen/kitchen-slider-2-tablet-1x.jpg,
+                ./img/kitchen/kitchen-slider-2-tablet-2x.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 320px)"
+              srcset="
+                ./img/kitchen/kitchen-slider-2-mobile-1x.jpg,
+                ./img/kitchen/kitchen-slider-2-mobile-2x.jpg 2x
+              "
+            />
+            <img
+              src="../../img/kitchen/kitchen-slider-2-mobile-1x.jpg"
+              alt=""
+            />
+          </picture>
+        </li>
+        <li>
+          <picture>
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                ./img/kitchen/kitchen-slider-1-desktop-1x.jpg,
+                ./img/kitchen/kitchen-slider-1-desktop-2x.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 1024px)"
+              srcset="
+                ./img/kitchen/kitchen-slider-1-tablet-1x.jpg,
+                ./img/kitchen/kitchen-slider-1-tablet-2x.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 320px)"
+              srcset="
+                ./img/kitchen/kitchen-slider-1-mobile-1x.jpg,
+                ./img/kitchen/kitchen-slider-1-mobile-2x.jpg 2x
+              "
+            />
+            <img
+              src="../../img/kitchen/kitchen-slider-1-mobile-1x.jpg"
+              alt=""
+            />
+          </picture>
+        </li>
+      </ul>
+      <div class="paginator_right" id="triple_slider_paginator">
+        <ul class="carousel_right_arrow carousel_arrow">
+          <li class="prev">
+            <svg class="icon" height="32" width="32">
+              <use href="./img/icons.svg#icon-arrow_left"></use>
+            </svg>
+          </li>
+          <li class="next">
+            <svg class="icon" height="32" width="32">
+              <use href="./img/icons.svg#icon-arrow_right"></use>
+            </svg>
+          </li>
+        </ul>
       </div>
+    </div>
+    <div class="luxe-btns">
+      <!-- Перша кнопка повинна бути посиланням за ТЗ -->
+      <a href="./room.html" class="luxe-btn">Детальніше</a>
+
+      <!-- ROOM PRICE MODAL -->
+      <button
+        type="button"
+        class="luxe-btn open_modal"
+        data-modal-id="#modal_price"
+      >
+        Переглянути ціни
+      </button>
     </div>
   </div>
 </section>

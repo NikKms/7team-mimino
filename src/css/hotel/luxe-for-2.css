@@ -103,7 +103,15 @@ button {
   border-radius: 2px;
 }
 
-.luxe .slick-slide {
+.slider_hotel {
+  display: flex;
+}
+
+.slider_hotel .paginator_right {
+  flex-direction: row-reverse;
+}
+
+.slider_hotel .slick-slide {
   padding-top: 0;
   padding-left: 0;
   padding-right: 40px;
@@ -123,8 +131,10 @@ button {
     display: flex;
   }
   .luxe-btns {
-    margin: auto 0;
     margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 61px;
   }
 
   .luxe-pretitle {
@@ -164,7 +174,8 @@ button {
 
 @media screen and (min-width: 1280px) {
   .luxe {
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 47px;
   }
   .luxe-top {
     gap: 50px;
@@ -188,5 +199,8 @@ button {
   } */
   .luxe-top img {
     margin-top: -152px;
+  }
+  .slider_hotel {
+    margin-top: 48px;
   }
 }
