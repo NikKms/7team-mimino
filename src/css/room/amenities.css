@@ -60,6 +60,7 @@
   line-height: 1.2;
   color: var(--primary-title-color);
   padding: 20px 40px;
+  transition: background cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .amenities-btn:hover,
 .amenities-btn:focus,
@@ -80,7 +81,7 @@
   letter-spacing: 0.02em;
 
   color: var(--secondary-text-color);
-  fill: var(--black);
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .amenities-link:hover,
