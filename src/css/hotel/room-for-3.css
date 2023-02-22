@@ -196,7 +196,8 @@ button {
 
 @media screen and (min-width: 1280px) {
   .triple {
-    padding: 72px 0;
+    padding-top: 66px;
+    padding-bottom: 40px;
   }
   .triple-top {
     gap: 100px;
@@ -220,5 +221,16 @@ button {
   } */
   .triple-top img {
     margin-top: -104px;
+  }
+  .triple .slider_hotel {
+    flex-direction: row-reverse;
+  }
+  .triple .luxe-btns {
+    margin-right: auto;
+    margin-left: 0;
+  }
+  .slider_hotel .paginator_right {
+    flex-direction: inherit;
+    padding-left: 0;
   }
 }
