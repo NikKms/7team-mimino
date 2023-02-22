@@ -120,6 +120,7 @@
   background: rgba(0, 0, 0, 0.4);
   border: 2px solid #ffffff;
   border-radius: 25px;
+  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms, border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .btn-main-1 {
   font-family: 'Montserrat-Bold', sans-serif;
@@ -133,6 +134,7 @@
   border: 2px solid #ffffff;
   border-radius: 25px;
   color: #f3c653;
+  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms, border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .btn-main-1:hover {
   background-color: #ffffff;
