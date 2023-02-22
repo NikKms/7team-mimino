@@ -380,8 +380,14 @@
     left: 16px;
     padding-bottom: 0;
     color: #e5e5e5;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     z-index: 1;
   }
+    .hero-hotel .adress-hotel:hover,
+    .hero-hotel .adress-hotel:focus{
+      border-color: var(--accent-color);
+    }
+  
   .icon-svg-location {
     width: 24px;
     height: 24px;
@@ -396,6 +402,7 @@
     height: 24px;
     fill: var(--secondary-text-color);
   }
+
   .hotel-location {
     font-family: 'Montserrat-Regular', sans-serif;
     font-style: normal;
