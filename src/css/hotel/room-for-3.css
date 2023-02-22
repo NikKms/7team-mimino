@@ -184,9 +184,6 @@ button {
     margin-bottom: 48px;
   } */
   .triple-top img {
-    position: absolute;
-    top: -94px;
-    left: 0;
     margin-bottom: 0;
     box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
   }
@@ -222,6 +219,6 @@ button {
     margin-bottom: 50px;
   } */
   .triple-top img {
-    top: -104px;
+    margin-top: -104px;
   }
 }

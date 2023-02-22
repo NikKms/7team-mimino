@@ -83,7 +83,8 @@
   justify-content: center;
   align-items: center;
   padding: 14px 0;
-  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms, border cubic-bezier(0.4, 0, 0.2, 1) 250ms;;
+  transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .modal-open-btn:hover,
@@ -139,6 +140,10 @@
 
 .section_slider {
   padding-left: 29px;
+}
+
+.details-restaurant .slick-arrow > .icon {
+  fill: #fff;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -224,6 +229,9 @@
   .details-restaurant > .container {
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .details-restaurant .paginator_right {
+    padding-left: 0;
   }
 }
 

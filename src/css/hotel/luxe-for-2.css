@@ -35,10 +35,6 @@ button {
   }
 }
 
-.luxe-top {
-}
-.luxe-wrapper {
-}
 .luxe-pretitle {
   margin-bottom: 8px;
   font-weight: 400;
@@ -74,14 +70,6 @@ button {
   letter-spacing: 0.02em;
   color: #7a7a7a;
 }
-.luxe-top img {
-  margin-left: auto;
-  margin-bottom: 32px;
-}
-.luxe-bottom {
-}
-.luxe-btns {
-}
 .luxe-btn {
   display: flex;
   justify-content: center;
@@ -114,11 +102,11 @@ button {
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
 }
-.luxe-swiper {
-  width: 200px;
-  height: 200px;
-  background-color: #000000;
-  margin-bottom: 72px;
+
+.luxe .slick-slide {
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 40px;
 }
 
 /*-----MEDIA(MIN-WIDTH:1024PX)-----*/
@@ -168,14 +156,7 @@ button {
     margin-bottom: 48px;
   } */
   .luxe-top img {
-    position: absolute;
-    top: -94px;
-    left: 0;
-    margin-bottom: 0;
     box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
-  }
-  .luxe-swiper {
-    margin-bottom: 0;
   }
 }
 
@@ -183,7 +164,7 @@ button {
 
 @media screen and (min-width: 1280px) {
   .luxe {
-    padding: 72px 0;
+    padding: 120px 0;
   }
   .luxe-top {
     gap: 50px;
@@ -206,6 +187,6 @@ button {
     margin-bottom: 50px;
   } */
   .luxe-top img {
-    top: -104px;
+    margin-top: -152px;
   }
 }

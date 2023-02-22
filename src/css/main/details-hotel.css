@@ -8,7 +8,6 @@
 
   padding-top: 24px;
   padding-bottom: 40px;
-  
 }
 
 .dh-logo {
@@ -31,7 +30,6 @@
 }
 .dh-title-text {
   text-align: right;
-  
 }
 .dh-text {
   font-family: 'Montserrat-Medium', sans-serif;
@@ -43,7 +41,6 @@
 .dh-text-wrapper {
   max-width: 243px;
 }
-
 
 .dh-button,
 .dh-link {
@@ -63,8 +60,9 @@
 
   margin-left: auto;
   margin-right: auto;
-  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms, background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms, border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
-
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms,
+    border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .dh-button {
   margin-bottom: 16px;
@@ -88,6 +86,10 @@
 
 .dh-section .section_slider .buttons {
   margin-top: 32px;
+}
+
+.dh-section .slick-arrow > .icon {
+  fill: #fff;
 }
 
 /* 1024px+ */
@@ -149,6 +151,9 @@
     padding-right: 34px;
     padding-left: 0;
   }
+  .dh-section .paginator_right {
+    padding-left: 0;
+  }
 }
 
 /* 1280px+ */
@@ -198,4 +203,3 @@
       url(/img/details-hotel/dh-bg-desktop@2x.jpg);
   }
 }
-

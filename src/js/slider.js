@@ -82,4 +82,34 @@ jQuery(function () {
     prevArrow: $('#dh_section_paginator .carousel_right_arrow > .prev'),
     nextArrow: $('#dh_section_paginator .carousel_right_arrow > .next'),
   });
+  jQuery('#kitchen_page_slider').slick({
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    mobileFirst: true,
+    variableWidth: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          infinite: true,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          variableWidth: true,
+        },
+      },
+      {
+        breakpoint: 414,
+        settings: {
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 2,
+          variableWidth: true,
+          arrows: true,
+        },
+      },
+    ],
+    prevArrow: $('#slider_3 .carousel_right_arrow > .prev'),
+    nextArrow: $('#slider_3 .carousel_right_arrow > .next'),
+  });
 });
