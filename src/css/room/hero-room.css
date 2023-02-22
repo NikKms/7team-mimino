@@ -109,31 +109,47 @@
   display: block;
   border: 1px solid rgba(243, 198, 83, 0.7);
   border-radius: 2px;
-  font-size: 12px;
-  font-family: 'MontserratRegular', sans-serif;
-  line-height: 1.25;
-  letter-spacing: 0.01em;
+
   margin: auto;
   margin-bottom: 70px;
   margin-right: 0;
-  color: #e5e5e5;
   padding: 10px 5px;
   margin-left: auto;
   transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
+.room-adress:hover,
+.room-adress:focus {
+  border: 1px solid var(--accent-color);
+}
+
 .room-adress-link {
+  font-size: 12px;
+  font-family: 'MontserratRegular', sans-serif;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+
   display: flex;
   align-items: center;
   gap: 8px;
   transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
+
+.hotel-location {
+  color: #e5e5e5;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+}
+.hotel-location:hover,
+.hotel-location:focus {
+  color: var(--accent-color);
+}
+
 .room-icon {
-  fill: var(--accent-color);
+  fill: rgba(243, 198, 83, 0.7);
   transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .room-icon:hover,
 .room-icon:focus {
-  fill: var(--primary-title-color);
+  fill: var(--accent-color);
 }
 
 .room-btn {
