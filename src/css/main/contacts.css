@@ -6,6 +6,8 @@
   background-color: #fffdee;
   justify-content: center;
   align-items: center;
+  padding-top: 36px;
+  padding-bottom: 32px;
 }
 
 .contacts-heading-2 {
@@ -17,7 +19,7 @@
   letter-spacing: 0.3em;
   color: #494848;
 
-  margin-top: 32px;
+  
   margin-bottom: 12px;
 }
 .contacts-paragaph {
@@ -48,42 +50,45 @@
 .contacts-list-item {
   display: flex;
 
-  /* justify-content: center; */
 
-  /* margin-left: 22px; */
 }
 
 .contacts-box {
   display: flex;
-  /* align-items: center; */
+ 
   padding-left: 8px;
-  /* padding-right: 8px; */
+  
 
   background-color: #ffffff;
   border: 0.5px solid #f3c653;
   border-radius: 2px;
 
-  /* width: 260px; */
+  
 }
 
 .contacts-box-rest {
   display: flex;
-  /* align-items: center; */
+  
   padding-left: 8px;
   padding-right: 8px;
 
   background-color: #ffffff;
   border: 0.5px solid #f3c653;
   border-radius: 2px;
+}
 
-  /* width: 260px; */
+.contacts-box-rest:hover .contacts-phone-icon, 
+.contacts-box-rest:hover .contacts-item{
+fill: var(--accent-color);
+color: var(--accent-color);
+border-color: var(--accent-color);
 }
 
 .contacts-box-1 {
   display: flex;
   align-items: center;
   padding-left: 10px;
-  /* padding-right: 33px; */
+  
   padding-top: 8px;
   padding-bottom: 7px;
 
@@ -112,6 +117,7 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #494848;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms, border-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .contacts-item-hotel-1 {
@@ -125,6 +131,36 @@
   padding-top: 12px;
   padding-bottom: 11px;
 }
+
+.contacts-list-item-1:hover .contacts-phone-icon,
+.contacts-list-item-1:hover .contacts-box{
+  fill: var(--accent-color);
+  border-color: #c79002;
+}
+
+.contacts-item-hotel-1:hover{
+  color: var(--accent-color);
+}
+
+.contacts-item-hotel-2:hover{
+  color: var(--accent-color);
+}
+
+.contacts-box-1:hover {
+  border-color:  #c79002;
+}
+
+.contacts-box-1:hover .contacts-phone-icon{
+  fill: var(--accent-color);
+}
+
+.contacts-box-1:hover .contacts-address{
+  color: var(--accent-color);
+}
+
+
+
+
 .contacts-item-hotel-2 {
   font-family: 'Montserrat-Regular', sans-serif;
   font-style: normal;
@@ -161,11 +197,6 @@
   padding-right: 33px;
 }
 .contacts-list-item-1 {
-  /* background-color: #ffffff;
-  border: 0.5px solid #f3c653;
-  border-radius: 2px; */
-
-  /* margin-left: 54px; */
   margin-bottom: 16px;
 }
 
@@ -174,17 +205,12 @@
   margin-top: 9px;
   margin-bottom: 7px;
   margin-right: 8px;
+  transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 .contacts-location-icon {
   fill: #c79002;
 }
-.contacts-list-item-2 {
-  /* background-color: #ffffff;
-  border: 0.5px solid #f3c653;
-  border-radius: 2px; */
 
-  /* margin-left: 54px; */
-}
 
 /* АДРЕСА */
 .contacts-address {
@@ -195,16 +221,34 @@
   line-height: 1.25;
   letter-spacing: 0.01em;
   color: #494848;
+  transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 /* МАПА */
 .contacts-map {
   width: 100%;
-  height: 220px;
-  margin: 32px auto;
+  height: 100%;
+
 }
 
+.contacts-division-1{
+  margin-bottom: 39px;
+}
+
+.contacts-division-2{
+  width: 384px;
+  height: 220px;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+border-radius: 2px;
+}
+
+
 @media screen and (min-width: 1024px) {
+.contacts{
+  padding-top: 56px;
+  padding-bottom: 51px;
+}
+
   .contacts .container {
     display: flex;
     flex-direction: row;
@@ -212,7 +256,7 @@
   }
   .contacts-list {
     list-style: none;
-    margin-top: 52px;
+    /* margin-top: 52px; */
   }
   .contacts-list-item-0 {
     display: block;
@@ -221,7 +265,7 @@
 
   .contacts-list-item-0-rest {
     display: block;
-    margin-top: 24px;
+    
   }
 
   .contacts-list-item {
@@ -237,29 +281,23 @@
 
   .contacts-division-1 {
     width: 294px;
+    margin-bottom: 0;
   }
   .contacts-division-2 {
     width: 535px;
+    height: 412px ;
   }
 
-  .contacts-map {
-    width: 535px;
-    height: 412px;
-    margin-bottom: 40px;
-    margin-top: 69px;
-  }
 
   .contacts-box-1 {
     margin-top: 48px;
     margin-right: 110px;
     width: 285px;
+    transition: border-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   }
+  
   .contacts-box {
     width: 264px;
-  }
-
-  .contacts-box-rest {
-    /* width: 144px; */
   }
 
   .contacts-heading-2 {
@@ -277,13 +315,7 @@
 
 @media screen and (min-width: 1280px) {
   .contacts {
-  }
-
-  .contacts-map {
-    width: 634px;
-    height: 412px;
-    margin-bottom: 74px;
-    margin-top: 64px;
+    padding-bottom: 74px;
   }
 
   .contacts-list {
@@ -311,6 +343,7 @@
 
   .contacts-division-1 {
     width: 368px;
+    margin-bottom: 0;
   }
   .contacts-division-2 {
     width: 634px;
@@ -318,13 +351,11 @@
 
   .contacts-box-1 {
     margin-top: 48px;
-    /* margin-right: 191px; */
-    margin-bottom: 73px;
     width: 285px;
   }
 
   .contacts-heading-2 {
-    margin-top: 56px;
+    
     margin-bottom: 16px;
 
     font-family: 'FilmP3Bold';
