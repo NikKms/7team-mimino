@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     
-    <script type="module" crossorigin src="/7team-mimino/assets/swiper-3155235d.js"></script>
-    <link rel="stylesheet" href="/7team-mimino/assets/swiper-6524e43c.css">
+    <script type="module" crossorigin src="/7team-mimino/assets/swiper-d7134bda.js"></script>
+    <link rel="stylesheet" href="/7team-mimino/assets/swiper-37957d45.css">
   </head>
 
   <body>
@@ -182,9 +182,9 @@
       <!-- Майбутній Slider -->
     </div>
   </div>
-  <div class="container luxe_slider">
+  <div class="container slider_hotel">
     <div class="carousel_wrapper right">
-      <ul class="carousel carousel_right" id="kitchen_page_slider">
+      <ul class="carousel carousel_right" id="luxe_slider">
         <li>
           <picture>
             <source
@@ -246,7 +246,7 @@
           </picture>
         </li>
       </ul>
-      <div class="paginator_right" id="slider_3">
+      <div class="paginator_right" id="luxe_slider_paginator">
         <ul class="carousel_right_arrow carousel_arrow">
           <li class="prev">
             <svg class="icon" height="32" width="32">
@@ -311,22 +311,98 @@
         />
       </picture>
     </div>
-    <div class="triple-bottom">
-      <!-- Майбутній Slider -->
-      <div class="triple-swiper"></div>
-      <div class="triple-btns">
-        <!-- Перша кнопка повинна бути посиланням за ТЗ -->
-        <a href="./room.html" class="triple-btn">Детальніше</a>
-
-        <!-- ROOM PRICE MODAL -->
-        <button
-          type="button"
-          class="triple-btn open_modal"
-          data-modal-id="#modal_price"
-        >
-          Переглянути ціни
-        </button>
+  </div>
+  <div class="container slider_hotel">
+    <div class="carousel_wrapper right">
+      <ul class="carousel carousel_right" id="triple_slider">
+        <li>
+          <picture>
+            <source
+              media="(min-width: 1280px)"
+              srcset="/7team-mimino/assets/kitchen-slider-1-desktop-1x-cfe6e2d1.jpg , /7team-mimino/assets/kitchen-slider-1-desktop-2x-fbb4645c.jpg 2x"
+            />
+            <source
+              media="(min-width: 1024px)"
+              srcset="/7team-mimino/assets/kitchen-slider-1-desktop-1x-cfe6e2d1.jpg , /7team-mimino/assets/kitchen-slider-1-desktop-2x-fbb4645c.jpg 2x"
+            />
+            <source
+              media="(min-width: 320px)"
+              srcset="/7team-mimino/assets/kitchen-slider-1-mobile-1x-50f2dbe4.jpg , /7team-mimino/assets/kitchen-slider-1-mobile-2x-2a6f9d44.jpg 2x"
+            />
+            <img
+              src="../../img/kitchen/kitchen-slider-1-mobile-1x.jpg"
+              alt=""
+            />
+          </picture>
+        </li>
+        <li>
+          <picture>
+            <source
+              media="(min-width: 1280px)"
+              srcset="/7team-mimino/assets/kitchen-slider-2-desktop-1x-805d50ec.jpg , /7team-mimino/assets/kitchen-slider-2-desktop-2x-8a8ebadf.jpg 2x"
+            />
+            <source
+              media="(min-width: 1024px)"
+              srcset="/7team-mimino/assets/kitchen-slider-2-desktop-1x-805d50ec.jpg , /7team-mimino/assets/kitchen-slider-2-desktop-2x-8a8ebadf.jpg 2x"
+            />
+            <source
+              media="(min-width: 320px)"
+              srcset="/7team-mimino/assets/kitchen-slider-2-mobile-1x-8a7d072d.jpg , /7team-mimino/assets/kitchen-slider-2-mobile-2x-2b60a877.jpg 2x"
+            />
+            <img
+              src="../../img/kitchen/kitchen-slider-2-mobile-1x.jpg"
+              alt=""
+            />
+          </picture>
+        </li>
+        <li>
+          <picture>
+            <source
+              media="(min-width: 1280px)"
+              srcset="/7team-mimino/assets/kitchen-slider-1-desktop-1x-cfe6e2d1.jpg , /7team-mimino/assets/kitchen-slider-1-desktop-2x-fbb4645c.jpg 2x"
+            />
+            <source
+              media="(min-width: 1024px)"
+              srcset="/7team-mimino/assets/kitchen-slider-1-desktop-1x-cfe6e2d1.jpg , /7team-mimino/assets/kitchen-slider-1-desktop-2x-fbb4645c.jpg 2x"
+            />
+            <source
+              media="(min-width: 320px)"
+              srcset="/7team-mimino/assets/kitchen-slider-1-mobile-1x-50f2dbe4.jpg , /7team-mimino/assets/kitchen-slider-1-mobile-2x-2a6f9d44.jpg 2x"
+            />
+            <img
+              src="../../img/kitchen/kitchen-slider-1-mobile-1x.jpg"
+              alt=""
+            />
+          </picture>
+        </li>
+      </ul>
+      <div class="paginator_right" id="triple_slider_paginator">
+        <ul class="carousel_right_arrow carousel_arrow">
+          <li class="prev">
+            <svg class="icon" height="32" width="32">
+              <use href="/7team-mimino/assets/icons-c0ccf45c.svg#icon-arrow_left"></use>
+            </svg>
+          </li>
+          <li class="next">
+            <svg class="icon" height="32" width="32">
+              <use href="/7team-mimino/assets/icons-c0ccf45c.svg#icon-arrow_right"></use>
+            </svg>
+          </li>
+        </ul>
       </div>
+    </div>
+    <div class="luxe-btns">
+      <!-- Перша кнопка повинна бути посиланням за ТЗ -->
+      <a href="./room.html" class="luxe-btn">Детальніше</a>
+
+      <!-- ROOM PRICE MODAL -->
+      <button
+        type="button"
+        class="luxe-btn open_modal"
+        data-modal-id="#modal_price"
+      >
+        Переглянути ціни
+      </button>
     </div>
   </div>
 </section>
@@ -366,17 +442,93 @@
       </picture>
     </div>
 
-    <div class="double-bottom">
-      <!-- Майбутній Slider -->
-      <div class="double-swiper"></div>
-      <div class="double-btns">
+    <div class="container slider_hotel">
+      <div class="carousel_wrapper right">
+        <ul class="carousel carousel_right" id="double_slider">
+          <li>
+            <picture>
+              <source
+                media="(min-width: 1280px)"
+                srcset="/7team-mimino/assets/kitchen-slider-1-desktop-1x-cfe6e2d1.jpg , /7team-mimino/assets/kitchen-slider-1-desktop-2x-fbb4645c.jpg 2x"
+              />
+              <source
+                media="(min-width: 1024px)"
+                srcset="/7team-mimino/assets/kitchen-slider-1-desktop-1x-cfe6e2d1.jpg , /7team-mimino/assets/kitchen-slider-1-desktop-2x-fbb4645c.jpg 2x"
+              />
+              <source
+                media="(min-width: 320px)"
+                srcset="/7team-mimino/assets/kitchen-slider-1-mobile-1x-50f2dbe4.jpg , /7team-mimino/assets/kitchen-slider-1-mobile-2x-2a6f9d44.jpg 2x"
+              />
+              <img
+                src="../../img/kitchen/kitchen-slider-1-mobile-1x.jpg"
+                alt=""
+              />
+            </picture>
+          </li>
+          <li>
+            <picture>
+              <source
+                media="(min-width: 1280px)"
+                srcset="/7team-mimino/assets/kitchen-slider-2-desktop-1x-805d50ec.jpg , /7team-mimino/assets/kitchen-slider-2-desktop-2x-8a8ebadf.jpg 2x"
+              />
+              <source
+                media="(min-width: 1024px)"
+                srcset="/7team-mimino/assets/kitchen-slider-2-desktop-1x-805d50ec.jpg , /7team-mimino/assets/kitchen-slider-2-desktop-2x-8a8ebadf.jpg 2x"
+              />
+              <source
+                media="(min-width: 320px)"
+                srcset="/7team-mimino/assets/kitchen-slider-2-mobile-1x-8a7d072d.jpg , /7team-mimino/assets/kitchen-slider-2-mobile-2x-2b60a877.jpg 2x"
+              />
+              <img
+                src="../../img/kitchen/kitchen-slider-2-mobile-1x.jpg"
+                alt=""
+              />
+            </picture>
+          </li>
+          <li>
+            <picture>
+              <source
+                media="(min-width: 1280px)"
+                srcset="/7team-mimino/assets/kitchen-slider-1-desktop-1x-cfe6e2d1.jpg , /7team-mimino/assets/kitchen-slider-1-desktop-2x-fbb4645c.jpg 2x"
+              />
+              <source
+                media="(min-width: 1024px)"
+                srcset="/7team-mimino/assets/kitchen-slider-1-desktop-1x-cfe6e2d1.jpg , /7team-mimino/assets/kitchen-slider-1-desktop-2x-fbb4645c.jpg 2x"
+              />
+              <source
+                media="(min-width: 320px)"
+                srcset="/7team-mimino/assets/kitchen-slider-1-mobile-1x-50f2dbe4.jpg , /7team-mimino/assets/kitchen-slider-1-mobile-2x-2a6f9d44.jpg 2x"
+              />
+              <img
+                src="../../img/kitchen/kitchen-slider-1-mobile-1x.jpg"
+                alt=""
+              />
+            </picture>
+          </li>
+        </ul>
+        <div class="paginator_right" id="double_slider_paginator">
+          <ul class="carousel_right_arrow carousel_arrow">
+            <li class="prev">
+              <svg class="icon" height="32" width="32">
+                <use href="/7team-mimino/assets/icons-c0ccf45c.svg#icon-arrow_left"></use>
+              </svg>
+            </li>
+            <li class="next">
+              <svg class="icon" height="32" width="32">
+                <use href="/7team-mimino/assets/icons-c0ccf45c.svg#icon-arrow_right"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="luxe-btns">
         <!-- Перша кнопка повинна бути посиланням за ТЗ -->
-        <a href="./room.html" class="double-btn">Детальніше</a>
+        <a href="./room.html" class="luxe-btn">Детальніше</a>
 
         <!-- ROOM PRICE MODAL -->
         <button
           type="button"
-          class="double-btn open_modal"
+          class="luxe-btn open_modal"
           data-modal-id="#modal_price"
         >
           Переглянути ціни
