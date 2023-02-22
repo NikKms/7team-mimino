@@ -222,8 +222,8 @@
     cursor: pointer;
   }
 
-  .header .contacts-icon:hover,
-  .header .contacts-icon:focus {
+  .header .contacts-link:hover .contacts-icon,
+  .header .contacts-link:focus .contacts-icon {
     fill: var(--accent-color);
   }
 }
