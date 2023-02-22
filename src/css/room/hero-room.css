@@ -120,6 +120,8 @@
 .room-adress:hover,
 .room-adress:focus {
   border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .room-adress-link {
@@ -151,8 +153,17 @@
 .room-icon:focus {
   fill: var(--accent-color);
 }
+.room-adress:hover .room-icon,
+.room-adress:focus .room-icon {
+  fill: var(--accent-color);
+}
 
 .room-btn {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+
   background: rgba(0, 0, 0, 0.4);
 
   border: 2px solid #fff;
@@ -232,7 +243,7 @@
   }
   .room-btn {
     margin-top: 0;
-    margin-left: 700px;
+    margin-left: 673px;
   }
   .room-title {
     max-width: 512px;
