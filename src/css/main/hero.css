@@ -5,7 +5,7 @@
 /* MOBILE STYLES */
 .hero-main {
   background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
-    url('../../img/hero-main/mobile-background-main-hero.jpg');
+    url('/img/hero-main/mobile-background-main-hero.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -18,7 +18,7 @@
   (min-resolution: 2dppx) {
   .hero-main {
     background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
-      url('../../img/hero-main/mobile-background-main-hero-x2.jpg');
+      url('/img/hero-main/mobile-background-main-hero-x2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -165,7 +165,7 @@
 @media screen and (min-width: 1024px) {
   .hero-main {
     background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
-      url('../../img/hero-main/tablet-background-main-hero.jpg');
+      url('/img/hero-main/tablet-background-main-hero.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -179,7 +179,7 @@
     (min-resolution: 2dppx) {
     .hero-main {
       background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
-        url('../../img/hero-main/tablet-background-main-hero-x2.jpg');
+        url('/img/hero-main/tablet-background-main-hero-x2.jpg');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -341,7 +341,7 @@
 @media screen and (min-width: 1280px) {
   .hero-main {
     background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
-      url('../../img/hero-main/decktop-background-main-hero.jpg');
+      url('/img/hero-main/decktop-background-main-hero.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -355,7 +355,7 @@
     (min-resolution: 2dppx) {
     .hero-main {
       background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
-        url('../../img/hero-main/decktop-background-main-hero-x2.jpg');
+        url('/img/hero-main/decktop-background-main-hero-x2.jpg');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;

@@ -5,7 +5,7 @@
 /* MOBILE STYLES */
 .hero-restaurant {
   background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
-    url('../../img/hero-restaurant-bg/mobile-restaurant-hero.jpg');
+    url('/img/hero-restaurant-bg/mobile-restaurant-hero.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -18,7 +18,7 @@
   (min-resolution: 2dppx) {
   .hero-restaurant {
     background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
-      url('../../img/hero-restaurant-bg/mobile-restaurant-hero-x2.jpg');
+      url('/img/hero-restaurant-bg/mobile-restaurant-hero-x2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -168,7 +168,7 @@
 @media screen and (min-width: 1024px) {
   .hero-restaurant {
     background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
-      url('../../img/hero-restaurant-bg/tablet-restaurant-hero.jpg');
+      url('/img/hero-restaurant-bg/tablet-restaurant-hero.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -182,7 +182,7 @@
     (min-resolution: 2dppx) {
     .hero-restaurant {
       background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
-        url('../../img/hero-restaurant-bg/tablet-restaurant-herox2.jpg');
+        url('/img/hero-restaurant-bg/tablet-restaurant-herox2.jpg');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -344,7 +344,7 @@
 @media screen and (min-width: 1280px) {
   .hero-restaurant {
     background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
-      url('../../img/hero-restaurant-bg/decktop-restaurant-hero.jpg');
+      url('/img/hero-restaurant-bg/decktop-restaurant-hero.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -358,7 +358,7 @@
     (min-resolution: 2dppx) {
     .hero-restaurant {
       background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
-        url('../../img/hero-restaurant-bg/decktop-restaurant-hero-x2.jpg');
+        url('/img/hero-restaurant-bg/decktop-restaurant-hero-x2.jpg');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;

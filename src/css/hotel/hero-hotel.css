@@ -5,7 +5,7 @@
 /* MOBILE STYLES */
 .hero-hotel {
   background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
-    url('../../img/hero-hotel-bg/hero-hotel-mobile-bg.jpg');
+    url('/img/hero-hotel-bg/hero-hotel-mobile-bg.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -18,7 +18,7 @@
   (min-resolution: 2dppx) {
   .hero-hotel {
     background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
-      url('../../img/hero-hotel-bg/hero-hotel-mobile-bg-x2.jpg');
+      url('/img/hero-hotel-bg/hero-hotel-mobile-bg-x2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -165,7 +165,7 @@
 @media screen and (min-width: 1024px) {
   .hero-hotel {
     background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
-      url('../../img/hero-hotel-bg/hero-hotel-tablet-bg.jpg');
+      url('/img/hero-hotel-bg/hero-hotel-tablet-bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -179,7 +179,7 @@
     (min-resolution: 2dppx) {
     .hero-hotel {
       background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
-        url('../../img/hero-hotel-bg/hero-hotel-tablet-bg-x2.jpg');
+        url('/img/hero-hotel-bg/hero-hotel-tablet-bg-x2.jpg');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -341,7 +341,7 @@
 @media screen and (min-width: 1280px) {
   .hero-hotel {
     background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
-      url('../../img/hero-hotel-bg/hero-hotel-dacktop-bg.jpg');
+      url('/img/hero-hotel-bg/hero-hotel-dacktop-bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -355,7 +355,7 @@
     (min-resolution: 2dppx) {
     .hero-hotel {
       background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgb(0, 0, 0, 0.65)),
-        url('../../img/hero-hotel-bg/hero-hotel-dacktop-bg-x2.jpg');
+        url('/img/hero-hotel-bg/hero-hotel-dacktop-bg-x2.jpg');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
