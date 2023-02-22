@@ -286,7 +286,7 @@ border-radius: 2px;
   }
   .contacts-division-2 {
     width: 535px;
-    height: 412px ;
+    height: auto ;
   }
 
 
@@ -348,6 +348,7 @@ border-radius: 2px;
   }
   .contacts-division-2 {
     width: 634px;
+    height: auto;
   }
 
   .contacts-box-1 {
