@@ -8,7 +8,8 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     
     <script type="module" crossorigin src="/7team-mimino/assets/swiper-74a92e07.js"></script>
     <link rel="stylesheet" href="/7team-mimino/assets/swiper-0cc298e6.css">
@@ -85,7 +86,7 @@
       <!-- OCHERETKO OLEG -->
 <section class="hero-main">
   <div class="container container-position">
-    <a
+    <a 
       href="https://goo.gl/maps/gsLoxivQWbPbsx788"
       target="_blank"
       title="Ресторанно-готельний комплекс"
@@ -163,8 +164,9 @@
           veniam consequat sunt nostrud amet.
         </p>
       </div>
-      <div class="picture-restaurant">
-        <picture>
+      <div 
+      class="picture-restaurant">
+        <picture data-aos="fade-up" data-aos-once="true">
           <source
             media="(min-width: 1280px)"
             srcset="/7team-mimino/assets/restaurant-interior-desktop-1x-f72ed4f4.jpg 1x, /7team-mimino/assets/restaurant-interior-desktop-2x-ac6467d2.jpg 2x"
@@ -188,8 +190,9 @@
         </picture>
       </div>
     </div>
-    <div class="about-restaurant-block">
-      <picture>
+
+    <div  class="about-restaurant-block">
+      <picture data-aos="fade-right" data-aos-once="true">
         <source
           media="(min-width: 1280px)"
           srcset="/7team-mimino/assets/about-restaurant-desktop-1x-2ca0dba5.jpg 1x, /7team-mimino/assets/about-restaurant-desktop-2x-c9ef448d.jpg 2x"
@@ -384,8 +387,8 @@
           sint. Velit officia consequat duis enim velit mollit. Exercitation
           veniam consequat sunt nostrud amet.
         </p>
-        <div class="pictures-hotel">
-          <picture>
+        <div data-aos="fade-right" data-aos-once="true" class="pictures-hotel">
+          <picture >
             <source
               media="(min-width: 1280px)"
               srcset="/7team-mimino/assets/about-hotel-1-6bf9d14b.jpg 1x, /7team-mimino/assets/about-hotel-1-2x-06487002.jpg 2x"
@@ -413,7 +416,7 @@
           sint. Velit officia consequat duis enim velit mollit. Exercitation
           veniam consequat sunt nostrud amet.
         </p>
-        <div class="pictures-hotel-position">
+        <div data-aos="fade-left" data-aos-once="true" class="pictures-hotel-position">
           <picture>
             <source
               media="(min-width: 1280px)"
@@ -806,7 +809,13 @@
 
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+
     
+    <script>
+      AOS.init();
+    </script>
   </body>
 
   
