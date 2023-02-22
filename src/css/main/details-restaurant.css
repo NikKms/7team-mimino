@@ -119,7 +119,7 @@
 
 .details-restaurant {
   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url(../../img/restaurantdetails/bg-mob1.jpg);
+    url(/img/restaurantdetails/bg-mob1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -145,7 +145,7 @@
   (min-resolution: 2dppx) {
   .details-restaurant {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url(../../img/restaurantdetails/bg-mob2.jpg);
+      url(/img/restaurantdetails/bg-mob2.jpg);
   }
 }
 
@@ -185,7 +185,7 @@
   .details-restaurant {
     width: 1024px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url(../../img/restaurantdetails/bg-tab1.jpg);
+      url(/img/restaurantdetails/bg-tab1.jpg);
     background-size: cover;
 
     /* height: 620px; */
@@ -198,7 +198,7 @@
           rgba(0, 0, 0, 0.65),
           rgba(0, 0, 0, 0.65)
         ),
-        url(../../img/restaurantdetails/bg-tab2.jpg);
+        url(/img/restaurantdetails/bg-tab2.jpg);
     }
   }
 
@@ -262,7 +262,7 @@
 @media screen and (min-width: 1280px) {
   .details-restaurant {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-      url(../../img/restaurantdetails/bg-desktop1.jpg);
+      url(/img/restaurantdetails/bg-desktop1.jpg);
     background-size: cover;
     width: 1280px;
     /* height: 620px; */
@@ -275,7 +275,7 @@
           rgba(0, 0, 0, 0.65),
           rgba(0, 0, 0, 0.65)
         ),
-        url(../../img/restaurantdetails/bg-desktop2.jpg);
+        url(/img/restaurantdetails/bg-desktop2.jpg);
     }
   }
 }
