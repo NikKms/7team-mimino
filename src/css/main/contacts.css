@@ -236,7 +236,7 @@ border-color: var(--accent-color);
 }
 
 .contacts-division-2{
-  width: 384px;
+  max-width: 384px;
   height: 220px;
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 border-radius: 2px;
@@ -284,7 +284,7 @@ border-radius: 2px;
     margin-bottom: 0;
   }
   .contacts-division-2 {
-    width: 535px;
+    max-width: 535px;
     height: 412px ;
   }
 
@@ -295,7 +295,7 @@ border-radius: 2px;
     width: 285px;
     transition: border-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
   }
-  
+
   .contacts-box {
     width: 264px;
   }
@@ -346,7 +346,7 @@ border-radius: 2px;
     margin-bottom: 0;
   }
   .contacts-division-2 {
-    width: 634px;
+    max-width: 634px;
   }
 
   .contacts-box-1 {
