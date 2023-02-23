@@ -99,14 +99,27 @@ button {
   border: 2px solid #f3c653;
 }
 .luxe-top img {
+  width: 244px;
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
+  margin-left: auto;
 }
 
-.luxe .slick-slide {
+.slider_hotel {
+  display: flex;
+  flex-direction: column;
+  padding-right: 0;
+  margin-top: 35px;
+}
+
+.slider_hotel .slick-slide {
   padding-top: 0;
   padding-left: 0;
-  padding-right: 40px;
+  padding-right: 16px;
+}
+
+.luxe .carousel_wrapper .carousel {
+  padding-left: 80px;
 }
 
 /*-----MEDIA(MIN-WIDTH:1024PX)-----*/
@@ -123,8 +136,10 @@ button {
     display: flex;
   }
   .luxe-btns {
-    margin: auto 0;
     margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 61px;
   }
 
   .luxe-pretitle {
@@ -156,7 +171,25 @@ button {
     margin-bottom: 48px;
   } */
   .luxe-top img {
+    width: 400px;
     box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+  }
+  .slider_hotel {
+    margin-top: 48px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .slider_hotel .paginator_right {
+    flex-direction: row-reverse;
+  }
+  .slider_hotel {
+    flex-direction: row;
+  }
+  .slider_hotel .slick-slide {
+    padding-right: 40px;
+  }
+  .luxe .slider_hotel {
+    padding-right: 0;
   }
 }
 
@@ -164,7 +197,8 @@ button {
 
 @media screen and (min-width: 1280px) {
   .luxe {
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 47px;
   }
   .luxe-top {
     gap: 50px;
@@ -187,6 +221,7 @@ button {
     margin-bottom: 50px;
   } */
   .luxe-top img {
+    width: 460px;
     margin-top: -152px;
   }
 }
