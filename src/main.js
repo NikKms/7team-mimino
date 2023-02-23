@@ -8,6 +8,6 @@ import './js/slider';
 
 import './js/swiper';
 
-import './js/jquery.mask';
+// import './js/jquery.mask';
 
 // import './js/aos'
