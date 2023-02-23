@@ -6,6 +6,6 @@ import './js/slider';
 
 import './js/jquery.mask';
 
-import './js/swiper';
+// import './js/swiper';
 
 // import './js/aos'
